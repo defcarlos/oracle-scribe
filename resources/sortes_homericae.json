@@ -1,0 +1,1520 @@
+{
+  "source": "PGM VII. 1-148 (Sortes Homericae / Homeromanteion)",
+  "url": "https://en.wikipedia.org/wiki/Sortes_Homericae",
+  "total_combinations": 216,
+  "lacunae_count": 25,
+  "lots": {
+    "1-1-1": {
+      "line": 1,
+      "roll": "1-1-1",
+      "lot": "But on account of their accursed bellies they have miserable woes,",
+      "reference": "Od. 15.344",
+      "is_lacuna": false
+    },
+    "1-1-2": {
+      "line": 2,
+      "roll": "1-1-2",
+      "lot": "neither to cast anchor stones nor to attach stern cables,",
+      "reference": "Od. 9.137",
+      "is_lacuna": false
+    },
+    "1-1-3": {
+      "line": 3,
+      "roll": "1-1-3",
+      "lot": "being struck by the sword, and the water was becoming red with blood.",
+      "reference": "Il. 21.21",
+      "is_lacuna": false
+    },
+    "1-1-4": {
+      "line": 4,
+      "roll": "1-1-4",
+      "lot": null,
+      "reference": null,
+      "is_lacuna": true
+    },
+    "1-1-5": {
+      "line": 5,
+      "roll": "1-1-5",
+      "lot": "stood holding a scepter, which Hephaistos produced by his labors.",
+      "reference": "Il. 2.101",
+      "is_lacuna": false
+    },
+    "1-1-6": {
+      "line": 6,
+      "roll": "1-1-6",
+      "lot": null,
+      "reference": null,
+      "is_lacuna": true
+    },
+    "1-2-1": {
+      "line": 7,
+      "roll": "1-2-1",
+      "lot": "amends I wish to make and to give a boundless ransom.",
+      "reference": "Il. 9.120; 19.138",
+      "is_lacuna": false
+    },
+    "1-2-2": {
+      "line": 8,
+      "roll": "1-2-2",
+      "lot": "surely then the gods themselves have mined your mind.",
+      "reference": "Il. 7.360; 12.234",
+      "is_lacuna": false
+    },
+    "1-2-3": {
+      "line": 9,
+      "roll": "1-2-3",
+      "lot": null,
+      "reference": null,
+      "is_lacuna": true
+    },
+    "1-2-4": {
+      "line": 10,
+      "roll": "1-2-4",
+      "lot": null,
+      "reference": null,
+      "is_lacuna": true
+    },
+    "1-2-5": {
+      "line": 11,
+      "roll": "1-2-5",
+      "lot": "be let it lie in the great hall. And I wish for your happy arrival",
+      "reference": "Od. 15.128",
+      "is_lacuna": false
+    },
+    "1-2-6": {
+      "line": 12,
+      "roll": "1-2-6",
+      "lot": null,
+      "reference": null,
+      "is_lacuna": true
+    },
+    "1-3-1": {
+      "line": 13,
+      "roll": "1-3-1",
+      "lot": null,
+      "reference": null,
+      "is_lacuna": true
+    },
+    "1-3-2": {
+      "line": 14,
+      "roll": "1-3-2",
+      "lot": null,
+      "reference": null,
+      "is_lacuna": true
+    },
+    "1-3-3": {
+      "line": 15,
+      "roll": "1-3-3",
+      "lot": "But Zeus does not accomplish for men all their purposes.",
+      "reference": "Il. 18.328",
+      "is_lacuna": false
+    },
+    "1-3-4": {
+      "line": 16,
+      "roll": "1-3-4",
+      "lot": "I would even wish it, and it would be much better",
+      "reference": "Il. 3.41; Od. 11.358; 20.316",
+      "is_lacuna": false
+    },
+    "1-3-5": {
+      "line": 17,
+      "roll": "1-3-5",
+      "lot": "Then indeed would he smash all your fine show,",
+      "reference": "Od. 17.244",
+      "is_lacuna": false
+    },
+    "1-3-6": {
+      "line": 18,
+      "roll": "1-3-6",
+      "lot": "I also care about all these things, woman. But very terribly",
+      "reference": "Il. 6.441",
+      "is_lacuna": false
+    },
+    "1-4-1": {
+      "line": 19,
+      "roll": "1-4-1",
+      "lot": null,
+      "reference": null,
+      "is_lacuna": true
+    },
+    "1-4-2": {
+      "line": 20,
+      "roll": "1-4-2",
+      "lot": "speaking good things, but they were contriving evil things in their hearts.",
+      "reference": "Od. 17.66",
+      "is_lacuna": false
+    },
+    "1-4-3": {
+      "line": 21,
+      "roll": "1-4-3",
+      "lot": "The glorious gifts of the gods are surely not to be cast aside,",
+      "reference": "Il. 3.65",
+      "is_lacuna": false
+    },
+    "1-4-4": {
+      "line": 22,
+      "roll": "1-4-4",
+      "lot": null,
+      "reference": null,
+      "is_lacuna": true
+    },
+    "1-4-5": {
+      "line": 23,
+      "roll": "1-4-5",
+      "lot": null,
+      "reference": null,
+      "is_lacuna": true
+    },
+    "1-4-6": {
+      "line": 24,
+      "roll": "1-4-6",
+      "lot": "These things, Zeus-nurtured Skamander, will be as you order.",
+      "reference": "Il. 21.223",
+      "is_lacuna": false
+    },
+    "1-5-1": {
+      "line": 25,
+      "roll": "1-5-1",
+      "lot": "a joy to your enemies, and a disgrace to yourself?",
+      "reference": "Il. 3.51",
+      "is_lacuna": false
+    },
+    "1-5-2": {
+      "line": 26,
+      "roll": "1-5-2",
+      "lot": "Within this very year, Odysseus will arrive here,",
+      "reference": "Od. 14.161; 19.306",
+      "is_lacuna": false
+    },
+    "1-5-3": {
+      "line": 27,
+      "roll": "1-5-3",
+      "lot": "No use indeed to you, since you will not lie clad in them,",
+      "reference": "Il. 22.513",
+      "is_lacuna": false
+    },
+    "1-5-4": {
+      "line": 28,
+      "roll": "1-5-4",
+      "lot": "And to the victor are to go the woman and the possessions.",
+      "reference": "Il. 3.255",
+      "is_lacuna": false
+    },
+    "1-5-5": {
+      "line": 29,
+      "roll": "1-5-5",
+      "lot": "the rule of the many is no good. Let there be one ruler.",
+      "reference": "Il. 2.204",
+      "is_lacuna": false
+    },
+    "1-5-6": {
+      "line": 30,
+      "roll": "1-5-6",
+      "lot": "And the gateway is full of ghosts, and full also is the courtyard,",
+      "reference": "Od. 20.355",
+      "is_lacuna": false
+    },
+    "1-6-1": {
+      "line": 31,
+      "roll": "1-6-1",
+      "lot": "We have won great honor. We have killed glorious Hektor,",
+      "reference": "Il. 22.393",
+      "is_lacuna": false
+    },
+    "1-6-2": {
+      "line": 32,
+      "roll": "1-6-2",
+      "lot": "Who would undertake and complete this task for ?",
+      "reference": "Il. 10.303",
+      "is_lacuna": false
+    },
+    "1-6-3": {
+      "line": 33,
+      "roll": "1-6-3",
+      "lot": "Not even if his gifts to me should be as numerous as the grains of sand and panicles of dust,",
+      "reference": "Il. 9.385",
+      "is_lacuna": false
+    },
+    "1-6-4": {
+      "line": 34,
+      "roll": "1-6-4",
+      "lot": null,
+      "reference": null,
+      "is_lacuna": true
+    },
+    "1-6-5": {
+      "line": 35,
+      "roll": "1-6-5",
+      "lot": null,
+      "reference": null,
+      "is_lacuna": true
+    },
+    "1-6-6": {
+      "line": 36,
+      "roll": "1-6-6",
+      "lot": null,
+      "reference": null,
+      "is_lacuna": true
+    },
+    "2-1-1": {
+      "line": 37,
+      "roll": "2-1-1",
+      "lot": "For no island is made for driving horses or has broad meadows,",
+      "reference": "Od. 4.607",
+      "is_lacuna": false
+    },
+    "2-1-2": {
+      "line": 38,
+      "roll": "2-1-2",
+      "lot": "in the past, when you were boys, did you listen to your",
+      "reference": "Od. 4.688",
+      "is_lacuna": false
+    },
+    "2-1-3": {
+      "line": 39,
+      "roll": "2-1-3",
+      "lot": null,
+      "reference": null,
+      "is_lacuna": true
+    },
+    "2-1-4": {
+      "line": 40,
+      "roll": "2-1-4",
+      "lot": null,
+      "reference": null,
+      "is_lacuna": true
+    },
+    "2-1-5": {
+      "line": 41,
+      "roll": "2-1-5",
+      "lot": null,
+      "reference": null,
+      "is_lacuna": true
+    },
+    "2-1-6": {
+      "line": 42,
+      "roll": "2-1-6",
+      "lot": "His gifts are hateful to me, and I honor him not a whit.",
+      "reference": "Il. 9.378",
+      "is_lacuna": false
+    },
+    "2-2-1": {
+      "line": 43,
+      "roll": "2-2-1",
+      "lot": "an only beloved heir to many possessions,",
+      "reference": "Il. 9.482; Od. 16.19 (?)",
+      "is_lacuna": false
+    },
+    "2-2-2": {
+      "line": 44,
+      "roll": "2-2-2",
+      "lot": null,
+      "reference": null,
+      "is_lacuna": true
+    },
+    "2-2-3": {
+      "line": 45,
+      "roll": "2-2-3",
+      "lot": null,
+      "reference": null,
+      "is_lacuna": true
+    },
+    "2-2-4": {
+      "line": 46,
+      "roll": "2-2-4",
+      "lot": null,
+      "reference": null,
+      "is_lacuna": true
+    },
+    "2-2-5": {
+      "line": 47,
+      "roll": "2-2-5",
+      "lot": "So they thronged about him. And near",
+      "reference": "Od. 24.19",
+      "is_lacuna": false
+    },
+    "2-2-6": {
+      "line": 48,
+      "roll": "2-2-6",
+      "lot": "and fashioning lies out of what nobody could see.",
+      "reference": "Od. 11.366",
+      "is_lacuna": false
+    },
+    "2-3-1": {
+      "line": 49,
+      "roll": "2-3-1",
+      "lot": "be valiant, that later generations may also speak well of you.",
+      "reference": "Od. 1.302",
+      "is_lacuna": false
+    },
+    "2-3-2": {
+      "line": 50,
+      "roll": "2-3-2",
+      "lot": "leaning on the grave marker over a barrow heaped up by men",
+      "reference": "Il. 11.171",
+      "is_lacuna": false
+    },
+    "2-3-3": {
+      "line": 51,
+      "roll": "2-3-3",
+      "lot": "go. You have a way, and beside the sea your ships",
+      "reference": "Il. 9.43",
+      "is_lacuna": false
+    },
+    "2-3-4": {
+      "line": 52,
+      "roll": "2-3-4",
+      "lot": "You will be proved a liar, and will not go on to fulfill your word.",
+      "reference": "Il. 19.107",
+      "is_lacuna": false
+    },
+    "2-3-5": {
+      "line": 53,
+      "roll": "2-3-5",
+      "lot": "And his mother for her part continued the lament amid a flood of tears,",
+      "reference": "Il. 22.79",
+      "is_lacuna": false
+    },
+    "2-3-6": {
+      "line": 54,
+      "roll": "2-3-6",
+      "lot": "Not even if remaining for five or six years",
+      "reference": "Od. 3.115",
+      "is_lacuna": false
+    },
+    "2-4-1": {
+      "line": 55,
+      "roll": "2-4-1",
+      "lot": "So he spoke, and ordered Paion to administer a cure.",
+      "reference": "Il. 5.899",
+      "is_lacuna": false
+    },
+    "2-4-2": {
+      "line": 56,
+      "roll": "2-4-2",
+      "lot": "These things, unhappy man, will I accomplish and do for you.",
+      "reference": "Od. 11.80",
+      "is_lacuna": false
+    },
+    "2-4-3": {
+      "line": 57,
+      "roll": "2-4-3",
+      "lot": "How can you propose to render toil useless and ineffectual?",
+      "reference": "Il. 4.26",
+      "is_lacuna": false
+    },
+    "2-4-4": {
+      "line": 58,
+      "roll": "2-4-4",
+      "lot": "a thing delayed, late of fulfillment, whose fame will never perish.",
+      "reference": "Il. 2.325",
+      "is_lacuna": false
+    },
+    "2-4-5": {
+      "line": 59,
+      "roll": "2-4-5",
+      "lot": "Sooner would you grow weary and return to your native land.",
+      "reference": "Od. 3.117",
+      "is_lacuna": false
+    },
+    "2-4-6": {
+      "line": 60,
+      "roll": "2-4-6",
+      "lot": "to go, that he may bring poisonous drugs from there,",
+      "reference": "Od. 2.329",
+      "is_lacuna": false
+    },
+    "2-5-1": {
+      "line": 61,
+      "roll": "2-5-1",
+      "lot": "Husband, you departed from life young, and me behind as a widow",
+      "reference": "Il. 24.725",
+      "is_lacuna": false
+    },
+    "2-5-2": {
+      "line": 62,
+      "roll": "2-5-2",
+      "lot": "in which way I will for sure accomplish everything and how it will be brought to pass,",
+      "reference": "Il. 9.310 (?)",
+      "is_lacuna": false
+    },
+    "2-5-3": {
+      "line": 63,
+      "roll": "2-5-3",
+      "lot": "Offer me not honey-tempered wine, honored mother,",
+      "reference": "Il. 6.264",
+      "is_lacuna": false
+    },
+    "2-5-4": {
+      "line": 64,
+      "roll": "2-5-4",
+      "lot": null,
+      "reference": null,
+      "is_lacuna": true
+    },
+    "2-5-5": {
+      "line": 65,
+      "roll": "2-5-5",
+      "lot": null,
+      "reference": null,
+      "is_lacuna": true
+    },
+    "2-5-6": {
+      "line": 66,
+      "roll": "2-5-6",
+      "lot": "Do not orphan your son and make your wife a widow.",
+      "reference": "Il. 6.432",
+      "is_lacuna": false
+    },
+    "2-6-1": {
+      "line": 67,
+      "roll": "2-6-1",
+      "lot": "would that they might now eat their last and final meal here.",
+      "reference": "Od. 4.685",
+      "is_lacuna": false
+    },
+    "2-6-2": {
+      "line": 68,
+      "roll": "2-6-2",
+      "lot": "It is not meet for a man who speaks in the Council to sleep all the night through,",
+      "reference": "Il. 2.24",
+      "is_lacuna": false
+    },
+    "2-6-3": {
+      "line": 69,
+      "roll": "2-6-3",
+      "lot": "What's wrong with you, that you took this wrath into your heart?",
+      "reference": "Il. 6.326",
+      "is_lacuna": false
+    },
+    "2-6-4": {
+      "line": 70,
+      "roll": "2-6-4",
+      "lot": "But who knows if he will one day return and punish them for their violent deeds?",
+      "reference": "Od. 3.216",
+      "is_lacuna": false
+    },
+    "2-6-5": {
+      "line": 71,
+      "roll": "2-6-5",
+      "lot": "wives I will provide for both and furnish possessions",
+      "reference": "Od. 21.214",
+      "is_lacuna": false
+    },
+    "2-6-6": {
+      "line": 72,
+      "roll": "2-6-6",
+      "lot": "we may try the bow and complete the contest.",
+      "reference": "Od. 21.180",
+      "is_lacuna": false
+    },
+    "3-1-1": {
+      "line": 73,
+      "roll": "3-1-1",
+      "lot": "For it's no reproach to flee evil, nor by night.",
+      "reference": "Il. 14.80",
+      "is_lacuna": false
+    },
+    "3-1-2": {
+      "line": 74,
+      "roll": "3-1-2",
+      "lot": "Be mindful of every form of valor. Now you needs must",
+      "reference": "Il. 22.268",
+      "is_lacuna": false
+    },
+    "3-1-3": {
+      "line": 75,
+      "roll": "3-1-3",
+      "lot": "as a widow at home. And the boy is still just a baby,",
+      "reference": "Il. 22.484; cf. 24.726",
+      "is_lacuna": false
+    },
+    "3-1-4": {
+      "line": 76,
+      "roll": "3-1-4",
+      "lot": "But do you in no wise enter the moil of Ares,",
+      "reference": "Il. 18.134",
+      "is_lacuna": false
+    },
+    "3-1-5": {
+      "line": 77,
+      "roll": "3-1-5",
+      "lot": "For amid misfortune mortals quickly grow old.",
+      "reference": "Od. 19.360",
+      "is_lacuna": false
+    },
+    "3-1-6": {
+      "line": 78,
+      "roll": "3-1-6",
+      "lot": null,
+      "reference": null,
+      "is_lacuna": true
+    },
+    "3-2-1": {
+      "line": 79,
+      "roll": "3-2-1",
+      "lot": null,
+      "reference": null,
+      "is_lacuna": true
+    },
+    "3-2-2": {
+      "line": 80,
+      "roll": "3-2-2",
+      "lot": "Such a man is not alive nor will be born,",
+      "reference": "Od. 6.201",
+      "is_lacuna": false
+    },
+    "3-2-3": {
+      "line": 81,
+      "roll": "3-2-3",
+      "lot": "Of a truth, child, there's nothing really wrong with this,",
+      "reference": "Il. 18.128",
+      "is_lacuna": false
+    },
+    "3-2-4": {
+      "line": 82,
+      "roll": "3-2-4",
+      "lot": "Now is it no longer possible for him to find escape from us,",
+      "reference": "Il. 22.219",
+      "is_lacuna": false
+    },
+    "3-2-5": {
+      "line": 83,
+      "roll": "3-2-5",
+      "lot": "we will ransom with bronze and gold, for it is within.",
+      "reference": "Il. 22.50",
+      "is_lacuna": false
+    },
+    "3-2-6": {
+      "line": 84,
+      "roll": "3-2-6",
+      "lot": "drink, and do not vie with younger men.",
+      "reference": "Od. 21.310",
+      "is_lacuna": false
+    },
+    "3-3-1": {
+      "line": 85,
+      "roll": "3-3-1",
+      "lot": "where are you fleeing, turning your back like a craven in the ranks?",
+      "reference": "Il. 8.94",
+      "is_lacuna": false
+    },
+    "3-3-2": {
+      "line": 86,
+      "roll": "3-3-2",
+      "lot": "Would that such a man be called my husband",
+      "reference": "Od. 6.244",
+      "is_lacuna": false
+    },
+    "3-3-3": {
+      "line": 87,
+      "roll": "3-3-3",
+      "lot": "plants her head in heaven and walks upon the earth.",
+      "reference": "Il. 4.443",
+      "is_lacuna": false
+    },
+    "3-3-4": {
+      "line": 88,
+      "roll": "3-3-4",
+      "lot": "But Zeus does not accomplish for men all their purposes.",
+      "reference": "Il. 18.328",
+      "is_lacuna": false
+    },
+    "3-3-5": {
+      "line": 89,
+      "roll": "3-3-5",
+      "lot": "and nodded for his army to survive and not to perish.",
+      "reference": "Il. 8.246",
+      "is_lacuna": false
+    },
+    "3-3-6": {
+      "line": 90,
+      "roll": "3-3-6",
+      "lot": "Would that you had not pled with the noble son of Peleus,",
+      "reference": "Il. 9.698",
+      "is_lacuna": false
+    },
+    "3-4-1": {
+      "line": 91,
+      "roll": "3-4-1",
+      "lot": "Honey-sweet wine has the best of you, which others also",
+      "reference": "Od. 21.293",
+      "is_lacuna": false
+    },
+    "3-4-2": {
+      "line": 92,
+      "roll": "3-4-2",
+      "lot": "Act in whatever way your mind is moved, and no longer hold back.",
+      "reference": "Il. 22.185",
+      "is_lacuna": false
+    },
+    "3-4-3": {
+      "line": 93,
+      "roll": "3-4-3",
+      "lot": "For it is fated for both to turn the same ground red",
+      "reference": "Il. 18.329",
+      "is_lacuna": false
+    },
+    "3-4-4": {
+      "line": 94,
+      "roll": "3-4-4",
+      "lot": "keep on shooting like this, if haply you mar become a light to the Danaans",
+      "reference": "Il. 8.282",
+      "is_lacuna": false
+    },
+    "3-4-5": {
+      "line": 95,
+      "roll": "3-4-5",
+      "lot": "as there is no one who could keep the dogs off your head,",
+      "reference": "Il. 22.348",
+      "is_lacuna": false
+    },
+    "3-4-6": {
+      "line": 96,
+      "roll": "3-4-6",
+      "lot": "You will not kill me, since I am for sure not subject to Fate.",
+      "reference": "Il. 22.13",
+      "is_lacuna": false
+    },
+    "3-5-1": {
+      "line": 97,
+      "roll": "3-5-1",
+      "lot": "staying right here you would help me watch over this house",
+      "reference": "Od. 5.208",
+      "is_lacuna": false
+    },
+    "3-5-2": {
+      "line": 98,
+      "roll": "3-5-2",
+      "lot": "Get out of the gateway, old man, or it won't be long before you're dragged out by the foot.",
+      "reference": "Od. 18.10",
+      "is_lacuna": false
+    },
+    "3-5-3": {
+      "line": 99,
+      "roll": "3-5-3",
+      "lot": "Better for a man to escape evil by flight than to be caught.",
+      "reference": "I/. 14.81",
+      "is_lacuna": false
+    },
+    "3-5-4": {
+      "line": 100,
+      "roll": "3-5-4",
+      "lot": "and declare to no one, neither man nor woman,",
+      "reference": "Od. 13.308",
+      "is_lacuna": false
+    },
+    "3-5-5": {
+      "line": 101,
+      "roll": "3-5-5",
+      "lot": "of wheat or barley. And the heaps fall thick and fast.",
+      "reference": "Il. 11.69",
+      "is_lacuna": false
+    },
+    "3-5-6": {
+      "line": 102,
+      "roll": "3-5-6",
+      "lot": "Whatever sort of word you speak, such would you hear.",
+      "reference": "IL.20.250]",
+      "is_lacuna": false
+    },
+    "3-6-1": {
+      "line": 103,
+      "roll": "3-6-1",
+      "lot": "was opposed to giving Helen to tawny Menelaos,",
+      "reference": "Il. 11.125",
+      "is_lacuna": false
+    },
+    "3-6-2": {
+      "line": 104,
+      "roll": "3-6-2",
+      "lot": "or will you alter your purpose? The hearts of the good are flexible.",
+      "reference": "Il. 15.203",
+      "is_lacuna": false
+    },
+    "3-6-3": {
+      "line": 105,
+      "roll": "3-6-3",
+      "lot": "Yet I for one never doubted, but at heart",
+      "reference": "Od. 13.339",
+      "is_lacuna": false
+    },
+    "3-6-4": {
+      "line": 106,
+      "roll": "3-6-4",
+      "lot": "Eurpachos, it will not be so. And even you know it.",
+      "reference": "Od. 21.257",
+      "is_lacuna": false
+    },
+    "3-6-5": {
+      "line": 107,
+      "roll": "3-6-5",
+      "lot": "You miserable foreigner, you have no sense at all.",
+      "reference": "Od. 21.288",
+      "is_lacuna": false
+    },
+    "3-6-6": {
+      "line": 108,
+      "roll": "3-6-6",
+      "lot": "And the father granted him one thing, but denied him the other.",
+      "reference": "Il. 16.250",
+      "is_lacuna": false
+    },
+    "4-1-1": {
+      "line": 109,
+      "roll": "4-1-1",
+      "lot": "Nay, go to your chambers and tend to your own work,",
+      "reference": "Od. 1.356",
+      "is_lacuna": false
+    },
+    "4-1-2": {
+      "line": 110,
+      "roll": "4-1-2",
+      "lot": "Now then, do not even tell this to your wife.",
+      "reference": "Od. 11.224 (alternate version)",
+      "is_lacuna": false
+    },
+    "4-1-3": {
+      "line": 111,
+      "roll": "4-1-3",
+      "lot": "would you have been stoned to death for all the wrongs you've done.",
+      "reference": "Il. 3.57",
+      "is_lacuna": false
+    },
+    "4-1-4": {
+      "line": 112,
+      "roll": "4-1-4",
+      "lot": "you prayed to the immortals to see with a beard grown.",
+      "reference": "Od. 18.176",
+      "is_lacuna": false
+    },
+    "4-1-5": {
+      "line": 113,
+      "roll": "4-1-5",
+      "lot": "and vow to Lycian-born Apollo the famous archer",
+      "reference": "Il. 4.101",
+      "is_lacuna": false
+    },
+    "4-1-6": {
+      "line": 114,
+      "roll": "4-1-6",
+      "lot": "and no spirit of harmony unites wolves and sheep,",
+      "reference": "Il. 22.263)",
+      "is_lacuna": false
+    },
+    "4-2-1": {
+      "line": 115,
+      "roll": "4-2-1",
+      "lot": "Come now, let us make these concessions to one another,",
+      "reference": "11.4.62]",
+      "is_lacuna": false
+    },
+    "4-2-2": {
+      "line": 116,
+      "roll": "4-2-2",
+      "lot": "And in the throng were Strife and Uproar, and Fate-of-Death,",
+      "reference": "Il. 18.535",
+      "is_lacuna": false
+    },
+    "4-2-3": {
+      "line": 117,
+      "roll": "4-2-3",
+      "lot": null,
+      "reference": null,
+      "is_lacuna": true
+    },
+    "4-2-4": {
+      "line": 118,
+      "roll": "4-2-4",
+      "lot": "Up, rush into battle, the man you have always claimed to be.",
+      "reference": "Il. 4.264",
+      "is_lacuna": false
+    },
+    "4-2-5": {
+      "line": 119,
+      "roll": "4-2-5",
+      "lot": null,
+      "reference": null,
+      "is_lacuna": true
+    },
+    "4-2-6": {
+      "line": 120,
+      "roll": "4-2-6",
+      "lot": "You baby, what use now to keep your bow idle?",
+      "reference": "Il. 21.474",
+      "is_lacuna": false
+    },
+    "4-3-1": {
+      "line": 121,
+      "roll": "4-3-1",
+      "lot": "For even fair-tressed Niobe turned her mind to food,",
+      "reference": "Il. 24.602",
+      "is_lacuna": false
+    },
+    "4-3-2": {
+      "line": 122,
+      "roll": "4-3-2",
+      "lot": "after giving a mass of bronze and gold and raiment",
+      "reference": "Od. 5.38",
+      "is_lacuna": false
+    },
+    "4-3-3": {
+      "line": 123,
+      "roll": "4-3-3",
+      "lot": "Surely then the journey will not be useless or fail to occur.",
+      "reference": "Od. 2.273",
+      "is_lacuna": false
+    },
+    "4-3-4": {
+      "line": 124,
+      "roll": "4-3-4",
+      "lot": "One omen is best, to defend your country.",
+      "reference": "Il. 12.243",
+      "is_lacuna": false
+    },
+    "4-3-5": {
+      "line": 125,
+      "roll": "4-3-5",
+      "lot": "I will gild her horns all round and sacrifice her to you.",
+      "reference": "Il. 10.294",
+      "is_lacuna": false
+    },
+    "4-3-6": {
+      "line": 126,
+      "roll": "4-3-6",
+      "lot": "and you would gain every Trojan's thanks and praise,",
+      "reference": "Il. 4.95",
+      "is_lacuna": false
+    },
+    "4-4-1": {
+      "line": 127,
+      "roll": "4-4-1",
+      "lot": "put in with your ship, sillee women are no longer trustworthy.",
+      "reference": "Od. 11.456",
+      "is_lacuna": false
+    },
+    "4-4-2": {
+      "line": 128,
+      "roll": "4-4-2",
+      "lot": "It is not possible or proper to deny your request.",
+      "reference": "Il. 14.212",
+      "is_lacuna": false
+    },
+    "4-4-3": {
+      "line": 129,
+      "roll": "4-4-3",
+      "lot": "would straighrway fit his will to your desire and mine.",
+      "reference": "Il. 15.52",
+      "is_lacuna": false
+    },
+    "4-4-4": {
+      "line": 130,
+      "roll": "4-4-4",
+      "lot": "and give him instruction. And it will be beneficial for him to obey.",
+      "reference": "Il. 11.7x9",
+      "is_lacuna": false
+    },
+    "4-4-5": {
+      "line": 131,
+      "roll": "4-4-5",
+      "lot": "will give glory to me, and your soul to horse-famed Hades.",
+      "reference": "Il. 5.654",
+      "is_lacuna": false
+    },
+    "4-4-6": {
+      "line": 132,
+      "roll": "4-4-6",
+      "lot": "fill up his ship with gold and bronze aplenty,",
+      "reference": "Il. 9.137",
+      "is_lacuna": false
+    },
+    "4-5-1": {
+      "line": 133,
+      "roll": "4-5-1",
+      "lot": "but tell one part, arid let the other be concealed.",
+      "reference": "Od. 11.443",
+      "is_lacuna": false
+    },
+    "4-5-2": {
+      "line": 134,
+      "roll": "4-5-2",
+      "lot": "and at birth Zeus sends a weight of misery.",
+      "reference": "Il. 10.71",
+      "is_lacuna": false
+    },
+    "4-5-3": {
+      "line": 135,
+      "roll": "4-5-3",
+      "lot": "alone to have intelligence, but they are flitting shades.",
+      "reference": "Od. 10.495",
+      "is_lacuna": false
+    },
+    "4-5-4": {
+      "line": 136,
+      "roll": "4-5-4",
+      "lot": "yielding to his indignation. But they now withheld from him the gifts",
+      "reference": "Il. 9.598",
+      "is_lacuna": false
+    },
+    "4-5-5": {
+      "line": 137,
+      "roll": "4-5-5",
+      "lot": "I rejoice at hearing what you say, son of Laertes.",
+      "reference": "Il. 19.185",
+      "is_lacuna": false
+    },
+    "4-5-6": {
+      "line": 138,
+      "roll": "4-5-6",
+      "lot": "But Zeus causes men's prowess to wax or to wane,",
+      "reference": "Il. 20.242",
+      "is_lacuna": false
+    },
+    "4-6-1": {
+      "line": 139,
+      "roll": "4-6-1",
+      "lot": "a terrible man. He would be quick to blame even the blameless.",
+      "reference": "Il. 11.654",
+      "is_lacuna": false
+    },
+    "4-6-2": {
+      "line": 140,
+      "roll": "4-6-2",
+      "lot": "with all haste. For now would you capmre the broad-wayed city",
+      "reference": "Il. 2.66",
+      "is_lacuna": false
+    },
+    "4-6-3": {
+      "line": 141,
+      "roll": "4-6-3",
+      "lot": "Endure now, my heart. An even greater outrage did you once endure,",
+      "reference": "Od. 20.18",
+      "is_lacuna": false
+    },
+    "4-6-4": {
+      "line": 142,
+      "roll": "4-6-4",
+      "lot": "You lunatic, sit still and listen to the word of others,",
+      "reference": "Il. 2.200",
+      "is_lacuna": false
+    },
+    "4-6-5": {
+      "line": 143,
+      "roll": "4-6-5",
+      "lot": "had cast aside wrath and chosen friendship.",
+      "reference": "Il. 16.282",
+      "is_lacuna": false
+    },
+    "4-6-6": {
+      "line": 144,
+      "roll": "4-6-6",
+      "lot": "so good it is for a son to be left by a dead",
+      "reference": "Od. 3.196",
+      "is_lacuna": false
+    },
+    "5-1-1": {
+      "line": 145,
+      "roll": "5-1-1",
+      "lot": "Here then, spread under your chest a veil,",
+      "reference": "Od. 5.346",
+      "is_lacuna": false
+    },
+    "5-1-2": {
+      "line": 146,
+      "roll": "5-1-2",
+      "lot": "'Tis impiety to exult over men slain.",
+      "reference": "Od. 22.412",
+      "is_lacuna": false
+    },
+    "5-1-3": {
+      "line": 147,
+      "roll": "5-1-3",
+      "lot": "through immortal night, when other mortals sleep?",
+      "reference": "Il. 24.363",
+      "is_lacuna": false
+    },
+    "5-1-4": {
+      "line": 148,
+      "roll": "5-1-4",
+      "lot": "How then could I forget divine Odysseus?",
+      "reference": "Od. 1.65",
+      "is_lacuna": false
+    },
+    "5-1-5": {
+      "line": 149,
+      "roll": "5-1-5",
+      "lot": "lurid death and o'erpowering doom laid hold of",
+      "reference": "Il. 5.83",
+      "is_lacuna": false
+    },
+    "5-1-6": {
+      "line": 150,
+      "roll": "5-1-6",
+      "lot": "So there's nothing else as horrible and vile as a woman",
+      "reference": "Od. 11.427",
+      "is_lacuna": false
+    },
+    "5-2-1": {
+      "line": 151,
+      "roll": "5-2-1",
+      "lot": "Let u? not advance to fight the Danaans around the ships.",
+      "reference": "Il. 12.216",
+      "is_lacuna": false
+    },
+    "5-2-2": {
+      "line": 152,
+      "roll": "5-2-2",
+      "lot": "to put up a defense, when some fellow provokes a fight.",
+      "reference": "Il. 24.369; Od. 16.72; 21.133",
+      "is_lacuna": false
+    },
+    "5-2-3": {
+      "line": 153,
+      "roll": "5-2-3",
+      "lot": "nor do children at his knees call him \"papa\"",
+      "reference": "Il. 5.408",
+      "is_lacuna": false
+    },
+    "5-2-4": {
+      "line": 154,
+      "roll": "5-2-4",
+      "lot": "I am this very man, back home now. And after many toils",
+      "reference": "Od. 21.207",
+      "is_lacuna": false
+    },
+    "5-2-5": {
+      "line": 155,
+      "roll": "5-2-5",
+      "lot": "Talk not like this. there'll be no change before",
+      "reference": "Il. 5.218",
+      "is_lacuna": false
+    },
+    "5-2-6": {
+      "line": 156,
+      "roll": "5-2-6",
+      "lot": "let him stay here the while, even though he's eager for Ares.",
+      "reference": "Il 19.189",
+      "is_lacuna": false
+    },
+    "5-3-1": {
+      "line": 157,
+      "roll": "5-3-1",
+      "lot": "And do not, exulting in war and battle,",
+      "reference": "Il. 16.91",
+      "is_lacuna": false
+    },
+    "5-3-2": {
+      "line": 158,
+      "roll": "5-3-2",
+      "lot": "never to have gone to bed with her and had intercourse,",
+      "reference": "Il. 9.133; 19.176",
+      "is_lacuna": false
+    },
+    "5-3-3": {
+      "line": 159,
+      "roll": "5-3-3",
+      "lot": "and moistens the lips, but fails to moisten the palate.",
+      "reference": "Il. 22.495",
+      "is_lacuna": false
+    },
+    "5-3-4": {
+      "line": 160,
+      "roll": "5-3-4",
+      "lot": "Take heart! Let these matters not trouble your thoughts.",
+      "reference": "Il. 18.463",
+      "is_lacuna": false
+    },
+    "5-3-5": {
+      "line": 161,
+      "roll": "5-3-5",
+      "lot": "But this mad dog I'm unable to hit.",
+      "reference": "Il. 8.299",
+      "is_lacuna": false
+    },
+    "5-3-6": {
+      "line": 162,
+      "roll": "5-3-6",
+      "lot": "Keep quiet, friend, and do as I say.",
+      "reference": "Il. 4.412",
+      "is_lacuna": false
+    },
+    "5-4-1": {
+      "line": 163,
+      "roll": "5-4-1",
+      "lot": "Bad deeds don't prosper. The slow mall for sure overtakes the swift,",
+      "reference": "Od. 8.329",
+      "is_lacuna": false
+    },
+    "5-4-2": {
+      "line": 164,
+      "roll": "5-4-2",
+      "lot": "They shut fast and locked the doors of the hall.",
+      "reference": "Od. 21.236",
+      "is_lacuna": false
+    },
+    "5-4-3": {
+      "line": 165,
+      "roll": "5-4-3",
+      "lot": "Ah, poor man! Death's not at all on your mind,",
+      "reference": "Il. 17.201",
+      "is_lacuna": false
+    },
+    "5-4-4": {
+      "line": 166,
+      "roll": "5-4-4",
+      "lot": "Odysseus has come and reached home, though he was long in coming.",
+      "reference": "Od. 23.7",
+      "is_lacuna": false
+    },
+    "5-4-5": {
+      "line": 167,
+      "roll": "5-4-5",
+      "lot": "in full he will accomplish it at last, and the penalty they pay is great,",
+      "reference": "I1. 4.161",
+      "is_lacuna": false
+    },
+    "5-4-6": {
+      "line": 168,
+      "roll": "5-4-6",
+      "lot": "and therein was Strife, and therein Valor, and therein chilling Attack,",
+      "reference": "Il. 5.740",
+      "is_lacuna": false
+    },
+    "5-5-1": {
+      "line": 169,
+      "roll": "5-5-1",
+      "lot": "but 'tis most wretched to die and meet one's doom by starvation.",
+      "reference": "Od. 12.342",
+      "is_lacuna": false
+    },
+    "5-5-2": {
+      "line": 170,
+      "roll": "5-5-2",
+      "lot": "shall I be laid low when I die. But good repute is now my goal,",
+      "reference": "Il. 18.121",
+      "is_lacuna": false
+    },
+    "5-5-3": {
+      "line": 171,
+      "roll": "5-5-3",
+      "lot": "Up, rush into battle, the man you have always claimed to be.",
+      "reference": "Il. 4.264",
+      "is_lacuna": false
+    },
+    "5-5-4": {
+      "line": 172,
+      "roll": "5-5-4",
+      "lot": "In no way do I mock you, dear child, nor am I playing tricks.",
+      "reference": "Od. 23.26",
+      "is_lacuna": false
+    },
+    "5-5-5": {
+      "line": 173,
+      "roll": "5-5-5",
+      "lot": "but she stayed Alkmene's labor and stopped her from giving birth.",
+      "reference": "Il. 19.119",
+      "is_lacuna": false
+    },
+    "5-5-6": {
+      "line": 174,
+      "roll": "5-5-6",
+      "lot": "But come, and hereafter I shall make amends for this, if now anything wrong",
+      "reference": "Il. 4.362",
+      "is_lacuna": false
+    },
+    "5-6-1": {
+      "line": 175,
+      "roll": "5-6-1",
+      "lot": "Where are you two rushing? What causes the heart within your breast to rage?",
+      "reference": "Il. 8.413",
+      "is_lacuna": false
+    },
+    "5-6-2": {
+      "line": 176,
+      "roll": "5-6-2",
+      "lot": "Pray now, let him not be too much on your mind.",
+      "reference": "Od. 13.421",
+      "is_lacuna": false
+    },
+    "5-6-3": {
+      "line": 177,
+      "roll": "5-6-3",
+      "lot": "But the gods do not, I ween, give men all things at the same time.",
+      "reference": "Il. 4.320",
+      "is_lacuna": false
+    },
+    "5-6-4": {
+      "line": 178,
+      "roll": "5-6-4",
+      "lot": "Talk not like this. There'll be no change before",
+      "reference": "Il. 5.218",
+      "is_lacuna": false
+    },
+    "5-6-5": {
+      "line": 179,
+      "roll": "5-6-5",
+      "lot": "So he spake, but did not move the mind of Zeus by saying this.",
+      "reference": "Il. 12.173",
+      "is_lacuna": false
+    },
+    "5-6-6": {
+      "line": 180,
+      "roll": "5-6-6",
+      "lot": "but Odysseus nodded no and checked him in his eagerness.",
+      "reference": "Od. 21.129",
+      "is_lacuna": false
+    },
+    "6-1-1": {
+      "line": 181,
+      "roll": "6-1-1",
+      "lot": "How can you want to go alone to the ships of the Achaians?",
+      "reference": "Il. 24.203",
+      "is_lacuna": false
+    },
+    "6-1-2": {
+      "line": 182,
+      "roll": "6-1-2",
+      "lot": "him a bridegroom in his house, who left as only child a daughter",
+      "reference": "Od. 7.65",
+      "is_lacuna": false
+    },
+    "6-1-3": {
+      "line": 183,
+      "roll": "6-1-3",
+      "lot": "And too, I've taken the mist from your eyes, which before was there,",
+      "reference": "Il. 5.127",
+      "is_lacuna": false
+    },
+    "6-1-4": {
+      "line": 184,
+      "roll": "6-1-4",
+      "lot": "we may try the bow and complete the contest.",
+      "reference": "Od. 21.180",
+      "is_lacuna": false
+    },
+    "6-1-5": {
+      "line": 185,
+      "roll": "6-1-5",
+      "lot": "And I know that my arrival was longed for by you two",
+      "reference": "Od. 21.209",
+      "is_lacuna": false
+    },
+    "6-1-6": {
+      "line": 186,
+      "roll": "6-1-6",
+      "lot": "I shall dress him in a mantle and a tunic, fine garments.",
+      "reference": "Od. 16.79; 17.550; 21.339",
+      "is_lacuna": false
+    },
+    "6-2-1": {
+      "line": 187,
+      "roll": "6-2-1",
+      "lot": "by fastening a noose sheer from a high rafter,",
+      "reference": "Od. 11.278",
+      "is_lacuna": false
+    },
+    "6-2-2": {
+      "line": 188,
+      "roll": "6-2-2",
+      "lot": "remembering our excellence, of the sort that even we",
+      "reference": "Od 8.244",
+      "is_lacuna": false
+    },
+    "6-2-3": {
+      "line": 189,
+      "roll": "6-2-3",
+      "lot": "the sea's great expanse they cross, since this is the Earthshaker's gift to them.",
+      "reference": "Od. 7.35",
+      "is_lacuna": false
+    },
+    "6-2-4": {
+      "line": 190,
+      "roll": "6-2-4",
+      "lot": "Nay, come on with the bow. You'll soon be sorry for obeying everybody.",
+      "reference": "Od. 21.369",
+      "is_lacuna": false
+    },
+    "6-2-5": {
+      "line": 191,
+      "roll": "6-2-5",
+      "lot": "But hurry into battle, and rouse the other soldiers.",
+      "reference": "Il. 19.139",
+      "is_lacuna": false
+    },
+    "6-2-6": {
+      "line": 192,
+      "roll": "6-2-6",
+      "lot": "For mighty Herakles, not even he escaped his doom,",
+      "reference": "Il. 18.117",
+      "is_lacuna": false
+    },
+    "6-3-1": {
+      "line": 193,
+      "roll": "6-3-1",
+      "lot": "amends I wish to make and to give a boundless ransom.",
+      "reference": "Il. 9.120; 19.138",
+      "is_lacuna": false
+    },
+    "6-3-2": {
+      "line": 194,
+      "roll": "6-3-2",
+      "lot": "And let him stand up among the Argives and swear an oath to you",
+      "reference": "Il. 19.175",
+      "is_lacuna": false
+    },
+    "6-3-3": {
+      "line": 195,
+      "roll": "6-3-3",
+      "lot": "The man is nearby. Our search will not be long, if you are willing",
+      "reference": "Il. 14.110",
+      "is_lacuna": false
+    },
+    "6-3-4": {
+      "line": 196,
+      "roll": "6-3-4",
+      "lot": "and not quite suddenly, and a very god should be the cause?",
+      "reference": "Od. 21.196",
+      "is_lacuna": false
+    },
+    "6-3-5": {
+      "line": 197,
+      "roll": "6-3-5",
+      "lot": "Verily, these things have already happened, and not otherwise could",
+      "reference": "Il. 14.53",
+      "is_lacuna": false
+    },
+    "6-3-6": {
+      "line": 198,
+      "roll": "6-3-6",
+      "lot": "On now, follow close! In action numbers make a difference.",
+      "reference": "Il. 12.412",
+      "is_lacuna": false
+    },
+    "6-4-1": {
+      "line": 199,
+      "roll": "6-4-1",
+      "lot": "surely then the gods themselves have ruined your mind.",
+      "reference": "Il. 7.360; 12.234",
+      "is_lacuna": false
+    },
+    "6-4-2": {
+      "line": 200,
+      "roll": "6-4-2",
+      "lot": "Take heart, and let your thoughts not be of death.",
+      "reference": "Il. 10.383)",
+      "is_lacuna": false
+    },
+    "6-4-3": {
+      "line": 201,
+      "roll": "6-4-3",
+      "lot": "by her wailing she rouse from sleep her household servants,",
+      "reference": "XI. 5.413",
+      "is_lacuna": false
+    },
+    "6-4-4": {
+      "line": 202,
+      "roll": "6-4-4",
+      "lot": "Come now in strict silence, and I shall lead the way,",
+      "reference": "Od. 7.30",
+      "is_lacuna": false
+    },
+    "6-4-5": {
+      "line": 203,
+      "roll": "6-4-5",
+      "lot": "are there ears for hearing, and sense and respect are dead.",
+      "reference": "Il. 15.129",
+      "is_lacuna": false
+    },
+    "6-4-6": {
+      "line": 204,
+      "roll": "6-4-6",
+      "lot": "as he was growing old. But the son did not grow old in his father's armor.",
+      "reference": "Il. 17.197",
+      "is_lacuna": false
+    },
+    "6-5-1": {
+      "line": 205,
+      "roll": "6-5-1",
+      "lot": "to return home and behold the day of homecoming.",
+      "reference": "Od. 5.220; 8.4663",
+      "is_lacuna": false
+    },
+    "6-5-2": {
+      "line": 206,
+      "roll": "6-5-2",
+      "lot": "Apollo of the silver bow did strike the one, still sonless,",
+      "reference": "Od. 7.64",
+      "is_lacuna": false
+    },
+    "6-5-3": {
+      "line": 207,
+      "roll": "6-5-3",
+      "lot": "then you may hope to see your loved ones and reach",
+      "reference": "Od. 7.76",
+      "is_lacuna": false
+    },
+    "6-5-4": {
+      "line": 208,
+      "roll": "6-5-4",
+      "lot": "As for you two, I will tell you exactly how it will be.",
+      "reference": "Od. 21.212",
+      "is_lacuna": false
+    },
+    "6-5-5": {
+      "line": 209,
+      "roll": "6-5-5",
+      "lot": "For so shall I proclaim, and it will be accomplished too.",
+      "reference": "Il. 1.212",
+      "is_lacuna": false
+    },
+    "6-5-6": {
+      "line": 210,
+      "roll": "6-5-6",
+      "lot": "and I shall send him wherever his heart and spirit urge him.",
+      "reference": "Od. 16.81; 21.342",
+      "is_lacuna": false
+    },
+    "6-6-1": {
+      "line": 211,
+      "roll": "6-6-1",
+      "lot": "idiot? You'll soon pay when the swift hounds devour you",
+      "reference": "Od. 21.363",
+      "is_lacuna": false
+    },
+    "6-6-2": {
+      "line": 212,
+      "roll": "6-6-2",
+      "lot": "You would learn what mighty hands I have to back me up.",
+      "reference": "Od. 20.237; 21.202",
+      "is_lacuna": false
+    },
+    "6-6-3": {
+      "line": 213,
+      "roll": "6-6-3",
+      "lot": "In no wise do I think he will in that event take you for himself, nor is it proper.",
+      "reference": "Od. 21.322",
+      "is_lacuna": false
+    },
+    "6-6-4": {
+      "line": 214,
+      "roll": "6-6-4",
+      "lot": "here we gather, waiting day after day.",
+      "reference": "Od. 21.156",
+      "is_lacuna": false
+    },
+    "6-6-5": {
+      "line": 215,
+      "roll": "6-6-5",
+      "lot": "to reach decision making secret plans. Nor yet now to me",
+      "reference": "Il. 1.542",
+      "is_lacuna": false
+    },
+    "6-6-6": {
+      "line": 216,
+      "roll": "6-6-6",
+      "lot": "Don't dare get it into your mind to escape from me, Dolon.",
+      "reference": "Il. 10.447",
+      "is_lacuna": false
+    }
+  }
+}
