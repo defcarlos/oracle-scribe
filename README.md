@@ -11,6 +11,7 @@ Rather than treating drawn lines as literary trivia or summarizing epic plots, t
 ```text
 oracle-scribe/
 ├── SKILL.md                          # Core skill instructions, persona, and interpretive rubric
+├── SOUL.md                           # Self-contained Hermes profile prompt (zero-turn startup)
 ├── README.md                         # Skill documentation and reference guide
 ├── scripts/
 │   └── cast_lot.py                   # CLI utility for 3d6 casting and table lookups

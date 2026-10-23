@@ -1,0 +1,17 @@
+# Secrets and environment variables
+.env
+.env.*
+*.key
+*.pem
+*.secret
+*credentials*
+
+# OS & Editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
