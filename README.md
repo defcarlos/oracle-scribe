@@ -13,6 +13,7 @@ oracle-scribe/
 ├── SKILL.md                          # Core skill instructions, persona, and interpretive rubric
 ├── SOUL.md                           # Self-contained Hermes profile prompt (zero-turn startup)
 ├── README.md                         # Skill documentation and reference guide
+├── ROADMAP.md                        # Planned features and future enhancements
 ├── scripts/
 │   └── cast_lot.py                   # CLI utility for 3d6 casting and table lookups
 └── resources/

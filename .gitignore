@@ -1,10 +1,14 @@
-# Secrets and environment variables
+# Secrets, personal logs, and environment variables
 .env
 .env.*
 *.key
 *.pem
 *.secret
 *credentials*
+*chronicle*
+*journal*
+*.db
+*.sqlite*
 
 # OS & Editor files
 .DS_Store
