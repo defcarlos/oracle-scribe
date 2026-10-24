@@ -10,84 +10,126 @@ Usage:
   python3 scripts/cast_lot.py --json           # Output raw JSON
 """
 
+from __future__ import annotations
+
 import argparse
+from collections.abc import Mapping, Sequence
+from dataclasses import dataclass
 import json
+from pathlib import Path
 import re
 import secrets
 import sys
-from pathlib import Path
-from typing import Any
+from typing import Any, Final, TypedDict
+
+DICE_COUNT: Final[int] = 3
+DICE_SIDES: Final[int] = 6
+RESOURCE_PATH: Final[Path] = (
+    Path(__file__).resolve().parent.parent / "resources" / "sortes_homericae.json"
+)
+ROLL_PATTERN: Final[re.Pattern[str]] = re.compile(
+    r"^\s*([1-6])(?:[\s,:-]+([1-6])[\s,:-]+([1-6])|([1-6])([1-6]))\s*$"
+)
 
 
-RESOURCE_PATH = Path(__file__).resolve().parent.parent / "resources" / "sortes_homericae.json"
+class LotEntry(TypedDict):
+    """Schema for a single Sortes Homericae entry in sortes_homericae.json."""
+
+    line: int
+    roll: str
+    lot: str | None
+    reference: str | None
+    is_lacuna: bool
 
 
-def load_lots() -> dict[str, dict[str, Any]]:
-    if not RESOURCE_PATH.exists():
-        raise FileNotFoundError(f"Oracle table not found at {RESOURCE_PATH}")
-    with RESOURCE_PATH.open("r", encoding="utf-8") as f:
-        data = json.load(f)
-    return data["lots"]
+@dataclass(frozen=True, slots=True)
+class CastResult:
+    """Immutable result of casting or looking up a 3d6 lot."""
+
+    line: int
+    roll: str
+    utterance: str | None
+    is_lacuna: bool
+    reference: str | None = None
+    lacuna_rerolls: tuple[str, ...] = ()
+
+    def to_dict(self, *, include_ref: bool = False) -> dict[str, Any]:
+        payload: dict[str, Any] = {
+            "line": self.line,
+            "roll": self.roll,
+            "utterance": self.utterance,
+            "is_lacuna": self.is_lacuna,
+        }
+        if self.lacuna_rerolls:
+            payload["lacuna_rerolls"] = list(self.lacuna_rerolls)
+        if include_ref:
+            payload["reference"] = self.reference
+        return payload
+
+
+def load_lots(resource_path: Path = RESOURCE_PATH) -> dict[str, LotEntry]:
+    """Load the 216 Sortes Homericae lots from the local JSON resource."""
+    if not resource_path.is_file():
+        raise FileNotFoundError(f"Oracle table not found at {resource_path}")
+    data = json.loads(resource_path.read_text(encoding="utf-8"))
+    lots = data.get("lots")
+    if not isinstance(lots, dict):
+        raise ValueError(f"Malformed oracle table in {resource_path}: missing 'lots' mapping.")
+    return lots
 
 
 def roll_3d6() -> str:
-    d1 = secrets.randbelow(6) + 1
-    d2 = secrets.randbelow(6) + 1
-    d3 = secrets.randbelow(6) + 1
-    return f"{d1}-{d2}-{d3}"
+    """Roll three 6-sided dice using cryptographically strong randomness."""
+    return "-".join(str(secrets.randbelow(DICE_SIDES) + 1) for _ in range(DICE_COUNT))
 
 
 def normalize_roll(raw: str) -> str:
-    digits = re.findall(r"[1-6]", raw)
-    if len(digits) != 3:
+    """Validate and normalize a 3d6 string (e.g. '4-2-6', '4,2,6', or '426') to 'd1-d2-d3'."""
+    match = ROLL_PATTERN.match(raw)
+    if not match:
         raise ValueError(
-            f"Invalid roll '{raw}'. Must consist of three dice values between 1 and 6 (e.g., '3-4-2')."
+            f"Invalid roll '{raw}'. Must consist of exactly three dice values "
+            "between 1 and 6 (e.g., '4-2-6', '4,2,6', or '426')."
         )
-    return f"{digits[0]}-{digits[1]}-{digits[2]}"
+    d1 = match.group(1)
+    d2 = match.group(2) or match.group(4)
+    d3 = match.group(3) or match.group(5)
+    return f"{d1}-{d2}-{d3}"
 
 
 def cast_or_lookup(
-    lots: dict[str, dict[str, Any]],
+    lots: Mapping[str, LotEntry],
     specific_roll: str | None = None,
+    *,
     auto_reroll: bool = True,
     include_ref: bool = False,
-) -> dict[str, Any]:
+) -> CastResult:
+    """Cast 3d6 or look up a specific roll, optionally re-rolling damaged papyrus lacunae."""
+    if auto_reroll and not any(not entry["is_lacuna"] for entry in lots.values()):
+        raise ValueError("Cannot auto-reroll: all entries in the oracle table are marked as lacunae.")
+
+    roll_key = normalize_roll(specific_roll) if specific_roll is not None else roll_3d6()
+    if roll_key not in lots:
+        raise KeyError(f"Roll '{roll_key}' not found in oracle table.")
+
     lacuna_rolls: list[str] = []
+    while lots[roll_key]["is_lacuna"] and auto_reroll:
+        lacuna_rolls.append(roll_key)
+        roll_key = roll_3d6()
 
-    if specific_roll is not None:
-        roll_key = normalize_roll(specific_roll)
-        entry = lots[roll_key]
-        if entry["is_lacuna"] and auto_reroll:
-            lacuna_rolls.append(roll_key)
-            while entry["is_lacuna"]:
-                roll_key = roll_3d6()
-                entry = lots[roll_key]
-                if entry["is_lacuna"]:
-                    lacuna_rolls.append(roll_key)
-    else:
-        while True:
-            roll_key = roll_3d6()
-            entry = lots[roll_key]
-            if entry["is_lacuna"] and auto_reroll:
-                lacuna_rolls.append(roll_key)
-                continue
-            break
-
-    result: dict[str, Any] = {
-        "line": entry["line"],
-        "roll": entry["roll"],
-        "utterance": entry["lot"],
-        "is_lacuna": entry["is_lacuna"],
-    }
-    if lacuna_rolls:
-        result["lacuna_rerolls"] = lacuna_rolls
-    if include_ref:
-        result["reference"] = entry["reference"]
-
-    return result
+    entry = lots[roll_key]
+    return CastResult(
+        line=entry["line"],
+        roll=entry["roll"],
+        utterance=entry["lot"],
+        is_lacuna=entry["is_lacuna"],
+        reference=entry["reference"] if include_ref else None,
+        lacuna_rerolls=tuple(lacuna_rolls),
+    )
 
 
-def main() -> int:
+def build_parser() -> argparse.ArgumentParser:
+    """Create the command-line argument parser."""
     parser = argparse.ArgumentParser(
         description="Cast 3d6 or look up a roll in the Sortes Homericae (Homeromanteion)."
     )
@@ -112,8 +154,30 @@ def main() -> int:
         action="store_true",
         help="Format output as JSON.",
     )
+    return parser
 
-    args = parser.parse_args()
+
+def format_text_output(result: CastResult, *, include_ref: bool = False) -> str:
+    """Format a CastResult for human/agent CLI consumption."""
+    lines: list[str] = []
+    if result.lacuna_rerolls:
+        rerolls = ", ".join(result.lacuna_rerolls)
+        lines.append(
+            f"Note: Initial roll(s) [{rerolls}] fell upon damaged papyrus (lacuna) and were re-cast."
+        )
+    lines.append(f"Roll: {result.roll} (Line {result.line})")
+    if result.is_lacuna:
+        lines.append("Utterance: [Lacuna — the papyrus fragment for this roll is lost]")
+    else:
+        lines.append(f'Utterance: "{result.utterance}"')
+    if include_ref and result.reference:
+        lines.append(f"Reference: {result.reference}")
+    return "\n".join(lines)
+
+
+def main(argv: Sequence[str] | None = None) -> int:
+    """CLI entry point."""
+    args = build_parser().parse_args(argv)
 
     try:
         lots = load_lots()
@@ -123,23 +187,14 @@ def main() -> int:
             auto_reroll=not args.no_reroll,
             include_ref=args.include_ref,
         )
-    except Exception as exc:
+    except (ValueError, KeyError, FileNotFoundError, json.JSONDecodeError) as exc:
         print(f"Error: {exc}", file=sys.stderr)
         return 1
 
     if args.json:
-        print(json.dumps(result, indent=2, ensure_ascii=False))
+        print(json.dumps(result.to_dict(include_ref=args.include_ref), indent=2, ensure_ascii=False))
     else:
-        if result.get("lacuna_rerolls"):
-            rerolls = ", ".join(result["lacuna_rerolls"])
-            print(f"Note: Initial roll(s) [{rerolls}] fell upon damaged papyrus (lacuna) and were re-cast.")
-        print(f"Roll: {result['roll']} (Line {result['line']})")
-        if result["is_lacuna"]:
-            print("Utterance: [Lacuna — the papyrus fragment for this roll is lost]")
-        else:
-            print(f"Utterance: \"{result['utterance']}\"")
-        if args.include_ref and result.get("reference"):
-            print(f"Reference: {result['reference']}")
+        print(format_text_output(result, include_ref=args.include_ref))
 
     return 0
 
