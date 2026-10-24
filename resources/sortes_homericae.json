@@ -56,7 +56,7 @@
     "1-2-2": {
       "line": 8,
       "roll": "1-2-2",
-      "lot": "surely then the gods themselves have mined your mind.",
+      "lot": "surely then the gods themselves have ruined your mind.",
       "reference": "Il. 7.360; 12.234",
       "is_lacuna": false
     },
@@ -77,7 +77,7 @@
     "1-2-5": {
       "line": 11,
       "roll": "1-2-5",
-      "lot": "be let it lie in the great hall. And I wish for your happy arrival",
+      "lot": "let it lie in the great hall. And I wish for your happy arrival",
       "reference": "Od. 15.128",
       "is_lacuna": false
     },
@@ -224,14 +224,14 @@
     "1-6-2": {
       "line": 32,
       "roll": "1-6-2",
-      "lot": "Who would undertake and complete this task for ?",
+      "lot": "Who would undertake and complete this task for me?",
       "reference": "Il. 10.303",
       "is_lacuna": false
     },
     "1-6-3": {
       "line": 33,
       "roll": "1-6-3",
-      "lot": "Not even if his gifts to me should be as numerous as the grains of sand and panicles of dust,",
+      "lot": "Not even if his gifts to me should be as numerous as the grains of sand and particles of dust,",
       "reference": "Il. 9.385",
       "is_lacuna": false
     },
@@ -427,7 +427,7 @@
     "2-5-1": {
       "line": 61,
       "roll": "2-5-1",
-      "lot": "Husband, you departed from life young, and me behind as a widow",
+      "lot": "Husband, you departed from life young, and left me behind as a widow",
       "reference": "Il. 24.725",
       "is_lacuna": false
     },
@@ -658,7 +658,7 @@
     "3-4-4": {
       "line": 94,
       "roll": "3-4-4",
-      "lot": "keep on shooting like this, if haply you mar become a light to the Danaans",
+      "lot": "keep on shooting like this, if haply you may become a light to the Danaans",
       "reference": "Il. 8.282",
       "is_lacuna": false
     },
@@ -694,7 +694,7 @@
       "line": 99,
       "roll": "3-5-3",
       "lot": "Better for a man to escape evil by flight than to be caught.",
-      "reference": "I/. 14.81",
+      "reference": "Il. 14.81",
       "is_lacuna": false
     },
     "3-5-4": {
@@ -715,7 +715,7 @@
       "line": 102,
       "roll": "3-5-6",
       "lot": "Whatever sort of word you speak, such would you hear.",
-      "reference": "IL.20.250]",
+      "reference": "Il. 20.250",
       "is_lacuna": false
     },
     "3-6-1": {
@@ -742,7 +742,7 @@
     "3-6-4": {
       "line": 106,
       "roll": "3-6-4",
-      "lot": "Eurpachos, it will not be so. And even you know it.",
+      "lot": "Eurymachos, it will not be so. And even you know it.",
       "reference": "Od. 21.257",
       "is_lacuna": false
     },
@@ -799,14 +799,14 @@
       "line": 114,
       "roll": "4-1-6",
       "lot": "and no spirit of harmony unites wolves and sheep,",
-      "reference": "Il. 22.263)",
+      "reference": "Il. 22.263",
       "is_lacuna": false
     },
     "4-2-1": {
       "line": 115,
       "roll": "4-2-1",
       "lot": "Come now, let us make these concessions to one another,",
-      "reference": "11.4.62]",
+      "reference": "Il. 4.62",
       "is_lacuna": false
     },
     "4-2-2": {
@@ -889,7 +889,7 @@
     "4-4-1": {
       "line": 127,
       "roll": "4-4-1",
-      "lot": "put in with your ship, sillee women are no longer trustworthy.",
+      "lot": "put in with your ship, since women are no longer trustworthy.",
       "reference": "Od. 11.456",
       "is_lacuna": false
     },
@@ -903,7 +903,7 @@
     "4-4-3": {
       "line": 129,
       "roll": "4-4-3",
-      "lot": "would straighrway fit his will to your desire and mine.",
+      "lot": "would straightway fit his will to your desire and mine.",
       "reference": "Il. 15.52",
       "is_lacuna": false
     },
@@ -911,7 +911,7 @@
       "line": 130,
       "roll": "4-4-4",
       "lot": "and give him instruction. And it will be beneficial for him to obey.",
-      "reference": "Il. 11.7x9",
+      "reference": "Il. 11.789",
       "is_lacuna": false
     },
     "4-4-5": {
@@ -931,7 +931,7 @@
     "4-5-1": {
       "line": 133,
       "roll": "4-5-1",
-      "lot": "but tell one part, arid let the other be concealed.",
+      "lot": "but tell one part, and let the other be concealed.",
       "reference": "Od. 11.443",
       "is_lacuna": false
     },
@@ -980,7 +980,7 @@
     "4-6-2": {
       "line": 140,
       "roll": "4-6-2",
-      "lot": "with all haste. For now would you capmre the broad-wayed city",
+      "lot": "with all haste. For now would you capture the broad-wayed city",
       "reference": "Il. 2.66",
       "is_lacuna": false
     },
@@ -1057,7 +1057,7 @@
     "5-2-1": {
       "line": 151,
       "roll": "5-2-1",
-      "lot": "Let u? not advance to fight the Danaans around the ships.",
+      "lot": "Let us not advance to fight the Danaans around the ships.",
       "reference": "Il. 12.216",
       "is_lacuna": false
     },
@@ -1085,7 +1085,7 @@
     "5-2-5": {
       "line": 155,
       "roll": "5-2-5",
-      "lot": "Talk not like this. there'll be no change before",
+      "lot": "Talk not like this. There'll be no change before",
       "reference": "Il. 5.218",
       "is_lacuna": false
     },
@@ -1093,7 +1093,7 @@
       "line": 156,
       "roll": "5-2-6",
       "lot": "let him stay here the while, even though he's eager for Ares.",
-      "reference": "Il 19.189",
+      "reference": "Il. 19.189",
       "is_lacuna": false
     },
     "5-3-1": {
@@ -1141,7 +1141,7 @@
     "5-4-1": {
       "line": 163,
       "roll": "5-4-1",
-      "lot": "Bad deeds don't prosper. The slow mall for sure overtakes the swift,",
+      "lot": "Bad deeds don't prosper. The slow man for sure overtakes the swift,",
       "reference": "Od. 8.329",
       "is_lacuna": false
     },
@@ -1170,7 +1170,7 @@
       "line": 167,
       "roll": "5-4-5",
       "lot": "in full he will accomplish it at last, and the penalty they pay is great,",
-      "reference": "I1. 4.161",
+      "reference": "Il. 4.161",
       "is_lacuna": false
     },
     "5-4-6": {
@@ -1317,7 +1317,7 @@
       "line": 188,
       "roll": "6-2-2",
       "lot": "remembering our excellence, of the sort that even we",
-      "reference": "Od 8.244",
+      "reference": "Od. 8.244",
       "is_lacuna": false
     },
     "6-2-3": {
@@ -1401,14 +1401,14 @@
       "line": 200,
       "roll": "6-4-2",
       "lot": "Take heart, and let your thoughts not be of death.",
-      "reference": "Il. 10.383)",
+      "reference": "Il. 10.383",
       "is_lacuna": false
     },
     "6-4-3": {
       "line": 201,
       "roll": "6-4-3",
       "lot": "by her wailing she rouse from sleep her household servants,",
-      "reference": "XI. 5.413",
+      "reference": "Il. 5.413",
       "is_lacuna": false
     },
     "6-4-4": {
@@ -1436,7 +1436,7 @@
       "line": 205,
       "roll": "6-5-1",
       "lot": "to return home and behold the day of homecoming.",
-      "reference": "Od. 5.220; 8.4663",
+      "reference": "Od. 5.220; 8.466",
       "is_lacuna": false
     },
     "6-5-2": {

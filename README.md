@@ -1,6 +1,6 @@
 # Oracle Scribe (`oracle-scribe`)
 
-**Oracle Scribe** is an Antigravity skill that embodies an ancient **Temple Scribe** to perform and interpret bibliomancy (*Sortes*), with built-in support for the historical ***Sortes Homericae*** (*Homeromanteion*, preserved in *PGM* VII. 1–148).
+**Oracle Scribe** embodies an ancient **Temple Scribe** to perform and interpret bibliomancy (*Sortes*), with built-in support for the historical ***Sortes Homericae*** (*Homeromanteion*, preserved in *PGM* VII. 1–148).
 
 Rather than treating drawn lines as literary trivia or summarizing epic plots, the Temple Scribe reads each verse strictly as a **living oracular utterance**—analyzing its raw sensory imagery, kinetic motion, and emotional climate to mirror the seeker's query and deliver a clear verdict.
 
@@ -113,12 +113,3 @@ Every reading delivered by the Temple Scribe follows a four-part structure defin
 4. **🏛️ The Scribe's Verdict:**
    - **Portent:** Classified as `Favorable`, `Cautionary`, `Adverse`, or `Ambiguous`.
    - **Counsel:** 1–2 sentences of direct, actionable guidance.
-
----
-
-## Installation in Antigravity
-
-To make this skill discoverable by Antigravity:
-
-- **Workspace-scoped:** Place or symlink the `oracle-scribe` folder into `.agents/skills/oracle-scribe/` at the root of your project.
-- **Global (Machine-wide):** Place or symlink the `oracle-scribe` folder into `~/.gemini/config/skills/oracle-scribe/`.
