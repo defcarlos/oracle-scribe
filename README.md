@@ -39,18 +39,24 @@ oracle-scribe/
 
 ---
 
-## Supported Consultation Workflows
+## Supported Consultation Workflows (Two-Step Turn Protocol)
 
-The skill supports three ways for a seeker to consult the oracle:
+Consultations follow a streamlined **Two-Step Turn Protocol** designed to minimize turn-1 reasoning overhead and honor the historical sequence of *P. Oxy.* 3831 and *PGM* VII. 155–167:
 
-| Mode | Seeker Provides | Scribe Action |
+### Step 1 — Turn-1 Fast Dispatch
+
+| Mode | Seeker Provides | Scribe Action (Turn 1) |
 | :--- | :--- | :--- |
-| **1. Full Casting** | **Question only** *(e.g., "Should I launch this venture now?")* | Runs `python3 scripts/cast_lot.py --check-hour`. Casts immediately on `Propitious` or `Cautionary (Off-Hour)` windows; withholds the dice roll on a `Forbidden Day (μὴ χρῶ)` unless the seeker insists (`--force`). |
-| **2. Physical Dice Lookup** | **Question + 3d6 Roll** *(e.g., "I rolled 4-2-6. What lies ahead for my journey?")* | Runs `python3 scripts/cast_lot.py --roll 4-2-6 --check-hour` to look up the exact verse from the local table and interprets it. |
-| **3. Custom Bibliomancy** | **Question + Utterance** *(any verse drawn from Homer, Virgil, or another text)* | Interprets the provided utterance directly without rolling. |
-| **4. Threshold Hour Check** | **Greeting or Timing Query** *(e.g., "Is the hour favorable to consult the oracle?")* | Runs `python3 scripts/cast_lot.py --hour-only` to check the *Hemeralogia* status and **Next Propitious Window** before any dice are touched. |
+| **1. Full Cast (`MODE 1`)** | **Question only** *(e.g., "Should I launch this venture now?")* | Runs `python3 scripts/cast_lot.py --check-hour`. Casts `3d6` immediately on `Propitious` or `Cautionary (Off-Hour)` windows; automatically **withholds the cast** on a `Forbidden Day (μὴ χρῶ)`. |
+| **1-Force. Gate Override (`MODE 1-Force`)** | **Insists on casting** after being warned of a Forbidden Day | Runs `python3 scripts/cast_lot.py --check-hour --force` to override the threshold gate and cast `3d6`. |
+| **2. Physical Dice Lookup (`MODE 2`)** | **Question + 3d6 Roll** *(e.g., "I rolled 4-2-6. What lies ahead for my journey?")* | Runs `python3 scripts/cast_lot.py --roll 4-2-6 --check-hour` to look up the exact Greek verse, translation, and lexicon from the local table. |
+| **3. Custom Bibliomancy (`MODE 3`)** | **Question + Utterance** *(any verse drawn from Homer, Virgil, or another text)* | Skips `cast_lot.py` and proceeds directly to **Branch B** interpretation. |
+| **4. Threshold Hour Check (`MODE 4`)** | **Greeting, Timing Query, or No Question Yet** *(e.g., "Is the hour favorable to consult the oracle?")* | Runs `python3 scripts/cast_lot.py --hour-only` to check the *Hemeralogia* status and **Next Propitious Window** before any dice are touched. |
 
-> **Note:** If the seeker does not provide a **Question**, the Temple Scribe will never cast or invent a lot prematurely; it will politely ask the seeker to state their query first.
+### Step 2 — Turn-2 Response Branching
+
+- **Branch A — Threshold or Gated Response (No Verse Drawn):** Triggered when `--hour-only` was run (`MODE 4`) or when `cast_lot.py --check-hour` withholds casting on a `Forbidden Day (Apophras / μὴ χρῶ)` (`Gate: Casting withheld...`). The Scribe omits the 4-part reading template, reports the *Hemeralogia* status and **Next Propitious Window**, and either invites the seeker's query or asks if they wish to wait vs. compel the cast (`--force`).
+- **Branch B — Full Oracular Reading:** Triggered whenever a verse is drawn (`Roll:` and `Utterance:` present) or provided directly (`MODE 3`). The Scribe delivers the complete 4-part reading template below.
 
 ---
 
@@ -117,6 +123,17 @@ python3 scripts/cast_lot.py --roll 1-1-4 --no-reroll
     "line": 216,
     "roll": "6-6-6",
     "utterance": "Don't dare get it into your mind to escape from me, Dolon.",
+    "greek": "μὴ δή μοι φύξιν γε, Δόλων, ἐμβάλλεο θυμῷ",
+    "lexicon": [
+      {
+        "term": "φύξις (phyxis)",
+        "meaning": "flight, evasive escape"
+      },
+      {
+        "term": "ἐμβάλλω (emballō)",
+        "meaning": "to harbor in the mind, entertain a vain hope"
+      }
+    ],
     "is_lacuna": false
   }
   ```
@@ -125,10 +142,14 @@ python3 scripts/cast_lot.py --roll 1-1-4 --no-reroll
 
 ## Interpretive Method & Output Structure
 
-Every reading delivered by the Temple Scribe follows a four-part structure defined in `SKILL.md`:
+Every full reading (**Branch B**) delivered by the Temple Scribe follows a four-part structure defined in `SKILL.md` and `SOUL.md`:
 
-1. **📜 The Utterance:** Displays the 3d6 cast (when drawn from the *Sortes Homericae*) and the exact verse.
-2. **👁️ The Omen & Imagery:** Analyzes the physical/sensory images, kinetic movement, and emotional climate of the words in isolation.
+1. **📜 The Utterance:**
+   - Displays `**The Cast:**` (`d1-d2-d3` and line number).
+   - Displays `**The Hour:**` (*Hemeralogia* status, prescribed window, and `Next Propitious Window` when off-hour).
+   - Displays `**Shadow Omen:**` (only when an initial roll struck a damaged papyrus lacuna before re-rolling).
+   - Quotes the original **Homeric Greek hexameter** followed by the **English translation**.
+2. **👁️ The Omen & Imagery:** Analyzes the physical/sensory images, kinetic movement, emotional climate, and the literal etymological resonance of the Greek `Lexicon` root terms in isolation.
 3. **🔍 The Mirror of the Lot:** Maps those poetic images directly onto the seeker's real-world dilemma.
 4. **🏛️ The Scribe's Verdict:**
    - **Portent:** Classified as `Favorable`, `Cautionary`, `Adverse`, or `Ambiguous`.
