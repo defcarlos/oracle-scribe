@@ -21,17 +21,26 @@ You need two elements to render an interpretation:
 2. **The Utterance:** The exact line, verse, or fragment drawn.
 
 ### How to Obtain the Utterance
-- **If the Question is missing:** Do not cast or invent a lot yet. Ask the seeker for their question politely and in-character.
+- **If the Question is missing (or the seeker asks if the hour/shrine is open):** Do not cast a lot yet. First check the ancient *Hemeralogia* (*PGM* VII. 155–167) without rolling the dice:
+  ```bash
+  python3 scripts/cast_lot.py --hour-only
+  ```
+  Greet the seeker in-character as the Temple Scribe, announce whether the current hour is **Propitious**, **Cautionary (Off-Hour)**, or a **Forbidden Day (*Apophras* / *μὴ χρῶ*)** (including the **Next Propitious Window** when off-hour or forbidden), and invite their question (or advise waiting if the day is forbidden).
 - **If the seeker provides both Question and Utterance:** Proceed directly to the interpretation.
-- **If the seeker provides a Question and a 3d6 roll (e.g., `4-2-6`):** Run [cast_lot.py](./scripts/cast_lot.py) with `--roll` (and optionally `--check-hour` if the seeker asks about the auspiciousness of the hour) to retrieve the Greek hexameter, translation, and root-word lexicon from [sortes_homericae.json](./resources/sortes_homericae.json):
+- **If the seeker provides a Question and a 3d6 roll (e.g., `4-2-6`):** Run [cast_lot.py](./scripts/cast_lot.py) with `--roll` and `--check-hour` to retrieve the Greek hexameter, translation, and root-word lexicon from [sortes_homericae.json](./resources/sortes_homericae.json):
   ```bash
   python3 scripts/cast_lot.py --roll 4-2-6 --check-hour
   ```
-- **If the seeker provides only a Question (or asks you to cast the lots):** Never invent or guess a verse from memory. Execute [cast_lot.py](./scripts/cast_lot.py) to roll three 6-sided dice (`3d6`) and draw from the local *Sortes Homericae* table:
+- **If the seeker provides only a Question (or asks you to cast the lots):** Never invent or guess a verse from memory. Execute [cast_lot.py](./scripts/cast_lot.py) with `--check-hour`:
   ```bash
   python3 scripts/cast_lot.py --check-hour
   ```
-  *(Note: If the initial roll lands on a damaged papyrus lacuna, the script automatically re-casts the dice and outputs a **Shadow Omen** containing the surviving Greek fragment and papyrus whisper. Surface this whispered fragment briefly before reading the primary verse.)*
+  - **On `Propitious` or `Cautionary (Off-Hour)` windows:** The script casts `3d6` immediately. If the hour is `Cautionary (Off-Hour)`, deliver the full reading while noting the off-hour caveat and the `Next Propitious Window` under `**The Hour:**`.
+  - **On a `Forbidden Day (Apophras / μὴ χρῶ)` (Days 3, 6, 9, 16, 17, 25):** The script automatically **withholds the dice cast** at the threshold. Stay your hand in-character, inform the seeker that the papyrus forbids divination today (*μὴ χρῶ*), share the `Next Propitious Window`, and ask if they wish to wait or compel the cast anyway. Only if the seeker explicitly insists on overriding the gate should you re-run with `--force`:
+    ```bash
+    python3 scripts/cast_lot.py --check-hour --force
+    ```
+  - *(Note: If a cast lands on a damaged papyrus lacuna, the script automatically re-casts the dice and outputs a **Shadow Omen** containing the surviving Greek fragment and papyrus whisper. Surface this whispered fragment briefly before reading the primary verse.)*
 
 ---
 

@@ -6,8 +6,10 @@ fragments, and PGM VII. 155-167 Hemeralogia ("Days and Hours for Divination").
 
 Usage:
   python3 scripts/cast_lot.py                    # Roll 3d6 (auto-rerolls damaged papyrus lacunae)
+  python3 scripts/cast_lot.py --check-hour       # Check PGM VII timing; casts on Propitious/Off-Hour, gates on Forbidden Day
+  python3 scripts/cast_lot.py --hour-only        # Check PGM VII timing and Next Propitious Window without rolling dice
+  python3 scripts/cast_lot.py --check-hour --force  # Override Forbidden Day gate and roll 3d6 anyway
   python3 scripts/cast_lot.py --roll 4-2-6       # Look up a specific 3d6 roll
-  python3 scripts/cast_lot.py --check-hour       # Evaluate PGM VII Days & Hours timing alongside the cast
   python3 scripts/cast_lot.py --no-reroll        # Do not auto-reroll if landing on a papyrus lacuna
   python3 scripts/cast_lot.py --include-ref      # Include the Homeric book/line citation
   python3 scripts/cast_lot.py --json             # Output raw JSON
@@ -133,9 +135,10 @@ class HourEvaluation:
     prescribed_label: str
     status: HourStatus
     counsel: str
+    next_propitious_window: str | None = None
 
     def to_dict(self) -> dict[str, Any]:
-        return {
+        payload: dict[str, Any] = {
             "day_of_month": self.day_of_month,
             "hour_24": self.hour_24,
             "time_of_day": self.time_of_day,
@@ -144,14 +147,17 @@ class HourEvaluation:
             "status": self.status,
             "counsel": self.counsel,
         }
+        if self.next_propitious_window is not None:
+            payload["next_propitious_window"] = self.next_propitious_window
+        return payload
 
 
 @dataclass(frozen=True, slots=True)
 class CastResult:
-    """Immutable result of casting or looking up a 3d6 lot."""
+    """Immutable result of casting or looking up a 3d6 lot (or gated/hour-only check)."""
 
-    line: int
-    roll: str
+    line: int | None
+    roll: str | None
     utterance: str | None
     greek: str | None
     lexicon: tuple[LexiconItem, ...]
@@ -160,6 +166,7 @@ class CastResult:
     reference: str | None = None
     shadow_omens: tuple[ShadowOmen, ...] = ()
     hour_evaluation: HourEvaluation | None = None
+    cast_withheld: bool = False
 
     @property
     def lacuna_rerolls(self) -> tuple[str, ...]:
@@ -167,21 +174,28 @@ class CastResult:
         return tuple(omen.roll for omen in self.shadow_omens)
 
     def to_dict(self, *, include_ref: bool = False) -> dict[str, Any]:
-        payload: dict[str, Any] = {
-            "line": self.line,
-            "roll": self.roll,
-            "utterance": self.utterance,
-            "greek": self.greek,
-            "lexicon": list(self.lexicon),
-            "is_lacuna": self.is_lacuna,
-        }
+        payload: dict[str, Any] = {}
+        if self.hour_evaluation is not None:
+            payload["hemeralogia"] = self.hour_evaluation.to_dict()
+        if self.cast_withheld:
+            payload["cast_withheld"] = True
+            return payload
+
+        payload.update(
+            {
+                "line": self.line,
+                "roll": self.roll,
+                "utterance": self.utterance,
+                "greek": self.greek,
+                "lexicon": list(self.lexicon),
+                "is_lacuna": self.is_lacuna,
+            }
+        )
         if self.fragment is not None:
             payload["fragment"] = dict(self.fragment)
         if self.shadow_omens:
             payload["lacuna_rerolls"] = list(self.lacuna_rerolls)
             payload["shadow_omens"] = [omen.to_dict() for omen in self.shadow_omens]
-        if self.hour_evaluation is not None:
-            payload["hemeralogia"] = self.hour_evaluation.to_dict()
         if include_ref:
             payload["reference"] = self.reference
         return payload
@@ -220,14 +234,59 @@ def classify_time_of_day(hour_24: int) -> TimeOfDay:
     return "deep_night"
 
 
-def _is_hour_in_window(hour_24: int, hours_range: Sequence[Any]) -> bool:
-    """Check whether hour_24 falls within a [start, end] range or list of [start, end] ranges."""
+def _normalize_intervals(hours_range: Sequence[Any]) -> list[tuple[int, int]]:
+    """Normalize a single [start, end] or nested [[s1, e1], [s2, e2]] into (start, end) tuples."""
     if not hours_range:
-        return False
+        return []
     if isinstance(hours_range[0], int):
-        start, end = int(hours_range[0]), int(hours_range[1])
-        return start <= hour_24 <= end
-    return any(int(span[0]) <= hour_24 <= int(span[1]) for span in hours_range)
+        return [(int(hours_range[0]), int(hours_range[1]))]
+    return [(int(span[0]), int(span[1])) for span in hours_range]
+
+
+def _is_hour_in_window(hour_24: int, hours_range: Sequence[Any]) -> bool:
+    """Check whether hour_24 falls within any (start, end) interval in hours_range."""
+    return any(start <= hour_24 <= end for start, end in _normalize_intervals(hours_range))
+
+
+def _find_next_propitious_window(
+    hemeralogia: HemeralogiaData,
+    table_day: int,
+    current_hour: int,
+) -> str:
+    """Find and format the next propitious consultation window from (table_day, current_hour)."""
+    days_map = hemeralogia["days"]
+    windows_map = hemeralogia["windows"]
+
+    # 1. Check if a prescribed window opens later today on the same day
+    today_key = days_map[str(table_day)]
+    today_info = windows_map[today_key]
+    for start, end in _normalize_intervals(today_info["hours_range"]):
+        if start > current_hour:
+            if today_key == "dawn_and_afternoon":
+                sub_info = windows_map["dawn" if start == 5 else "afternoon"]
+                label, greek = sub_info["label"], sub_info["greek"]
+            else:
+                label, greek = today_info["label"], today_info["greek"]
+            return f"Today (Day {table_day}), {start:02d}:00–{end:02d}:00 — {label} [{greek}]"
+
+    # 2. Otherwise scan forward across the 30-day cycle
+    for offset in range(1, MAX_HEMERALOGIA_DAY + 1):
+        cand_day = ((table_day - 1 + offset) % MAX_HEMERALOGIA_DAY) + 1
+        cand_key = days_map[str(cand_day)]
+        if cand_key == "do_not_use":
+            continue
+        cand_info = windows_map[cand_key]
+        intervals = _normalize_intervals(cand_info["hours_range"])
+        if not intervals:
+            continue
+        start, end = intervals[0]
+        day_prefix = "Tomorrow" if offset == 1 else f"In {offset} days"
+        return (
+            f"{day_prefix} (Day {cand_day}), {start:02d}:00–{end:02d}:00 — "
+            f"{cand_info['label']} [{cand_info['greek']}]"
+        )
+
+    return "Unknown"
 
 
 def evaluate_hour(
@@ -256,14 +315,17 @@ def evaluate_hour(
     period_label = period.replace("_", " ")
 
     status: HourStatus
+    next_window: str | None = None
     if window_key == "do_not_use":
         status = "Forbidden Day (Apophras)"
         counsel = window_info["counsel"]
+        next_window = _find_next_propitious_window(hemeralogia, table_day, current_hour)
     elif _is_hour_in_window(current_hour, window_info["hours_range"]):
         status = "Propitious"
         counsel = window_info["counsel"]
     else:
         status = "Cautionary (Off-Hour)"
+        next_window = _find_next_propitious_window(hemeralogia, table_day, current_hour)
         counsel = (
             f"Day {table_day} is prescribed for '{window_info['label']}' ({window_info['greek']}), "
             f"whereas the current hour falls in '{period_label}'. "
@@ -279,6 +341,7 @@ def evaluate_hour(
         prescribed_label=window_info["label"],
         status=status,
         counsel=counsel,
+        next_propitious_window=next_window,
     )
 
 
@@ -373,19 +436,32 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--check-hour",
         action="store_true",
-        help="Evaluate the auspiciousness of the consultation hour via PGM VII. 155-167 (Hemeralogia).",
+        help=(
+            "Evaluate the consultation hour via PGM VII. 155-167 (Hemeralogia). "
+            "Proceeds on Propitious/Off-Hour, and withholds casting on Forbidden Days unless --force is set."
+        ),
+    )
+    parser.add_argument(
+        "--hour-only",
+        action="store_true",
+        help="Check the PGM VII. 155-167 Hemeralogia status and Next Propitious Window without casting dice.",
+    )
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Override the Forbidden Day (Apophras) ritual gate and cast the dice anyway.",
     )
     parser.add_argument(
         "--day",
         type=int,
         default=None,
-        help="Optional day of the month (1-30) for --check-hour (defaults to current local day).",
+        help="Optional day of the month (1-30) for --check-hour / --hour-only (defaults to current local day).",
     )
     parser.add_argument(
         "--hour",
         type=int,
         default=None,
-        help="Optional hour of the day (0-23) for --check-hour (defaults to current local hour).",
+        help="Optional hour of the day (0-23) for --check-hour / --hour-only (defaults to current local hour).",
     )
     parser.add_argument(
         "--include-ref",
@@ -413,6 +489,15 @@ def format_text_output(result: CastResult, *, include_ref: bool = False) -> str:
             f"Prescribed Window: {heval.prescribed_label} [{heval.prescribed_greek}]"
         )
         lines.append(f"Hour Counsel: {heval.counsel}")
+        if heval.next_propitious_window is not None:
+            lines.append(f"Next Propitious Window: {heval.next_propitious_window}")
+        if result.cast_withheld:
+            if heval.status == "Forbidden Day (Apophras)":
+                lines.append(
+                    "Gate: Casting withheld on a Forbidden Day (μὴ χρῶ). "
+                    "Pass --force only if the seeker explicitly insists on overriding the threshold."
+                )
+            return "\n".join(lines)
         lines.append("")
 
     if result.shadow_omens:
@@ -453,19 +538,46 @@ def main(argv: Sequence[str] | None = None) -> int:
         oracle_data = load_oracle_data()
         lots = oracle_data["lots"]
         hour_eval: HourEvaluation | None = None
-        if args.check_hour or args.day is not None or args.hour is not None:
+        should_eval_hour = (
+            args.check_hour
+            or args.hour_only
+            or args.day is not None
+            or args.hour is not None
+        )
+        if should_eval_hour:
             hour_eval = evaluate_hour(
                 oracle_data["hemeralogia"],
                 day_of_month=args.day,
                 hour_24=args.hour,
             )
-        result = cast_or_lookup(
-            lots=lots,
-            specific_roll=args.roll,
-            auto_reroll=not args.no_reroll,
-            include_ref=args.include_ref,
-            hour_evaluation=hour_eval,
+
+        # Withhold dice casting if --hour-only is requested OR if today is a Forbidden Day
+        # and --force was not passed (unless looking up a physical --roll already thrown by the user).
+        is_forbidden_gate = (
+            hour_eval is not None
+            and hour_eval.status == "Forbidden Day (Apophras)"
+            and not args.force
+            and args.roll is None
         )
+        if args.hour_only or is_forbidden_gate:
+            result = CastResult(
+                line=None,
+                roll=None,
+                utterance=None,
+                greek=None,
+                lexicon=(),
+                is_lacuna=False,
+                hour_evaluation=hour_eval,
+                cast_withheld=True,
+            )
+        else:
+            result = cast_or_lookup(
+                lots=lots,
+                specific_roll=args.roll,
+                auto_reroll=not args.no_reroll,
+                include_ref=args.include_ref,
+                hour_evaluation=hour_eval,
+            )
     except (ValueError, KeyError, FileNotFoundError, json.JSONDecodeError) as exc:
         print(f"Error: {exc}", file=sys.stderr)
         return 1

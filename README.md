@@ -34,7 +34,7 @@ oracle-scribe/
 2. **True Random 3d6 Casting (`scripts/cast_lot.py`)**
    - Uses Python's cryptographic `secrets.randbelow(6) + 1` to generate unbiased 3d6 rolls instead of relying on LLM pseudo-random number selection.
    - **Shadow Omens on Lacuna Re-rolls:** When a roll lands on one of the 25 missing papyrus fragments, the script automatically re-casts the dice until a legible verse is drawn and surfaces the eroded line's surviving Greek trace as a `Shadow Omen`.
-   - **Hemeralogia Consultation Check (`--check-hour`):** Evaluates the day of the month and hour of day against *PGM* VII. 155–167 (`ἕωθεν` [at dawn], `μεσημβρίας` [at noon], `δείλης` [in the afternoon], `δι' ὅλης ἡμέρας` [throughout the whole day], or `μὴ χρῶ` [do not use]).
+   - **Hemeralogia Consultation Check & Threshold Gate (`--check-hour`, `--hour-only`, `--force`):** Evaluates the day of the month and hour of day against *PGM* VII. 155–167 (`ἕωθεν` [at dawn], `μεσημβρίας` [at noon], `δείλης` [in the afternoon], `δι' ὅλης ἡμέρας` [throughout the whole day], or `μὴ χρῶ` [do not use]), computes the **Next Propitious Window**, and automatically withholds rolling the dice on the 6 Forbidden Days (`μὴ χρῶ`) unless `--force` is passed.
    - **Trivia Prevention:** Omits the *Iliad*/*Odyssey* book-and-line citation by default so the agent focuses purely on the imagery and Greek root words.
 
 ---
@@ -45,9 +45,10 @@ The skill supports three ways for a seeker to consult the oracle:
 
 | Mode | Seeker Provides | Scribe Action |
 | :--- | :--- | :--- |
-| **1. Full Casting** | **Question only** *(e.g., "Should I launch this venture now?")* | Runs `python3 scripts/cast_lot.py` to roll 3d6, draws the verse from `sortes_homericae.json`, and interprets it. |
-| **2. Physical Dice Lookup** | **Question + 3d6 Roll** *(e.g., "I rolled 4-2-6. What lies ahead for my journey?")* | Runs `python3 scripts/cast_lot.py --roll 4-2-6` to look up the exact verse from the local table and interprets it. |
+| **1. Full Casting** | **Question only** *(e.g., "Should I launch this venture now?")* | Runs `python3 scripts/cast_lot.py --check-hour`. Casts immediately on `Propitious` or `Cautionary (Off-Hour)` windows; withholds the dice roll on a `Forbidden Day (μὴ χρῶ)` unless the seeker insists (`--force`). |
+| **2. Physical Dice Lookup** | **Question + 3d6 Roll** *(e.g., "I rolled 4-2-6. What lies ahead for my journey?")* | Runs `python3 scripts/cast_lot.py --roll 4-2-6 --check-hour` to look up the exact verse from the local table and interprets it. |
 | **3. Custom Bibliomancy** | **Question + Utterance** *(any verse drawn from Homer, Virgil, or another text)* | Interprets the provided utterance directly without rolling. |
+| **4. Threshold Hour Check** | **Greeting or Timing Query** *(e.g., "Is the hour favorable to consult the oracle?")* | Runs `python3 scripts/cast_lot.py --hour-only` to check the *Hemeralogia* status and **Next Propitious Window** before any dice are touched. |
 
 > **Note:** If the seeker does not provide a **Question**, the Temple Scribe will never cast or invent a lot prematurely; it will politely ask the seeker to state their query first.
 
@@ -71,9 +72,15 @@ Lexicon: ὄρνυμι (ornymi) = to rouse into motion, lead from the front; λ�
 
 ### Check the Propitiousness of the Hour (*Hemeralogia*, *PGM* VII. 155–167)
 ```bash
+# Check the hour and Next Propitious Window without rolling the dice:
+python3 scripts/cast_lot.py --hour-only
+
+# Check the hour and cast 3d6 (automatically withholds cast on Forbidden Days unless --force is passed):
 python3 scripts/cast_lot.py --check-hour
+python3 scripts/cast_lot.py --check-hour --force
+
 # Optional overrides for specific day (1-30) and hour (0-23):
-python3 scripts/cast_lot.py --check-hour --day 14 --hour 7
+python3 scripts/cast_lot.py --hour-only --day 16 --hour 10
 ```
 
 ### Look Up a Specific 3d6 Roll

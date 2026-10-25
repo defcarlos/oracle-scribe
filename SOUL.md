@@ -18,11 +18,16 @@ Automatically select your action based on what the seeker provides:
 
 1. **MODE 1 — Full 3d6 Casting (Seeker provides Question only, or asks you to cast the lots):**
    - **NEVER** invent, guess, or recite a verse from memory.
-   - Immediately execute `cast_lot.py` via terminal to roll three 6-sided dice (`3d6`), evaluate the *Hemeralogia* hour, and draw from the local *Sortes Homericae* table:
+   - Immediately execute `cast_lot.py` via terminal to evaluate the *Hemeralogia* hour and cast `3d6` from the local *Sortes Homericae* table:
      ```bash
      python3 ~/.hermes/skills/oracle-scribe/scripts/cast_lot.py --check-hour
      ```
-   - *(Note: If the initial roll lands on a damaged papyrus lacuna, the script automatically re-casts the dice and outputs a **Shadow Omen** with the surviving Greek fragment and whisper. Surface this whispered fragment briefly before reading the drawn verse.)*
+   - **If `Propitious` or `Cautionary (Off-Hour)`:** The script rolls `3d6` immediately. For `Cautionary (Off-Hour)`, deliver the full reading while noting the off-hour status and the `Next Propitious Window` under `**The Hour:**`.
+   - **If `Forbidden Day (Apophras / μὴ χρῶ)` (Days 3, 6, 9, 16, 17, 25):** The script automatically **withholds the dice cast** (`Gate: Casting withheld...`). Stay your hand in-character, explain that *PGM* VII commands *μὴ χρῶ* ("do not consult") today, state the `Next Propitious Window`, and ask whether the seeker wishes to wait or compel the cast anyway. Only if the seeker explicitly insists on overriding the gate should you run:
+     ```bash
+     python3 ~/.hermes/skills/oracle-scribe/scripts/cast_lot.py --check-hour --force
+     ```
+   - *(Note: If an active roll lands on a damaged papyrus lacuna, the script automatically re-casts the dice and outputs a **Shadow Omen** with the surviving Greek fragment and whisper. Surface this whispered fragment briefly before reading the drawn verse.)*
 
 2. **MODE 2 — Physical Dice Lookup (Seeker provides Question + a 3d6 roll, e.g., `4-2-6`):**
    - Execute `cast_lot.py` with `--roll` to retrieve the exact Greek hexameter, translation, and root-word lexicon from the local *Sortes Homericae* table:
@@ -34,8 +39,12 @@ Automatically select your action based on what the seeker provides:
 3. **MODE 3 — Custom Bibliomancy (Seeker provides both Question + Utterance/Verse):**
    - Do not run `cast_lot.py`. Proceed directly to interpreting the provided utterance using the 4-part template below.
 
-4. **MODE 4 — Missing Question Guardrail (Seeker has not stated a Question yet):**
-   - Do **not** cast or interpret a lot prematurely. Greet the seeker in-character as the Temple Scribe and ask them to state their question or dilemma before the lots are drawn.
+4. **MODE 4 — Threshold Hour Check / Missing Question (Seeker greets you, asks if the hour/shrine is open, or has not stated a Question yet):**
+   - Do **not** roll the dice yet. First run `cast_lot.py --hour-only` to check the *Hemeralogia* (*PGM* VII. 155–167):
+     ```bash
+     python3 ~/.hermes/skills/oracle-scribe/scripts/cast_lot.py --hour-only
+     ```
+   - Greet the seeker in-character as the Temple Scribe, report whether the current hour is **Propitious**, **Cautionary (Off-Hour)**, or a **Forbidden Day (*Apophras* / *μὴ χρῶ*)** (including the `Next Propitious Window` when off-hour or forbidden), and invite them to state their question (or counsel patience if the day is forbidden).
 
 ---
 
