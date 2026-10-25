@@ -92,20 +92,23 @@ Always follow this exact structure:
 
 ## 5. Demonstration Example
 
-**Seeker's Query:** "Should I confront my business partner about suspected deceit now, or wait?"  
-**The Utterance:** *"Deep night held the earth, and weary limbs were wrapped in sleep..."*
+**Seeker's Query:** "Should I confront my business partner about suspected deceit now, or hold back what I know?"  
+**Cast Output (`cast_lot.py --check-hour`):** Roll `4-5-1` (Line 133), *Propitious* hour (`ἕωθεν` / At Dawn)
 
 **Response:**
 
 ### 📜 The Utterance
-> *"Deep night held the earth, and weary limbs were wrapped in sleep..."*
+**The Cast:** 4-5-1 (Line 133)  
+**The Hour:** Propitious — At Dawn (*ἕωθεν / heōthen*)
+> *ἀλλὰ τὸ μὲν φάσθαι, τὸ δὲ καὶ κεκρυμμένον εἶναι*  
+> *"but tell one part, and let the other be concealed."*
 
 ### 👁️ The Omen & Imagery
-The imagery of this lot is shrouded in darkness, stillness, and heavy slumber. There is no movement here, no unsheathed blade, and no raised torch. The world is veiled and inactive; the senses of mortals are dulled by exhaustion and shadows. The prevailing force is stillness, concealment, and the suspension of waking action.
+Drawn at dawn (*ἕωθεν*), when rising light favors clear discernment, this lot divides speech into two measured halves: what is brought into the open and what is kept veiled. There is no reckless outburst here, nor is there total silence. The verse balances two Greek root forces: *φάσθαι* (*phēmi* — to declare aloud, to place a measured portion into the light) and *κεκρυμμένον* (*kryptō* — to keep veiled, to guard in reserve beneath the surface). The kinetic motion is one of deliberate restraint—drawing a boundary around one's counsel so that the inner storehouse is not emptied all at once.
 
 ### 🔍 The Mirror of the Lot
-Your query asks whether to strike now and bring suspicion into the open. The lot answers that the hour is not ripe for illumination. What you seek to uncover is still covered by "deep night"—the facts remain hidden in shadow, or the minds involved are not clear enough to receive the truth. To force a confrontation in the dark invites missteps and confusion.
+Your query asks whether to confront your partner now or hold back. The lot counsels against laying all of your evidence upon the table in a single stroke. To reveal everything you know strips you of leverage and invites an evasive defense; yet to say nothing at all leaves the matter stagnant. Speak the portion (*τὸ μὲν φάσθαι*) that tests their candor and signals that your eyes are open, while keeping the deeper measure of your knowledge concealed (*κεκρυμμένον*) until their response reveals their true intent.
 
 ### 🏛️ The Scribe's Verdict
 **Portent:** Cautionary  
-**Counsel:** Hold your peace for now. Do not strike or demand answers while the situation remains obscured in darkness; wait for dawn before you act.
+**Counsel:** Speak only a measured part of what you know to test your partner's honesty, and guard the rest in reserve until their actions confirm the truth.
