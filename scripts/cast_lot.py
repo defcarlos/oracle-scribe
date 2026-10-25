@@ -24,16 +24,24 @@ from pathlib import Path
 import re
 import secrets
 import sys
-from typing import Any, Final, TypedDict
+from typing import Any, Final, Literal, TypedDict
 
 DICE_COUNT: Final[int] = 3
 DICE_SIDES: Final[int] = 6
+MAX_HEMERALOGIA_DAY: Final[int] = 30
 RESOURCE_PATH: Final[Path] = (
     Path(__file__).resolve().parent.parent / "resources" / "sortes_homericae.json"
 )
 ROLL_PATTERN: Final[re.Pattern[str]] = re.compile(
     r"^\s*([1-6])(?:[\s,:-]+([1-6])[\s,:-]+([1-6])|([1-6])([1-6]))\s*$"
 )
+
+type TimeOfDay = Literal["dawn", "noon", "afternoon", "dusk", "deep_night"]
+type HourStatus = Literal[
+    "Propitious",
+    "Cautionary (Off-Hour)",
+    "Forbidden Day (Apophras)",
+]
 
 
 class LexiconItem(TypedDict):
@@ -62,6 +70,35 @@ class LotEntry(TypedDict):
     fragment: LacunaFragment | None
     reference: str | None
     is_lacuna: bool
+
+
+class HemeralogiaWindow(TypedDict):
+    """Schema for a consultation window in PGM VII. 155-167."""
+
+    greek: str
+    label: str
+    hours_range: list[int] | list[list[int]]
+    counsel: str
+
+
+class HemeralogiaData(TypedDict):
+    """Schema for the PGM VII. 155-167 Hemeralogia calendar."""
+
+    source: str
+    description: str
+    windows: dict[str, HemeralogiaWindow]
+    days: dict[str, str]
+
+
+class OracleResource(TypedDict):
+    """Top-level schema for resources/sortes_homericae.json."""
+
+    source: str
+    url: str
+    total_combinations: int
+    lacunae_count: int
+    lots: dict[str, LotEntry]
+    hemeralogia: HemeralogiaData
 
 
 @dataclass(frozen=True, slots=True)
@@ -94,7 +131,7 @@ class HourEvaluation:
     prescribed_window_key: str
     prescribed_greek: str
     prescribed_label: str
-    status: str  # "Propitious", "Cautionary (Off-Hour)", or "Forbidden Day (Apophras)"
+    status: HourStatus
     counsel: str
 
     def to_dict(self) -> dict[str, Any]:
@@ -121,9 +158,13 @@ class CastResult:
     is_lacuna: bool
     fragment: LacunaFragment | None = None
     reference: str | None = None
-    lacuna_rerolls: tuple[str, ...] = ()
     shadow_omens: tuple[ShadowOmen, ...] = ()
     hour_evaluation: HourEvaluation | None = None
+
+    @property
+    def lacuna_rerolls(self) -> tuple[str, ...]:
+        """Rolls that landed on damaged papyrus lacunae before a legible verse was drawn."""
+        return tuple(omen.roll for omen in self.shadow_omens)
 
     def to_dict(self, *, include_ref: bool = False) -> dict[str, Any]:
         payload: dict[str, Any] = {
@@ -136,9 +177,8 @@ class CastResult:
         }
         if self.fragment is not None:
             payload["fragment"] = dict(self.fragment)
-        if self.lacuna_rerolls:
-            payload["lacuna_rerolls"] = list(self.lacuna_rerolls)
         if self.shadow_omens:
+            payload["lacuna_rerolls"] = list(self.lacuna_rerolls)
             payload["shadow_omens"] = [omen.to_dict() for omen in self.shadow_omens]
         if self.hour_evaluation is not None:
             payload["hemeralogia"] = self.hour_evaluation.to_dict()
@@ -147,14 +187,19 @@ class CastResult:
         return payload
 
 
-def load_oracle_data(resource_path: Path = RESOURCE_PATH) -> dict[str, Any]:
-    """Load the full Sortes Homericae JSON resource."""
+def load_oracle_data(resource_path: Path = RESOURCE_PATH) -> OracleResource:
+    """Load and validate the full Sortes Homericae JSON resource."""
     if not resource_path.is_file():
         raise FileNotFoundError(f"Oracle table not found at {resource_path}")
     data = json.loads(resource_path.read_text(encoding="utf-8"))
-    if not isinstance(data.get("lots"), dict):
+    if not isinstance(data, dict) or not isinstance(data.get("lots"), dict):
         raise ValueError(f"Malformed oracle table in {resource_path}: missing 'lots' mapping.")
-    return data
+    hemeralogia = data.get("hemeralogia")
+    if not isinstance(hemeralogia, dict) or not isinstance(hemeralogia.get("days"), dict):
+        raise ValueError(
+            f"Malformed oracle table in {resource_path}: missing 'hemeralogia' schedule."
+        )
+    return data  # type: ignore[return-value]
 
 
 def load_lots(resource_path: Path = RESOURCE_PATH) -> dict[str, LotEntry]:
@@ -162,7 +207,7 @@ def load_lots(resource_path: Path = RESOURCE_PATH) -> dict[str, LotEntry]:
     return load_oracle_data(resource_path)["lots"]
 
 
-def classify_time_of_day(hour_24: int) -> str:
+def classify_time_of_day(hour_24: int) -> TimeOfDay:
     """Classify a 24-hour clock value into ancient consultation periods."""
     if 5 <= hour_24 <= 10:
         return "dawn"
@@ -175,19 +220,29 @@ def classify_time_of_day(hour_24: int) -> str:
     return "deep_night"
 
 
+def _is_hour_in_window(hour_24: int, hours_range: Sequence[Any]) -> bool:
+    """Check whether hour_24 falls within a [start, end] range or list of [start, end] ranges."""
+    if not hours_range:
+        return False
+    if isinstance(hours_range[0], int):
+        start, end = int(hours_range[0]), int(hours_range[1])
+        return start <= hour_24 <= end
+    return any(int(span[0]) <= hour_24 <= int(span[1]) for span in hours_range)
+
+
 def evaluate_hour(
-    hemeralogia: Mapping[str, Any],
+    hemeralogia: HemeralogiaData,
     *,
     day_of_month: int | None = None,
     hour_24: int | None = None,
 ) -> HourEvaluation:
     """Evaluate consultation timing according to PGM VII. 155-167."""
-    now = datetime.now()
+    now = datetime.now().astimezone()
     raw_day = day_of_month if day_of_month is not None else now.day
     if not 1 <= raw_day <= 31:
         raise ValueError(f"Invalid day '{raw_day}'. Must be between 1 and 31.")
-    # Map 31st day of modern solar month to day 30 of the 30-day Greco-Egyptian table
-    table_day = min(raw_day, 30)
+    # Map 31st day of a modern solar month to day 30 of the 30-day Greco-Egyptian table
+    table_day = min(raw_day, MAX_HEMERALOGIA_DAY)
 
     current_hour = hour_24 if hour_24 is not None else now.hour
     if not 0 <= current_hour <= 23:
@@ -198,30 +253,27 @@ def evaluate_hour(
     window_key = days_map[str(table_day)]
     window_info = windows_map[window_key]
     period = classify_time_of_day(current_hour)
+    period_label = period.replace("_", " ")
 
+    status: HourStatus
     if window_key == "do_not_use":
         status = "Forbidden Day (Apophras)"
         counsel = window_info["counsel"]
-    elif window_key == "whole_day" and 5 <= current_hour <= 20:
-        status = "Propitious"
-        counsel = window_info["counsel"]
-    elif window_key == period or (
-        window_key == "dawn_and_afternoon" and period in ("dawn", "afternoon")
-    ):
+    elif _is_hour_in_window(current_hour, window_info["hours_range"]):
         status = "Propitious"
         counsel = window_info["counsel"]
     else:
         status = "Cautionary (Off-Hour)"
         counsel = (
             f"Day {table_day} is prescribed for '{window_info['label']}' ({window_info['greek']}), "
-            f"whereas the current hour falls in '{period.replace('_', ' ')}'. "
+            f"whereas the current hour falls in '{period_label}'. "
             "Proceed with heightened mindfulness, as the temple doors are only half-parted."
         )
 
     return HourEvaluation(
         day_of_month=table_day,
         hour_24=current_hour,
-        time_of_day=period.replace("_", " "),
+        time_of_day=period_label,
         prescribed_window_key=window_key,
         prescribed_greek=window_info["greek"],
         prescribed_label=window_info["label"],
@@ -280,12 +332,12 @@ def cast_or_lookup(
     if roll_key not in lots:
         raise KeyError(f"Roll '{roll_key}' not found in oracle table.")
 
-    lacuna_rolls: list[str] = []
     shadow_omens: list[ShadowOmen] = []
     while lots[roll_key]["is_lacuna"] and auto_reroll:
-        lacuna_rolls.append(roll_key)
         shadow_omens.append(_build_shadow_omen(lots[roll_key]))
         roll_key = roll_3d6()
+        if roll_key not in lots:
+            raise KeyError(f"Re-rolled key '{roll_key}' not found in oracle table.")
 
     entry = lots[roll_key]
     return CastResult(
@@ -297,7 +349,6 @@ def cast_or_lookup(
         is_lacuna=entry["is_lacuna"],
         fragment=entry.get("fragment"),
         reference=entry["reference"] if include_ref else None,
-        lacuna_rerolls=tuple(lacuna_rolls),
         shadow_omens=tuple(shadow_omens),
         hour_evaluation=hour_evaluation,
     )
@@ -364,7 +415,7 @@ def format_text_output(result: CastResult, *, include_ref: bool = False) -> str:
         lines.append(f"Hour Counsel: {heval.counsel}")
         lines.append("")
 
-    if result.lacuna_rerolls:
+    if result.shadow_omens:
         rerolls = ", ".join(result.lacuna_rerolls)
         lines.append(
             f"Note: Initial roll(s) [{rerolls}] fell upon damaged papyrus (lacuna) and were re-cast."
