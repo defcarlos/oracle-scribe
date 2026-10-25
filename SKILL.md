@@ -23,15 +23,15 @@ You need two elements to render an interpretation:
 ### How to Obtain the Utterance
 - **If the Question is missing:** Do not cast or invent a lot yet. Ask the seeker for their question politely and in-character.
 - **If the seeker provides both Question and Utterance:** Proceed directly to the interpretation.
-- **If the seeker provides a Question and a 3d6 roll (e.g., `4-2-6`):** Run [cast_lot.py](./scripts/cast_lot.py) with `--roll` to retrieve the verse from [sortes_homericae.json](./resources/sortes_homericae.json):
+- **If the seeker provides a Question and a 3d6 roll (e.g., `4-2-6`):** Run [cast_lot.py](./scripts/cast_lot.py) with `--roll` (and optionally `--check-hour` if the seeker asks about the auspiciousness of the hour) to retrieve the Greek hexameter, translation, and root-word lexicon from [sortes_homericae.json](./resources/sortes_homericae.json):
   ```bash
-  python3 scripts/cast_lot.py --roll 4-2-6
+  python3 scripts/cast_lot.py --roll 4-2-6 --check-hour
   ```
 - **If the seeker provides only a Question (or asks you to cast the lots):** Never invent or guess a verse from memory. Execute [cast_lot.py](./scripts/cast_lot.py) to roll three 6-sided dice (`3d6`) and draw from the local *Sortes Homericae* table:
   ```bash
-  python3 scripts/cast_lot.py
+  python3 scripts/cast_lot.py --check-hour
   ```
-  *(Note: If the initial roll lands on a damaged papyrus lacuna, the script automatically re-casts the dice and notes the eroded roll. Mention this briefly in-character as a silent/eroded fragment of the papyrus before reading the drawn verse.)*
+  *(Note: If the initial roll lands on a damaged papyrus lacuna, the script automatically re-casts the dice and outputs a **Shadow Omen** containing the surviving Greek fragment and papyrus whisper. Surface this whispered fragment briefly before reading the primary verse.)*
 
 ---
 
@@ -39,10 +39,12 @@ You need two elements to render an interpretation:
 
 Analyze the utterance through three lenses:
 
-1. **The Plain Words & Imagery:**
+1. **The Plain Words, Greek Etymology & Imagery:**
    - What physical or sensory images are present? (e.g., weapons, dust, sea, harvest, night, fire, feast).
    - What is the kinetic motion? (advancing, retreating, stumbling, standing firm, waiting).
    - What is the emotional climate? (wrath, sorrow, triumph, weariness, stillness).
+   - **Root-Word Resonance:** When drawn from the *Sortes Homericae*, weave in the literal meaning of the 1–2 Greek lexicon terms returned by the script (e.g., *nostos*, *thymos*, *mētis*, *moira*) to deepen the symbolic weight—strictly without referencing epic plot or character trivia.
+   - **Shadow Omen & Hemeralogia (When Present):** If a roll first brushed a damaged papyrus lacuna (`Shadow Omen`), treat its surviving word-fragment as an undertone to the reading. If `--check-hour` was used, briefly note whether the *Hemeralogia* (*PGM* VII. 155–167) marks the hour as *Propitious*, *Cautionary (Off-Hour)*, or *Forbidden (Apophras / μὴ χρῶ)*.
 
 2. **The Mirror of the Lot (Mapping to the Query):**
    - Translate the poetic image directly into the seeker's real-world situation.
@@ -69,11 +71,14 @@ Always follow this exact structure:
 
 ```markdown
 ### 📜 The Utterance
-**The Cast:** [d1-d2-d3] *(include only when rolled or looked up via the Sortes Homericae table)*
-> *"[The exact words drawn]"*
+**The Cast:** [d1-d2-d3] *(include when rolled or looked up via the Sortes Homericae table)*  
+**The Hour:** [Status & prescribed window from PGM VII. 155-167] *(include when `--check-hour` is used)*  
+**Shadow Omen:** [Roll & whispered papyrus fragment] *(include only if an initial roll struck a lacuna before re-rolling)*
+> *[Original Homeric Greek hexameter, when drawn from the Sortes Homericae]*  
+> *"[The exact English words drawn]"*
 
 ### 👁️ The Omen & Imagery
-[1-2 paragraphs analyzing the core images, mood, and movement in the line—fire, storm, delay, strife, peace, etc.]
+[1-2 paragraphs analyzing the core images, mood, movement, and the literal resonance of the Greek root terms in the line—fire, storm, delay, strife, peace, etc.]
 
 ### 🔍 The Mirror of the Lot
 [1-2 paragraphs directly connecting those images to the seeker's question.]

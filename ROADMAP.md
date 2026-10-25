@@ -8,16 +8,16 @@ This roadmap tracks planned enhancements for **`oracle-scribe`**, organized into
 
 Features that distinguish `oracle-scribe` from static random-verse generators by grounding readings in the physical and linguistic reality of the London Magical Papyrus (*PGM* VII. 1–148):
 
-- [ ] **1.1 Original Homeric Greek & Root-Word Lexicon (`resources/sortes_homericae.json`)**
+- [x] **1.1 Original Homeric Greek & Root-Word Lexicon (`resources/sortes_homericae.json`)**
   - Add the original Ancient Greek hexameter line (`"greek"`) to all 191 surviving verses.
   - Tag each verse with 1–2 core Greek symbolic terms and their literal meanings (e.g., *nostos* [homecoming/return], *mētis* [cunning/resourcefulness], *thymos* [spirited breath/passion], *moira* [allotted portion], *ate* [ruinous folly]).
   - Update `SKILL.md` / `SOUL.md` so the Temple Scribe displays the Greek line alongside the translation and draws on the literal etymology of key words without referencing epic plot trivia.
 
-- [ ] **1.2 Ancient "Days & Hours" Timing (*Hemeralogia*, *PGM* VII. 149–154)**
+- [x] **1.2 Ancient "Days & Hours" Timing (*Hemeralogia*, *PGM* VII. 149–154 / 155–167)**
   - Incorporate the historical table of propitious and cautionary consultation hours preserved adjacent to the *Homeromanteion* in *PGM* VII.
   - Add an optional `--check-hour` flag to `scripts/cast_lot.py` that evaluates the time of casting (dawn, midday, dusk, deep night) and reports the traditional quality of the hour.
 
-- [ ] **1.3 "Whispered Fragments" for the 25 Papyrus Lacunae**
+- [x] **1.3 "Whispered Fragments" for the 25 Papyrus Lacunae**
   - Add scholarly conjectures and partial surviving Greek words (from Preisendanz, Maltomini, and Betz) to the 25 `"is_lacuna": true` entries.
   - When a roll lands on a damaged line and auto-rerolls, surface the surviving fragment as a "shadow omen" before delivering the primary verse.
 

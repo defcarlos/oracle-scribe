@@ -9,1512 +9,4074 @@
       "roll": "1-1-1",
       "lot": "But on account of their accursed bellies they have miserable woes,",
       "reference": "Od. 15.344",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἀλλ' ἕνεκ' οὐλομένης γαστρὸς κακὰ κήδε' ἔχουσιν",
+      "lexicon": [
+        {
+          "term": "γαστήρ (gastēr)",
+          "meaning": "belly, gnawing appetite, raw bodily necessity"
+        },
+        {
+          "term": "κῆδος (kēdos)",
+          "meaning": "trouble, anxious care, grief"
+        }
+      ],
+      "fragment": null
     },
     "1-1-2": {
       "line": 2,
       "roll": "1-1-2",
       "lot": "neither to cast anchor stones nor to attach stern cables,",
       "reference": "Od. 9.137",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "οὔτ' εὐνὰς βαλέειν οὔτε πρυμνήσι' ἀνάψαι",
+      "lexicon": [
+        {
+          "term": "εὐνή (eunē)",
+          "meaning": "anchor-stone, resting place, mooring"
+        },
+        {
+          "term": "πρυμνήσια (prymnēsia)",
+          "meaning": "stern-cables, lines that bind a vessel to shore"
+        }
+      ],
+      "fragment": null
     },
     "1-1-3": {
       "line": 3,
       "roll": "1-1-3",
       "lot": "being struck by the sword, and the water was becoming red with blood.",
       "reference": "Il. 21.21",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἄορι θεινομένων, ἐρυθαίνετο δ' αἵματι ὕδωρ",
+      "lexicon": [
+        {
+          "term": "ἄορ (aor)",
+          "meaning": "sword, striking blade"
+        },
+        {
+          "term": "ἐρυθαίνω (erythainō)",
+          "meaning": "to dye red, stain crimson"
+        }
+      ],
+      "fragment": null
     },
     "1-1-4": {
       "line": 4,
       "roll": "1-1-4",
       "lot": null,
       "reference": null,
-      "is_lacuna": true
+      "is_lacuna": true,
+      "greek": null,
+      "lexicon": [],
+      "fragment": {
+        "greek_fragment": "[α α δ · · · ]ν[ · · · ]",
+        "whisper": "...a trace of an ending in -n upon torn papyrus; the voice falls silent before the fourth throw...",
+        "apparatus": "P. Lond. 121 col. i.4 broken at left margin; unplaced scrap in Preisendanz PGM VII."
+      }
     },
     "1-1-5": {
       "line": 5,
       "roll": "1-1-5",
       "lot": "stood holding a scepter, which Hephaistos produced by his labors.",
       "reference": "Il. 2.101",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἔστη σκῆπτρον ἔχων, τὸ μὲν Ἥφαιστος κάμε τεύχων",
+      "lexicon": [
+        {
+          "term": "σκῆπτρον (skēptron)",
+          "meaning": "staff of authority, scepter, pillar of rule"
+        },
+        {
+          "term": "κάμνω (kamnō)",
+          "meaning": "to fashion by toil, labor with skill"
+        }
+      ],
+      "fragment": null
     },
     "1-1-6": {
       "line": 6,
       "roll": "1-1-6",
       "lot": null,
       "reference": null,
-      "is_lacuna": true
+      "is_lacuna": true,
+      "greek": null,
+      "lexicon": [],
+      "fragment": {
+        "greek_fragment": "[α α ϛ · · · ]ω[ · · · ]",
+        "whisper": "...a lone omega lingers at the torn edge of the column, like a vow left unfinished...",
+        "apparatus": "P. Lond. 121 col. i.6; only traces of ink survive near the right fracture (cf. Maltomini 1995)."
+      }
     },
     "1-2-1": {
       "line": 7,
       "roll": "1-2-1",
       "lot": "amends I wish to make and to give a boundless ransom.",
       "reference": "Il. 9.120; 19.138",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἂψ ἐθέλω ἀρέσαι δόμεναί τ' ἀπερείσι' ἄποινα",
+      "lexicon": [
+        {
+          "term": "ἀρέσκω (areskō)",
+          "meaning": "to make amends, appease, heal a breach"
+        },
+        {
+          "term": "ἄποινα (apoina)",
+          "meaning": "ransom, recompense, price of reconciliation"
+        }
+      ],
+      "fragment": null
     },
     "1-2-2": {
       "line": 8,
       "roll": "1-2-2",
       "lot": "surely then the gods themselves have ruined your mind.",
       "reference": "Il. 7.360; 12.234",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἦ τ' ἄρα δή τοι ἔπειτα θεοὶ φρένας ὤλεσαν αὐτοί",
+      "lexicon": [
+        {
+          "term": "φρήν (phrēn)",
+          "meaning": "mind, wits, seat of judgment"
+        },
+        {
+          "term": "ὄλλυμι (ollymi)",
+          "meaning": "to ruin, undo, bring to naught"
+        }
+      ],
+      "fragment": null
     },
     "1-2-3": {
       "line": 9,
       "roll": "1-2-3",
       "lot": null,
       "reference": null,
-      "is_lacuna": true
+      "is_lacuna": true,
+      "greek": null,
+      "lexicon": [],
+      "fragment": {
+        "greek_fragment": "[α β γ · · · θυμ]ῷ [ · · · ]",
+        "whisper": "...'...in the heart (thymōi)...' — the rest of the verse is eaten away by the sands...",
+        "apparatus": "P. Lond. 121 col. i.9; P. Bon. 3 preserves scant traces of dative singular ending."
+      }
     },
     "1-2-4": {
       "line": 10,
       "roll": "1-2-4",
       "lot": null,
       "reference": null,
-      "is_lacuna": true
+      "is_lacuna": true,
+      "greek": null,
+      "lexicon": [],
+      "fragment": {
+        "greek_fragment": "[α β δ · · · μα]κρὸν [ · · · ]",
+        "whisper": "...'...far / long (makron)...' — distance or delay echoes from the frayed fibers...",
+        "apparatus": "P. Lond. 121 col. i.10; lacuna across central fibers (cf. P. Bon. 3 col. i)."
+      }
     },
     "1-2-5": {
       "line": 11,
       "roll": "1-2-5",
       "lot": "let it lie in the great hall. And I wish for your happy arrival",
       "reference": "Od. 15.128",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "κείσθω δ' ἐν μεγάρῳ· σὺ δέ μοι χαίρων ἀφίκοιο",
+      "lexicon": [
+        {
+          "term": "μέγαρον (megaron)",
+          "meaning": "great hall, inner sanctuary of the house"
+        },
+        {
+          "term": "χαίρω (chairō)",
+          "meaning": "to rejoice, arrive in gladness and safety"
+        }
+      ],
+      "fragment": null
     },
     "1-2-6": {
       "line": 12,
       "roll": "1-2-6",
       "lot": null,
       "reference": null,
-      "is_lacuna": true
+      "is_lacuna": true,
+      "greek": null,
+      "lexicon": [],
+      "fragment": {
+        "greek_fragment": "[α β ϛ · · · θε]οὶ [ · · · ]",
+        "whisper": "...'...the gods (theoi)...' — their decree is effaced where the papyrus split...",
+        "apparatus": "P. Lond. 121 col. i.12; broken at left and center."
+      }
     },
     "1-3-1": {
       "line": 13,
       "roll": "1-3-1",
       "lot": null,
       "reference": null,
-      "is_lacuna": true
+      "is_lacuna": true,
+      "greek": null,
+      "lexicon": [],
+      "fragment": {
+        "greek_fragment": "[α γ α · · · νύ]κτα [ · · · ]",
+        "whisper": "...'...through the night (nykta)...' — shadow obscures the remainder of the line...",
+        "apparatus": "P. Lond. 121 col. i.13; fragmentary letters near column fold."
+      }
     },
     "1-3-2": {
       "line": 14,
       "roll": "1-3-2",
       "lot": null,
       "reference": null,
-      "is_lacuna": true
+      "is_lacuna": true,
+      "greek": null,
+      "lexicon": [],
+      "fragment": {
+        "greek_fragment": "[α γ β · · · πόν]τον [ · · · ]",
+        "whisper": "...'...the open sea (ponton)...' — the ink washes out into salt and silence...",
+        "apparatus": "P. Lond. 121 col. i.14; abraded surface prior to line 15 (Il. 18.328)."
+      }
     },
     "1-3-3": {
       "line": 15,
       "roll": "1-3-3",
       "lot": "But Zeus does not accomplish for men all their purposes.",
       "reference": "Il. 18.328",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἀλλ' οὐ Ζεὺς ἄνδρεσσι νοήματα πάντα τελευτᾷ",
+      "lexicon": [
+        {
+          "term": "νόημα (noēma)",
+          "meaning": "purpose, design, plan conceived in the mind"
+        },
+        {
+          "term": "τελευτάω (teleutaō)",
+          "meaning": "to bring to fulfillment, accomplish to the end"
+        }
+      ],
+      "fragment": null
     },
     "1-3-4": {
       "line": 16,
       "roll": "1-3-4",
       "lot": "I would even wish it, and it would be much better",
       "reference": "Il. 3.41; Od. 11.358; 20.316",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "καί κε τὸ βουλοίμην, καί κεν πολὺ κέρδιον ἦεν",
+      "lexicon": [
+        {
+          "term": "βούλομαι (boulomai)",
+          "meaning": "to will, prefer, choose deliberately"
+        },
+        {
+          "term": "κέρδιον (kerdion)",
+          "meaning": "more advantageous, wiser, of greater gain"
+        }
+      ],
+      "fragment": null
     },
     "1-3-5": {
       "line": 17,
       "roll": "1-3-5",
       "lot": "Then indeed would he smash all your fine show,",
       "reference": "Od. 17.244",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "τῷ κέ τοι ἀγλαΐας γε διασκεδάσειεν ἁπάσας",
+      "lexicon": [
+        {
+          "term": "ἀγλαΐα (aglaïa)",
+          "meaning": "splendor, outward pomp, proud display"
+        },
+        {
+          "term": "διασκεδάννυμι (diaskedannymi)",
+          "meaning": "to scatter abroad, shatter to pieces"
+        }
+      ],
+      "fragment": null
     },
     "1-3-6": {
       "line": 18,
       "roll": "1-3-6",
       "lot": "I also care about all these things, woman. But very terribly",
       "reference": "Il. 6.441",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἦ καὶ ἐμοὶ τάδε πάντα μέλει, γύναι· ἀλλὰ μάλ' αἰνῶς",
+      "lexicon": [
+        {
+          "term": "μέλει (melei)",
+          "meaning": "to be an object of care, weigh upon the heart"
+        },
+        {
+          "term": "αἰνῶς (ainōs)",
+          "meaning": "terribly, dreadfully, with grave intensity"
+        }
+      ],
+      "fragment": null
     },
     "1-4-1": {
       "line": 19,
       "roll": "1-4-1",
       "lot": null,
       "reference": null,
-      "is_lacuna": true
+      "is_lacuna": true,
+      "greek": null,
+      "lexicon": [],
+      "fragment": {
+        "greek_fragment": "[α δ α · · · χε]ρσὶν [ · · · ]",
+        "whisper": "...'...with hands (chersin)...' — an action grasped at, yet lost in the tear of the scroll...",
+        "apparatus": "P. Lond. 121 col. i.19; gap between Il. 6.441 and Od. 17.66."
+      }
     },
     "1-4-2": {
       "line": 20,
       "roll": "1-4-2",
       "lot": "speaking good things, but they were contriving evil things in their hearts.",
       "reference": "Od. 17.66",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἐσθλὰν ἀγορεύοντες, κακὰ δὲ φρεσὶ βυσσοδόμευον",
+      "lexicon": [
+        {
+          "term": "ἀγορεύω (agoreuō)",
+          "meaning": "to speak openly in assembly, declare aloud"
+        },
+        {
+          "term": "βυσσοδομεύω (byssodomeuō)",
+          "meaning": "to build in the depths, brood secretly on schemes"
+        }
+      ],
+      "fragment": null
     },
     "1-4-3": {
       "line": 21,
       "roll": "1-4-3",
       "lot": "The glorious gifts of the gods are surely not to be cast aside,",
       "reference": "Il. 3.65",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "οὔ τοι ἀπόβλητ' ἐστὶ θεῶν ἐρικυδέα δῶρα",
+      "lexicon": [
+        {
+          "term": "ἀπόβλητος (apoblētos)",
+          "meaning": "to be cast aside, spurned, rejected"
+        },
+        {
+          "term": "ἐρικυδής (erikydēs)",
+          "meaning": "glorious, resplendent with honor"
+        }
+      ],
+      "fragment": null
     },
     "1-4-4": {
       "line": 22,
       "roll": "1-4-4",
       "lot": null,
       "reference": null,
-      "is_lacuna": true
+      "is_lacuna": true,
+      "greek": null,
+      "lexicon": [],
+      "fragment": {
+        "greek_fragment": "[α δ δ · · · μῦ]θον [ · · · ]",
+        "whisper": "...'...the spoken word (mython)...' — a counsel onceuttered, now worn from the reed...",
+        "apparatus": "P. Lond. 121 col. i.22; missing in P. Lond. 121, unrecovered in P. Oxy. 3831."
+      }
     },
     "1-4-5": {
       "line": 23,
       "roll": "1-4-5",
       "lot": null,
       "reference": null,
-      "is_lacuna": true
+      "is_lacuna": true,
+      "greek": null,
+      "lexicon": [],
+      "fragment": {
+        "greek_fragment": "[α δ ε · · · νόσ]τον [ · · · ]",
+        "whisper": "...'...homecoming (noston)...' — the road back is broken across the papyrus...",
+        "apparatus": "P. Lond. 121 col. i.23; severely abraded line preceding Il. 21.223."
+      }
     },
     "1-4-6": {
       "line": 24,
       "roll": "1-4-6",
       "lot": "These things, Zeus-nurtured Skamander, will be as you order.",
       "reference": "Il. 21.223",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἔσται ταῦτα, Σκάμανδρε διοτρεφές, ὡς σὺ κελεύεις",
+      "lexicon": [
+        {
+          "term": "διοτρεφής (diotrephēs)",
+          "meaning": "cherished by Zeus, divinely nourished"
+        },
+        {
+          "term": "κελεύω (keleuō)",
+          "meaning": "to bid, command, set in motion"
+        }
+      ],
+      "fragment": null
     },
     "1-5-1": {
       "line": 25,
       "roll": "1-5-1",
       "lot": "a joy to your enemies, and a disgrace to yourself?",
       "reference": "Il. 3.51",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "δυσμενέσιν μὲν χάρμα, κατηφείην δὲ σοὶ αὐτῷ;",
+      "lexicon": [
+        {
+          "term": "χάρμα (charma)",
+          "meaning": "source of gloating joy to rivals"
+        },
+        {
+          "term": "κατηφείη (katēpheiē)",
+          "meaning": "downcast eyes, shame, dejection"
+        }
+      ],
+      "fragment": null
     },
     "1-5-2": {
       "line": 26,
       "roll": "1-5-2",
       "lot": "Within this very year, Odysseus will arrive here,",
       "reference": "Od. 14.161; 19.306",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "τοῦδ' αὐτοῦ λυκάβαντος ἐλεύσεται ἐνθάδ' Ὀδυσσεύς",
+      "lexicon": [
+        {
+          "term": "λυκάβας (lykabas)",
+          "meaning": "the revolution of the year, path of light"
+        },
+        {
+          "term": "ἐλεύσομαι (eleusomai)",
+          "meaning": "to come, arrive at the appointed threshold"
+        }
+      ],
+      "fragment": null
     },
     "1-5-3": {
       "line": 27,
       "roll": "1-5-3",
       "lot": "No use indeed to you, since you will not lie clad in them,",
       "reference": "Il. 22.513",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "οὐδέν σοί γ' ὄφελος, ἐπεὶ οὐκ ἐγκείσεαι αὐτοῖς",
+      "lexicon": [
+        {
+          "term": "ὄφελος (ophelos)",
+          "meaning": "use, profit, avail, practical benefit"
+        },
+        {
+          "term": "ἔγκειμαι (enkeimai)",
+          "meaning": "to lie wrapped within, rest in possession of"
+        }
+      ],
+      "fragment": null
     },
     "1-5-4": {
       "line": 28,
       "roll": "1-5-4",
       "lot": "And to the victor are to go the woman and the possessions.",
       "reference": "Il. 3.255",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "τῷ δέ κε νικήσαντι γυνὴ καὶ κτήμαθ' ἕποιτο",
+      "lexicon": [
+        {
+          "term": "νικάω (nikaō)",
+          "meaning": "to prevail, conquer, win the contest"
+        },
+        {
+          "term": "κτῆμα (ktēma)",
+          "meaning": "possession, treasure, earned estate"
+        }
+      ],
+      "fragment": null
     },
     "1-5-5": {
       "line": 29,
       "roll": "1-5-5",
       "lot": "the rule of the many is no good. Let there be one ruler.",
       "reference": "Il. 2.204",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "οὐκ ἀγαθὸν πολυκοιρανίη· εἷς κοίρανος ἔστω",
+      "lexicon": [
+        {
+          "term": "πολυκοιρανίη (polykoiraniē)",
+          "meaning": "rule of many, divided command, discordant authority"
+        },
+        {
+          "term": "κοίρανος (koiranos)",
+          "meaning": "sovereign leader, single guiding will"
+        }
+      ],
+      "fragment": null
     },
     "1-5-6": {
       "line": 30,
       "roll": "1-5-6",
       "lot": "And the gateway is full of ghosts, and full also is the courtyard,",
       "reference": "Od. 20.355",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "εἰδώλων δὲ πλέον πρόθυρον, πλείη δὲ καὶ αὐλή",
+      "lexicon": [
+        {
+          "term": "εἴδωλον (eidōlon)",
+          "meaning": "phantom, unsubstantial shade, haunting image"
+        },
+        {
+          "term": "πρόθυρον (prothyron)",
+          "meaning": "gateway, outer porch, threshold of entry"
+        }
+      ],
+      "fragment": null
     },
     "1-6-1": {
       "line": 31,
       "roll": "1-6-1",
       "lot": "We have won great honor. We have killed glorious Hektor,",
       "reference": "Il. 22.393",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἠράμεθα μέγα κῦδος· ἐπέφνομεν Ἕκτορα δῖον",
+      "lexicon": [
+        {
+          "term": "κῦδος (kydos)",
+          "meaning": "radiant glory, decisive triumph, divine favor"
+        },
+        {
+          "term": "πεφνεῖν (pephnein)",
+          "meaning": "to slay, overcome a formidable adversary"
+        }
+      ],
+      "fragment": null
     },
     "1-6-2": {
       "line": 32,
       "roll": "1-6-2",
       "lot": "Who would undertake and complete this task for me?",
       "reference": "Il. 10.303",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "τίς ἄν μοι τόδε ἔργον ὑποσχόμενος τελέσειε;",
+      "lexicon": [
+        {
+          "term": "ὑπισχνέομαι (hypischneomai)",
+          "meaning": "to take upon oneself, pledge, undertake"
+        },
+        {
+          "term": "τελέω (teleō)",
+          "meaning": "to accomplish, carry through to completion"
+        }
+      ],
+      "fragment": null
     },
     "1-6-3": {
       "line": 33,
       "roll": "1-6-3",
       "lot": "Not even if his gifts to me should be as numerous as the grains of sand and particles of dust,",
       "reference": "Il. 9.385",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "οὐδ' εἴ μοι τόσα δοίη ὅσα ψάμαθός τε κόνις τε",
+      "lexicon": [
+        {
+          "term": "ψάμαθος (psamathos)",
+          "meaning": "sea-sand, countless grains along the shore"
+        },
+        {
+          "term": "κόνις (konis)",
+          "meaning": "dust of the earth, shifting powder"
+        }
+      ],
+      "fragment": null
     },
     "1-6-4": {
       "line": 34,
       "roll": "1-6-4",
       "lot": null,
       "reference": null,
-      "is_lacuna": true
+      "is_lacuna": true,
+      "greek": null,
+      "lexicon": [],
+      "fragment": {
+        "greek_fragment": "[α ϛ δ · · · κῆ]δος [ · · · ]",
+        "whisper": "...'...care / trouble (kēdos)...' — a faint warning of burden on the frayed margin...",
+        "apparatus": "P. Lond. 121 col. i.34; first of three consecutive lines lost at the foot of the column."
+      }
     },
     "1-6-5": {
       "line": 35,
       "roll": "1-6-5",
       "lot": null,
       "reference": null,
-      "is_lacuna": true
+      "is_lacuna": true,
+      "greek": null,
+      "lexicon": [],
+      "fragment": {
+        "greek_fragment": "[α ϛ ε · · · δῶ]ρα [ · · · ]",
+        "whisper": "...'...gifts (dōra)...' — whether offered or refused, the papyrus keeps its secret...",
+        "apparatus": "P. Lond. 121 col. i.35; foot of column broken away (cf. P. Bon. 3)."
+      }
     },
     "1-6-6": {
       "line": 36,
       "roll": "1-6-6",
       "lot": null,
       "reference": null,
-      "is_lacuna": true
+      "is_lacuna": true,
+      "greek": null,
+      "lexicon": [],
+      "fragment": {
+        "greek_fragment": "[α ϛ ϛ · · · τέ]λος [ · · · ]",
+        "whisper": "...'...the fulfillment / end (telos)...' — the final throw of the first hexad is effaced...",
+        "apparatus": "P. Lond. 121 col. i.36; bottom margin lost."
+      }
     },
     "2-1-1": {
       "line": 37,
       "roll": "2-1-1",
       "lot": "For no island is made for driving horses or has broad meadows,",
       "reference": "Od. 4.607",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "οὐ γάρ τις νήσων ἱππήλατος οὐδ' εὐλείμων",
+      "lexicon": [
+        {
+          "term": "ἱππήλατος (hippēlatos)",
+          "meaning": "fit for driving horses, open and level"
+        },
+        {
+          "term": "εὐλείμων (euleimōn)",
+          "meaning": "rich in meadows, lush pastureland"
+        }
+      ],
+      "fragment": null
     },
     "2-1-2": {
       "line": 38,
       "roll": "2-1-2",
       "lot": "in the past, when you were boys, did you listen to your",
       "reference": "Od. 4.688",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ὑμετέρων τὸ πάροιθεν ἀκούετε, παῖδες ἐόντες",
+      "lexicon": [
+        {
+          "term": "πάροιθεν (paroithen)",
+          "meaning": "in time past, formerly, from elder days"
+        },
+        {
+          "term": "ἀκούω (akouō)",
+          "meaning": "to heed, listen to ancestral counsel"
+        }
+      ],
+      "fragment": null
     },
     "2-1-3": {
       "line": 39,
       "roll": "2-1-3",
       "lot": null,
       "reference": null,
-      "is_lacuna": true
+      "is_lacuna": true,
+      "greek": null,
+      "lexicon": [],
+      "fragment": {
+        "greek_fragment": "[β α γ · · · φρέ]νας [ · · · ]",
+        "whisper": "...'...the mind / wits (phrenas)...' — a whisper of inward counsel among torn reeds...",
+        "apparatus": "P. Lond. 121 col. ii.39; upper left damage in second column."
+      }
     },
     "2-1-4": {
       "line": 40,
       "roll": "2-1-4",
       "lot": null,
       "reference": null,
-      "is_lacuna": true
+      "is_lacuna": true,
+      "greek": null,
+      "lexicon": [],
+      "fragment": {
+        "greek_fragment": "[β α δ · · · πῦ]ρ [ · · · ]",
+        "whisper": "...'...fire (pyr)...' — a spark glints through the lacuna before vanishing...",
+        "apparatus": "P. Lond. 121 col. ii.40; lacuna spanning three lines (39-41)."
+      }
     },
     "2-1-5": {
       "line": 41,
       "roll": "2-1-5",
       "lot": null,
       "reference": null,
-      "is_lacuna": true
+      "is_lacuna": true,
+      "greek": null,
+      "lexicon": [],
+      "fragment": {
+        "greek_fragment": "[β α ε · · · ὁδ]ὸν [ · · · ]",
+        "whisper": "...'...the way / journey (hodon)...' — the path is interrupted by a rift in the scroll...",
+        "apparatus": "P. Lond. 121 col. ii.41; preceding Il. 9.378."
+      }
     },
     "2-1-6": {
       "line": 42,
       "roll": "2-1-6",
       "lot": "His gifts are hateful to me, and I honor him not a whit.",
       "reference": "Il. 9.378",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἐχθρὰ δέ μοι τοῦ δῶρα, τίω δέ μιν ἐν καρὸς αἴσῃ",
+      "lexicon": [
+        {
+          "term": "ἐχθρός (echthros)",
+          "meaning": "hateful, unwelcome, tainted by enmity"
+        },
+        {
+          "term": "αἶσα (aisa)",
+          "meaning": "allotted worth, measure, estimation"
+        }
+      ],
+      "fragment": null
     },
     "2-2-1": {
       "line": 43,
       "roll": "2-2-1",
       "lot": "an only beloved heir to many possessions,",
       "reference": "Il. 9.482; Od. 16.19 (?)",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "μοῦνον τηλύγετον πολλοῖσιν ἐπὶ κτεάτεσσι",
+      "lexicon": [
+        {
+          "term": "τηλύγετος (tēlygetos)",
+          "meaning": "dearly beloved, born late and cherished"
+        },
+        {
+          "term": "κτέανον (kteanon)",
+          "meaning": "accumulated wealth, inherited substance"
+        }
+      ],
+      "fragment": null
     },
     "2-2-2": {
       "line": 44,
       "roll": "2-2-2",
       "lot": null,
       "reference": null,
-      "is_lacuna": true
+      "is_lacuna": true,
+      "greek": null,
+      "lexicon": [],
+      "fragment": {
+        "greek_fragment": "[β β β · · · κλέ]ος [ · · · ]",
+        "whisper": "...'...report / renown (kleos)...' — a rumor carried on the wind, half-erased...",
+        "apparatus": "P. Lond. 121 col. ii.44; triple-two throw lost in central tear."
+      }
     },
     "2-2-3": {
       "line": 45,
       "roll": "2-2-3",
       "lot": null,
       "reference": null,
-      "is_lacuna": true
+      "is_lacuna": true,
+      "greek": null,
+      "lexicon": [],
+      "fragment": {
+        "greek_fragment": "[β β γ · · · ἄλ]γος [ · · · ]",
+        "whisper": "...'...grief / pain (algos)...' — a sharp ache noted on the damaged leaf...",
+        "apparatus": "P. Lond. 121 col. ii.45; abraded papyrus strip."
+      }
     },
     "2-2-4": {
       "line": 46,
       "roll": "2-2-4",
       "lot": null,
       "reference": null,
-      "is_lacuna": true
+      "is_lacuna": true,
+      "greek": null,
+      "lexicon": [],
+      "fragment": {
+        "greek_fragment": "[β β δ · · · φά]ος [ · · · ]",
+        "whisper": "...'...light / deliverance (phaos)...' — a gleam breaking through the torn fibers...",
+        "apparatus": "P. Lond. 121 col. ii.46; immediately precedes Od. 24.19."
+      }
     },
     "2-2-5": {
       "line": 47,
       "roll": "2-2-5",
       "lot": "So they thronged about him. And near",
       "reference": "Od. 24.19",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ὣς οἵ γ' ἀμφὶ περὶ κεῖνον ὅμιλεον· ἀγχίμολον δέ",
+      "lexicon": [
+        {
+          "term": "ὁμιλέω (homileō)",
+          "meaning": "to throng together, gather in close company"
+        },
+        {
+          "term": "ἀγχίμολον (anchimolon)",
+          "meaning": "drawing near, approaching close at hand"
+        }
+      ],
+      "fragment": null
     },
     "2-2-6": {
       "line": 48,
       "roll": "2-2-6",
       "lot": "and fashioning lies out of what nobody could see.",
       "reference": "Od. 11.366",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ψεύδεά τ' ἀρτύνοντας, ὅθεν κέ τις οὐδὲ ἴδοιτο",
+      "lexicon": [
+        {
+          "term": "ψεῦδος (pseudos)",
+          "meaning": "falsehood, fabricated tale, illusion"
+        },
+        {
+          "term": "ἀρτύνω (artynō)",
+          "meaning": "to contrive, fit together cunningly"
+        }
+      ],
+      "fragment": null
     },
     "2-3-1": {
       "line": 49,
       "roll": "2-3-1",
       "lot": "be valiant, that later generations may also speak well of you.",
       "reference": "Od. 1.302",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἄλκιμος ἔσσ', ἵνα τίς σε καὶ ὀψιγόνων εὖ εἴπῃ",
+      "lexicon": [
+        {
+          "term": "ἄλκιμος (alkimos)",
+          "meaning": "valiant, stout-hearted, courageous in defense"
+        },
+        {
+          "term": "ὀψίγονος (opsigonos)",
+          "meaning": "born hereafter, future generations"
+        }
+      ],
+      "fragment": null
     },
     "2-3-2": {
       "line": 50,
       "roll": "2-3-2",
       "lot": "leaning on the grave marker over a barrow heaped up by men",
       "reference": "Il. 11.171",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "στήλῃ κεκλιμένος ἀνδροκμήτῳ ἐπὶ τύμβῳ",
+      "lexicon": [
+        {
+          "term": "στήλη (stēlē)",
+          "meaning": "upright stone pillar, grave marker, boundary"
+        },
+        {
+          "term": "τύμβος (tymbos)",
+          "meaning": "burial mound, earthen barrow of memory"
+        }
+      ],
+      "fragment": null
     },
     "2-3-3": {
       "line": 51,
       "roll": "2-3-3",
       "lot": "go. You have a way, and beside the sea your ships",
       "reference": "Il. 9.43",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἔρχευ· πάρ τοι ὁδός, νῆες δέ τοι ἄγχι θαλάσσης",
+      "lexicon": [
+        {
+          "term": "ὁδός (hodos)",
+          "meaning": "open road, way forward, passage"
+        },
+        {
+          "term": "θάλασσα (thalassa)",
+          "meaning": "the sea, the waiting waters of departure"
+        }
+      ],
+      "fragment": null
     },
     "2-3-4": {
       "line": 52,
       "roll": "2-3-4",
       "lot": "You will be proved a liar, and will not go on to fulfill your word.",
       "reference": "Il. 19.107",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ψευστήσεις, οὐδ' αὖτε τέλος μύθῳ ἐπιθήσεις",
+      "lexicon": [
+        {
+          "term": "ψευστέω (pseusteō)",
+          "meaning": "to prove false, fall short of one's word"
+        },
+        {
+          "term": "τέλος (telos)",
+          "meaning": "consummation, fulfillment, final seal"
+        }
+      ],
+      "fragment": null
     },
     "2-3-5": {
       "line": 53,
       "roll": "2-3-5",
       "lot": "And his mother for her part continued the lament amid a flood of tears,",
       "reference": "Il. 22.79",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "μήτηρ δ' αὖθ' ἑτέρωθεν ὀδύρετο δάκρυ χέουσα",
+      "lexicon": [
+        {
+          "term": "ὀδύρομαι (odyromai)",
+          "meaning": "to lament, keen in sorrow"
+        },
+        {
+          "term": "δάκρυ (dakry)",
+          "meaning": "tear poured forth in grief"
+        }
+      ],
+      "fragment": null
     },
     "2-3-6": {
       "line": 54,
       "roll": "2-3-6",
       "lot": "Not even if remaining for five or six years",
       "reference": "Od. 3.115",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "οὐδ' εἴ κεν πεντάετές γε καὶ ἑξάετες παραμίμνων",
+      "lexicon": [
+        {
+          "term": "παραμίμνω (paramimnō)",
+          "meaning": "to tarry beside, remain steadfastly waiting"
+        },
+        {
+          "term": "ἔτος (etos)",
+          "meaning": "full cycle of a year, long span of time"
+        }
+      ],
+      "fragment": null
     },
     "2-4-1": {
       "line": 55,
       "roll": "2-4-1",
       "lot": "So he spoke, and ordered Paion to administer a cure.",
       "reference": "Il. 5.899",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ὣς φάτο, Παιήονι δ' ἀνώγειν ἰήσασθαι",
+      "lexicon": [
+        {
+          "term": "Παιήων (Paiēōn)",
+          "meaning": "Paieon, divine physician and healer of wounds"
+        },
+        {
+          "term": "ἰάομαι (iaomai)",
+          "meaning": "to heal, cure, restore to wholeness"
+        }
+      ],
+      "fragment": null
     },
     "2-4-2": {
       "line": 56,
       "roll": "2-4-2",
       "lot": "These things, unhappy man, will I accomplish and do for you.",
       "reference": "Od. 11.80",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ταῦτά τοι, ὦ δύστηνε, τελευτήσω τε καὶ ἔρξω",
+      "lexicon": [
+        {
+          "term": "δύστηνος (dystēnos)",
+          "meaning": "hard-pressed, travailing, weighed down by fortune"
+        },
+        {
+          "term": "ἔρδω (erdō)",
+          "meaning": "to do, perform, enact in deed"
+        }
+      ],
+      "fragment": null
     },
     "2-4-3": {
       "line": 57,
       "roll": "2-4-3",
       "lot": "How can you propose to render toil useless and ineffectual?",
       "reference": "Il. 4.26",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "πῶς ἐθέλεις ἅλιον θεῖναι πόνον ἠδ' ἀτέλεστον;",
+      "lexicon": [
+        {
+          "term": "ἅλιος (halios)",
+          "meaning": "fruitless, vain, dissolved like sea-foam"
+        },
+        {
+          "term": "πόνος (ponos)",
+          "meaning": "hard toil, strenuous effort"
+        }
+      ],
+      "fragment": null
     },
     "2-4-4": {
       "line": 58,
       "roll": "2-4-4",
       "lot": "a thing delayed, late of fulfillment, whose fame will never perish.",
       "reference": "Il. 2.325",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ὄψιμον ὀψιτέλεστον, ὅου κλέος οὔ ποτ' ὀλεῖται",
+      "lexicon": [
+        {
+          "term": "ὀψιτέλεστος (opsitelestos)",
+          "meaning": "late of fulfillment, ripening after long delay"
+        },
+        {
+          "term": "κλέος (kleos)",
+          "meaning": "imperishable renown, enduring report"
+        }
+      ],
+      "fragment": null
     },
     "2-4-5": {
       "line": 59,
       "roll": "2-4-5",
       "lot": "Sooner would you grow weary and return to your native land.",
       "reference": "Od. 3.117",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "πρίν κεν ἀνιηθεὶς σὴν πατρίδα γαῖαν ἵκοιο",
+      "lexicon": [
+        {
+          "term": "ἀνιάω (aniaō)",
+          "meaning": "to grow weary, be vexed by prolonged waiting"
+        },
+        {
+          "term": "πατρίς (patris)",
+          "meaning": "ancestral land, true home and origin"
+        }
+      ],
+      "fragment": null
     },
     "2-4-6": {
       "line": 60,
       "roll": "2-4-6",
       "lot": "to go, that he may bring poisonous drugs from there,",
       "reference": "Od. 2.329",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἐλθεῖν, ὄφρα ἔνθεν θυμοφθόρα φάρμακ' ἐνείκῃ",
+      "lexicon": [
+        {
+          "term": "θυμοφθόρος (thymophthoros)",
+          "meaning": "soul-destroying, spirit-corroding"
+        },
+        {
+          "term": "φάρμακον (pharmakon)",
+          "meaning": "potent herb, drug, poison or remedy"
+        }
+      ],
+      "fragment": null
     },
     "2-5-1": {
       "line": 61,
       "roll": "2-5-1",
       "lot": "Husband, you departed from life young, and left me behind as a widow",
       "reference": "Il. 24.725",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἆνερ, ἀπ' αἰῶνος νέος ὤλεο, κὰδ δέ με χήρην",
+      "lexicon": [
+        {
+          "term": "αἰών (aiōn)",
+          "meaning": "vitality, span of life, marrow of existence"
+        },
+        {
+          "term": "χήρη (chērē)",
+          "meaning": "bereft, widowed, left solitary"
+        }
+      ],
+      "fragment": null
     },
     "2-5-2": {
       "line": 62,
       "roll": "2-5-2",
       "lot": "in which way I will for sure accomplish everything and how it will be brought to pass,",
       "reference": "Il. 9.310 (?)",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ᾗ περ δὴ φρονέω τε καὶ ὡς τετελεσμένον ἔσται",
+      "lexicon": [
+        {
+          "term": "φρονέω (phroneō)",
+          "meaning": "to intend, resolve with clear mind"
+        },
+        {
+          "term": "τελέω (teleō)",
+          "meaning": "to bring to pass, seal into reality"
+        }
+      ],
+      "fragment": null
     },
     "2-5-3": {
       "line": 63,
       "roll": "2-5-3",
       "lot": "Offer me not honey-tempered wine, honored mother,",
       "reference": "Il. 6.264",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "μή μοι οἶνον ἄειρε μελίφρονα, πότνια μῆτερ",
+      "lexicon": [
+        {
+          "term": "μελίφρων (meliphrōn)",
+          "meaning": "honey-sweet to the mind, lulling the senses"
+        },
+        {
+          "term": "πότνια (potnia)",
+          "meaning": "revered, queenly, worthy of honor"
+        }
+      ],
+      "fragment": null
     },
     "2-5-4": {
       "line": 64,
       "roll": "2-5-4",
       "lot": null,
       "reference": null,
-      "is_lacuna": true
+      "is_lacuna": true,
+      "greek": null,
+      "lexicon": [],
+      "fragment": {
+        "greek_fragment": "[β ε δ · · · μέ]νος [ · · · ]",
+        "whisper": "...'...vital force / resolve (menos)...' — strength surging beneath the eroded ink...",
+        "apparatus": "P. Lond. 121 col. ii.64; lost between Il. 6.264 and Il. 6.432."
+      }
     },
     "2-5-5": {
       "line": 65,
       "roll": "2-5-5",
       "lot": null,
       "reference": null,
-      "is_lacuna": true
+      "is_lacuna": true,
+      "greek": null,
+      "lexicon": [],
+      "fragment": {
+        "greek_fragment": "[β ε ε · · · δό]μον [ · · · ]",
+        "whisper": "...'...the house / hall (domon)...' — threshold and roof-beam faded into the papyrus...",
+        "apparatus": "P. Lond. 121 col. ii.65; lacuna paired with line 64."
+      }
     },
     "2-5-6": {
       "line": 66,
       "roll": "2-5-6",
       "lot": "Do not orphan your son and make your wife a widow.",
       "reference": "Il. 6.432",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "μὴ παῖδ' ὀρφανικὸν θήῃς χήρην τε γυναῖκα",
+      "lexicon": [
+        {
+          "term": "ὀρφανικός (orphanikos)",
+          "meaning": "orphaned, left defenseless without a guardian"
+        },
+        {
+          "term": "χήρη (chērē)",
+          "meaning": "bereft, stripped of companionship"
+        }
+      ],
+      "fragment": null
     },
     "2-6-1": {
       "line": 67,
       "roll": "2-6-1",
       "lot": "would that they might now eat their last and final meal here.",
       "reference": "Od. 4.685",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ὕστατα καὶ πύματα νῦν ἐνθάδε δειπνήσειαν",
+      "lexicon": [
+        {
+          "term": "πύματος (pymatos)",
+          "meaning": "uttermost, final, at the very limit"
+        },
+        {
+          "term": "δειπνέω (deipneō)",
+          "meaning": "to feast, consume a meal"
+        }
+      ],
+      "fragment": null
     },
     "2-6-2": {
       "line": 68,
       "roll": "2-6-2",
       "lot": "It is not meet for a man who speaks in the Council to sleep all the night through,",
       "reference": "Il. 2.24",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "οὐ χρὴ παννύχιον εὕδειν βουληφόρον ἄνδρα",
+      "lexicon": [
+        {
+          "term": "παννύχιος (pannychios)",
+          "meaning": "all night long, through the whole watch"
+        },
+        {
+          "term": "βουληφόρος (boulēphoros)",
+          "meaning": "counsel-bearing, charged with leadership"
+        }
+      ],
+      "fragment": null
     },
     "2-6-3": {
       "line": 69,
       "roll": "2-6-3",
       "lot": "What's wrong with you, that you took this wrath into your heart?",
       "reference": "Il. 6.326",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "δαιμόνι', οὐ μὲν καλὰ χόλον τόνδ' ἔνθεο θυμῷ",
+      "lexicon": [
+        {
+          "term": "χόλος (cholos)",
+          "meaning": "bitter gall, smoldering wrath, resentment"
+        },
+        {
+          "term": "θυμός (thymos)",
+          "meaning": "spirited breast, seat of passion and breath"
+        }
+      ],
+      "fragment": null
     },
     "2-6-4": {
       "line": 70,
       "roll": "2-6-4",
       "lot": "But who knows if he will one day return and punish them for their violent deeds?",
       "reference": "Od. 3.216",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "τίς δ' οἶδ' εἴ κέ ποτέ σφι βίας ἀποτίσεται ἐλθών;",
+      "lexicon": [
+        {
+          "term": "βίη (biē)",
+          "meaning": "violent force, arrogance, outrage"
+        },
+        {
+          "term": "ἀποτίνω (apotinō)",
+          "meaning": "to exact reckoning, restore balance"
+        }
+      ],
+      "fragment": null
     },
     "2-6-5": {
       "line": 71,
       "roll": "2-6-5",
       "lot": "wives I will provide for both and furnish possessions",
       "reference": "Od. 21.214",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἄξομαι ἀμφοτέροις ἀλόχους καὶ κτήματ' ὀπάσσω",
+      "lexicon": [
+        {
+          "term": "ἄλοχος (alochos)",
+          "meaning": "partner of the hearth, wedded companion"
+        },
+        {
+          "term": "ὀπάζω (opazō)",
+          "meaning": "to bestow, grant generously, endow"
+        }
+      ],
+      "fragment": null
     },
     "2-6-6": {
       "line": 72,
       "roll": "2-6-6",
       "lot": "we may try the bow and complete the contest.",
       "reference": "Od. 21.180",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "πειρώμεσθα βιοῖο, ἐκτελέωμεν ἄεθλον",
+      "lexicon": [
+        {
+          "term": "βιός (bios)",
+          "meaning": "bow, instrument of tension and aim"
+        },
+        {
+          "term": "ἄεθλος (aethlos)",
+          "meaning": "trial of strength, decisive contest"
+        }
+      ],
+      "fragment": null
     },
     "3-1-1": {
       "line": 73,
       "roll": "3-1-1",
       "lot": "For it's no reproach to flee evil, nor by night.",
       "reference": "Il. 14.80",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "οὐ γάρ τις νέμεσις φυγέειν κακόν, οὐδ' ἀνὰ νύκτα",
+      "lexicon": [
+        {
+          "term": "νέμεσις (nemesis)",
+          "meaning": "righteous blame, reproach, indignation"
+        },
+        {
+          "term": "φεύγω (pheugō)",
+          "meaning": "to slip away, escape impending harm"
+        }
+      ],
+      "fragment": null
     },
     "3-1-2": {
       "line": 74,
       "roll": "3-1-2",
       "lot": "Be mindful of every form of valor. Now you needs must",
       "reference": "Il. 22.268",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "παντοίης ἀρετῆς μιμνήσκεο· νῦν σε μάλα χρή",
+      "lexicon": [
+        {
+          "term": "ἀρετή (aretē)",
+          "meaning": "excellence, valor, highest capability"
+        },
+        {
+          "term": "μιμνήσκω (mimnēskō)",
+          "meaning": "to call to mind, awaken inner mastery"
+        }
+      ],
+      "fragment": null
     },
     "3-1-3": {
       "line": 75,
       "roll": "3-1-3",
       "lot": "as a widow at home. And the boy is still just a baby,",
       "reference": "Il. 22.484; cf. 24.726",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "χήρη ἐνὶ μεγάροισι· πάϊς δ' ἔτι νήπιος αὔτως",
+      "lexicon": [
+        {
+          "term": "μέγαρον (megaron)",
+          "meaning": "hall, household, shelter"
+        },
+        {
+          "term": "νήπιος (nēpios)",
+          "meaning": "helpless infant, unready, vulnerable"
+        }
+      ],
+      "fragment": null
     },
     "3-1-4": {
       "line": 76,
       "roll": "3-1-4",
       "lot": "But do you in no wise enter the moil of Ares,",
       "reference": "Il. 18.134",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἀλλὰ σὺ μὲν μή πω καταδύσεο μῶλον Ἄρηος",
+      "lexicon": [
+        {
+          "term": "καταδύω (katadyō)",
+          "meaning": "to plunge into, enter the thick of"
+        },
+        {
+          "term": "μῶλος (mōlos)",
+          "meaning": "din of struggle, grinding turmoil of conflict"
+        }
+      ],
+      "fragment": null
     },
     "3-1-5": {
       "line": 77,
       "roll": "3-1-5",
       "lot": "For amid misfortune mortals quickly grow old.",
       "reference": "Od. 19.360",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "αἶψα γὰρ ἐν κακότητι βροτοὶ καταγηράσκουσιν",
+      "lexicon": [
+        {
+          "term": "κακότης (kakotēs)",
+          "meaning": "hardship, adversity, wearing affliction"
+        },
+        {
+          "term": "καταγηράσκω (katagēraskō)",
+          "meaning": "to age prematurely, wither under strain"
+        }
+      ],
+      "fragment": null
     },
     "3-1-6": {
       "line": 78,
       "roll": "3-1-6",
       "lot": null,
       "reference": null,
-      "is_lacuna": true
+      "is_lacuna": true,
+      "greek": null,
+      "lexicon": [],
+      "fragment": {
+        "greek_fragment": "[γ α ϛ · · · μοῖ]ρα [ · · · ]",
+        "whisper": "...'...allotted portion (moira)...' — fate's measure is written on the missing scrap...",
+        "apparatus": "P. Lond. 121 col. ii.78; gap of two lines between Od. 19.360 and Od. 6.201."
+      }
     },
     "3-2-1": {
       "line": 79,
       "roll": "3-2-1",
       "lot": null,
       "reference": null,
-      "is_lacuna": true
+      "is_lacuna": true,
+      "greek": null,
+      "lexicon": [],
+      "fragment": {
+        "greek_fragment": "[γ β α · · · ἔρ]γον [ · · · ]",
+        "whisper": "...'...the deed / work (ergon)...' — the labor itself is swallowed by the lacuna...",
+        "apparatus": "P. Lond. 121 col. ii.79; damaged transition at 3-2-1."
+      }
     },
     "3-2-2": {
       "line": 80,
       "roll": "3-2-2",
       "lot": "Such a man is not alive nor will be born,",
       "reference": "Od. 6.201",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "οὐκ ἔσθ' οὗτος ἀνὴρ διερὸς βροτὸς οὐδὲ γένηται",
+      "lexicon": [
+        {
+          "term": "διερός (dieros)",
+          "meaning": "living, nimble, pulsing with vital moisture"
+        },
+        {
+          "term": "βροτός (brotos)",
+          "meaning": "mortal human, earth-born"
+        }
+      ],
+      "fragment": null
     },
     "3-2-3": {
       "line": 81,
       "roll": "3-2-3",
       "lot": "Of a truth, child, there's nothing really wrong with this,",
       "reference": "Il. 18.128",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ναὶ δὴ ταῦτά γε, τέκνον, ἐτήτυμον οὐ κακόν ἐστι",
+      "lexicon": [
+        {
+          "term": "ἐτήτυμος (etētymos)",
+          "meaning": "true, genuine, aligned with reality"
+        },
+        {
+          "term": "τέκνον (teknon)",
+          "meaning": "child, one addressed with protective care"
+        }
+      ],
+      "fragment": null
     },
     "3-2-4": {
       "line": 82,
       "roll": "3-2-4",
       "lot": "Now is it no longer possible for him to find escape from us,",
       "reference": "Il. 22.219",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "οὔ οἱ νῦν ἔτι γ' ἔστι πεφυγμένον ἄμμε γενέσθαι",
+      "lexicon": [
+        {
+          "term": "πεφυγμένος (pephygmenos)",
+          "meaning": "having escaped, slipped beyond reach"
+        },
+        {
+          "term": "ἄμμε (amme)",
+          "meaning": "our grasp, the closing net of pursuit"
+        }
+      ],
+      "fragment": null
     },
     "3-2-5": {
       "line": 83,
       "roll": "3-2-5",
       "lot": "we will ransom with bronze and gold, for it is within.",
       "reference": "Il. 22.50",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "χαλκοῦ τε χρυσοῦ τ' ἀπολυσόμεθ'· ἔστι γὰρ ἔνδον",
+      "lexicon": [
+        {
+          "term": "ἀπολύω (apolyō)",
+          "meaning": "to ransom, release from bondage by payment"
+        },
+        {
+          "term": "ἔνδον (endon)",
+          "meaning": "within the house, stored in reserve"
+        }
+      ],
+      "fragment": null
     },
     "3-2-6": {
       "line": 84,
       "roll": "3-2-6",
       "lot": "drink, and do not vie with younger men.",
       "reference": "Od. 21.310",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "πῖνέ τε, μηδ' ἐρίδαινε μετ' ἀνδράσι κουροτέροισιν",
+      "lexicon": [
+        {
+          "term": "ἐριδαίνω (eridainō)",
+          "meaning": "to wrangle, contend, provoke rivalry"
+        },
+        {
+          "term": "κουρότερος (kouroteros)",
+          "meaning": "younger, hot-blooded, vigorous"
+        }
+      ],
+      "fragment": null
     },
     "3-3-1": {
       "line": 85,
       "roll": "3-3-1",
       "lot": "where are you fleeing, turning your back like a craven in the ranks?",
       "reference": "Il. 8.94",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "πῇ φεύγεις μετὰ νῶτα βαλών, κακὸς ὣς ἐν ὁμίλῳ;",
+      "lexicon": [
+        {
+          "term": "νῶτον (nōton)",
+          "meaning": "the back, turned in retreat"
+        },
+        {
+          "term": "ὅμιλος (homilos)",
+          "meaning": "the press of battle, the watching crowd"
+        }
+      ],
+      "fragment": null
     },
     "3-3-2": {
       "line": 86,
       "roll": "3-3-2",
       "lot": "Would that such a man be called my husband",
       "reference": "Od. 6.244",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "αἲ γὰρ ἐμοὶ τοιόσδε πόσις κεκλημένος εἴη",
+      "lexicon": [
+        {
+          "term": "πόσις (posis)",
+          "meaning": "spouse, chosen partner, steadfast ally"
+        },
+        {
+          "term": "καλέω (kaleō)",
+          "meaning": "to name, acknowledge openly"
+        }
+      ],
+      "fragment": null
     },
     "3-3-3": {
       "line": 87,
       "roll": "3-3-3",
       "lot": "plants her head in heaven and walks upon the earth.",
       "reference": "Il. 4.443",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "οὐρανῷ ἐστήριξε κάρη καὶ ἐπὶ χθονὶ βαίνει",
+      "lexicon": [
+        {
+          "term": "στηρίζω (stērizō)",
+          "meaning": "to plant firmly, fix high in the heavens"
+        },
+        {
+          "term": "χθών (chthōn)",
+          "meaning": "the solid earth beneath one's stride"
+        }
+      ],
+      "fragment": null
     },
     "3-3-4": {
       "line": 88,
       "roll": "3-3-4",
       "lot": "But Zeus does not accomplish for men all their purposes.",
       "reference": "Il. 18.328",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἀλλ' οὐ Ζεὺς ἄνδρεσσι νοήματα πάντα τελευτᾷ",
+      "lexicon": [
+        {
+          "term": "νόημα (noēma)",
+          "meaning": "purpose, design, plan conceived in the mind"
+        },
+        {
+          "term": "τελευτάω (teleutaō)",
+          "meaning": "to bring to fulfillment, accomplish to the end"
+        }
+      ],
+      "fragment": null
     },
     "3-3-5": {
       "line": 89,
       "roll": "3-3-5",
       "lot": "and nodded for his army to survive and not to perish.",
       "reference": "Il. 8.246",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "νεῦσε δέ οἱ λαὸν σόον ἔμμεναι οὐδ' ἀπολέσθαι",
+      "lexicon": [
+        {
+          "term": "νεύω (neuō)",
+          "meaning": "to nod in divine assent, seal a promise"
+        },
+        {
+          "term": "σόος (soos)",
+          "meaning": "safe, preserved whole, unharmed"
+        }
+      ],
+      "fragment": null
     },
     "3-3-6": {
       "line": 90,
       "roll": "3-3-6",
       "lot": "Would that you had not pled with the noble son of Peleus,",
       "reference": "Il. 9.698",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "μὴ ὄφελες λίσσεσθαι ἀμύμονα Πηλείωνα",
+      "lexicon": [
+        {
+          "term": "λίσσομαι (lissomai)",
+          "meaning": "to entreat, implore, humble oneself in petition"
+        },
+        {
+          "term": "ἀμύμων (amymōn)",
+          "meaning": "blameless, proud, unyielding"
+        }
+      ],
+      "fragment": null
     },
     "3-4-1": {
       "line": 91,
       "roll": "3-4-1",
       "lot": "Honey-sweet wine has the best of you, which others also",
       "reference": "Od. 21.293",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "οἶνός σε τρώει μελιηδής, ὅς τε καὶ ἄλλους",
+      "lexicon": [
+        {
+          "term": "τρώω (trōō)",
+          "meaning": "to wound, impair judgment, befuddle"
+        },
+        {
+          "term": "μελιηδής (meliēdēs)",
+          "meaning": "honey-sweet, seductively pleasant"
+        }
+      ],
+      "fragment": null
     },
     "3-4-2": {
       "line": 92,
       "roll": "3-4-2",
       "lot": "Act in whatever way your mind is moved, and no longer hold back.",
       "reference": "Il. 22.185",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἔρδ' ὅπῃ δή τοι νόος ἔπλετο, μηδ' ἔτ' ἐρώει",
+      "lexicon": [
+        {
+          "term": "νόος (noos)",
+          "meaning": "mind, clear intent, inward purpose"
+        },
+        {
+          "term": "ἐρωέω (erōeō)",
+          "meaning": "to hold back, slacken, hesitate"
+        }
+      ],
+      "fragment": null
     },
     "3-4-3": {
       "line": 93,
       "roll": "3-4-3",
       "lot": "For it is fated for both to turn the same ground red",
       "reference": "Il. 18.329",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἄμφω γὰρ πέπρωται ὁμοίην γαῖαν ἐρεῦσαι",
+      "lexicon": [
+        {
+          "term": "πέπρωται (peprōtai)",
+          "meaning": "it is fated, bound by shared destiny"
+        },
+        {
+          "term": "ἐρεύθω (ereuthō)",
+          "meaning": "to redden the earth, pour out lifeblood"
+        }
+      ],
+      "fragment": null
     },
     "3-4-4": {
       "line": 94,
       "roll": "3-4-4",
       "lot": "keep on shooting like this, if haply you may become a light to the Danaans",
       "reference": "Il. 8.282",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "βάλλ' οὕτως, αἴ κέν τι φόως Δαναοῖσι γένηαι",
+      "lexicon": [
+        {
+          "term": "βάλλω (ballō)",
+          "meaning": "to let fly the arrow, strike the mark"
+        },
+        {
+          "term": "φόως (phoōs)",
+          "meaning": "light of deliverance, beacon of rescue"
+        }
+      ],
+      "fragment": null
     },
     "3-4-5": {
       "line": 95,
       "roll": "3-4-5",
       "lot": "as there is no one who could keep the dogs off your head,",
       "reference": "Il. 22.348",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ὡς οὐκ ἔστιν ὅς σῆς γε κύνας κεφαλῆς ἀπαλάλκοι",
+      "lexicon": [
+        {
+          "term": "κύων (kyōn)",
+          "meaning": "scavenging hound, relentless pursuer"
+        },
+        {
+          "term": "ἀπαλέξω (apalexō)",
+          "meaning": "to ward off, shield, drive away"
+        }
+      ],
+      "fragment": null
     },
     "3-4-6": {
       "line": 96,
       "roll": "3-4-6",
       "lot": "You will not kill me, since I am for sure not subject to Fate.",
       "reference": "Il. 22.13",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "οὐ μέν με κτενέεις, ἐπεὶ οὔ τοι μόρσιμός εἰμι",
+      "lexicon": [
+        {
+          "term": "κτείνω (kteinō)",
+          "meaning": "to slay, destroy"
+        },
+        {
+          "term": "μόρσιμος (morsimos)",
+          "meaning": "subject to fate, appointed to fall"
+        }
+      ],
+      "fragment": null
     },
     "3-5-1": {
       "line": 97,
       "roll": "3-5-1",
       "lot": "staying right here you would help me watch over this house",
       "reference": "Od. 5.208",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἐνθάδε κ' αὖθι μένων σὺν ἐμοὶ τόδε δῶμα φυλάσσοις",
+      "lexicon": [
+        {
+          "term": "μένω (menō)",
+          "meaning": "to abide, stay rooted in place"
+        },
+        {
+          "term": "φυλάσσω (phylassō)",
+          "meaning": "to guard, keep watch over the house"
+        }
+      ],
+      "fragment": null
     },
     "3-5-2": {
       "line": 98,
       "roll": "3-5-2",
       "lot": "Get out of the gateway, old man, or it won't be long before you're dragged out by the foot.",
       "reference": "Od. 18.10",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "εἶκε, γέρον, προθύρου, μὴ δὴ τάχα καὶ ποδὸς ἕλκῃ",
+      "lexicon": [
+        {
+          "term": "εἴκω (eikō)",
+          "meaning": "to yield, give way from the threshold"
+        },
+        {
+          "term": "ἕλκω (helkō)",
+          "meaning": "to drag by force, cast out"
+        }
+      ],
+      "fragment": null
     },
     "3-5-3": {
       "line": 99,
       "roll": "3-5-3",
       "lot": "Better for a man to escape evil by flight than to be caught.",
       "reference": "Il. 14.81",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "βέλτερον ὃς φεύγων προφύγῃ κακὸν ἠὲ ἁλώῃ",
+      "lexicon": [
+        {
+          "term": "προφεύγω (propheugō)",
+          "meaning": "to flee ahead of danger, escape cleanly"
+        },
+        {
+          "term": "ἁλίσκομαι (haliskomai)",
+          "meaning": "to be caught, trapped, overtaken"
+        }
+      ],
+      "fragment": null
     },
     "3-5-4": {
       "line": 100,
       "roll": "3-5-4",
       "lot": "and declare to no one, neither man nor woman,",
       "reference": "Od. 13.308",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "μηδέ τῳ ἐκφάσθαι μήτ' ἀνδρῶν μήτε γυναικῶν",
+      "lexicon": [
+        {
+          "term": "ἐκφημι (ekphēmi)",
+          "meaning": "to speak out, divulge a secret counsel"
+        },
+        {
+          "term": "σιωπή (siōpē)",
+          "meaning": "guarded silence, sealed lips"
+        }
+      ],
+      "fragment": null
     },
     "3-5-5": {
       "line": 101,
       "roll": "3-5-5",
       "lot": "of wheat or barley. And the heaps fall thick and fast.",
       "reference": "Il. 11.69",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "πυρῶν ἢ κριθῶν· τὰ δὲ δράγματα ταρφέα πίπτει",
+      "lexicon": [
+        {
+          "term": "δράγμα (dragma)",
+          "meaning": "handful of reaped grain, heavy sheaf"
+        },
+        {
+          "term": "ταρφύς (tarphys)",
+          "meaning": "thick and fast, abundant harvest"
+        }
+      ],
+      "fragment": null
     },
     "3-5-6": {
       "line": 102,
       "roll": "3-5-6",
       "lot": "Whatever sort of word you speak, such would you hear.",
       "reference": "Il. 20.250",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ὁπποῖόν κ' εἴπῃσθα ἔπος, τοῖόν κ' ἐπακούσαις",
+      "lexicon": [
+        {
+          "term": "ἔπος (epos)",
+          "meaning": "spoken word, utterance cast into the world"
+        },
+        {
+          "term": "ἐπακούω (epakouō)",
+          "meaning": "to hear in return, receive the echo of one's speech"
+        }
+      ],
+      "fragment": null
     },
     "3-6-1": {
       "line": 103,
       "roll": "3-6-1",
       "lot": "was opposed to giving Helen to tawny Menelaos,",
       "reference": "Il. 11.125",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "οὐκ εἴα Ἑλένην δόμεναι ξανθῷ Μενελάῳ",
+      "lexicon": [
+        {
+          "term": "ἐάω (eaō)",
+          "meaning": "to permit, allow, consent to"
+        },
+        {
+          "term": "δίδωμι (didōmi)",
+          "meaning": "to restore, hand over what is disputed"
+        }
+      ],
+      "fragment": null
     },
     "3-6-2": {
       "line": 104,
       "roll": "3-6-2",
       "lot": "or will you alter your purpose? The hearts of the good are flexible.",
       "reference": "Il. 15.203",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἦ τι μεταστρέψεις; στρεπταὶ μέν τε φρένες ἐσθλῶν",
+      "lexicon": [
+        {
+          "term": "μεταστρέφω (metastrephō)",
+          "meaning": "to turn around, change one's course or heart"
+        },
+        {
+          "term": "στρεπτός (streptos)",
+          "meaning": "pliable, flexible, open to wise persuasion"
+        }
+      ],
+      "fragment": null
     },
     "3-6-3": {
       "line": 105,
       "roll": "3-6-3",
       "lot": "Yet I for one never doubted, but at heart",
       "reference": "Od. 13.339",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "αὐτὰρ ἐγὼ τὸ μὲν οὔ ποτ' ἀπίστεον, ἀλλ' ἐνὶ θυμῷ",
+      "lexicon": [
+        {
+          "term": "ἀπιστέω (apisteō)",
+          "meaning": "to doubt, distrust, lose faith"
+        },
+        {
+          "term": "θυμός (thymos)",
+          "meaning": "the knowing heart, steadfast inner conviction"
+        }
+      ],
+      "fragment": null
     },
     "3-6-4": {
       "line": 106,
       "roll": "3-6-4",
       "lot": "Eurymachos, it will not be so. And even you know it.",
       "reference": "Od. 21.257",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "Εὐρύμαχ', οὐκ οὕτω ἔσται· νοέεις δὲ καὶ αὐτός",
+      "lexicon": [
+        {
+          "term": "οὕτως (houtōs)",
+          "meaning": "in this manner, as vainly imagined"
+        },
+        {
+          "term": "νοέω (noeō)",
+          "meaning": "to perceive clearly, recognize the truth"
+        }
+      ],
+      "fragment": null
     },
     "3-6-5": {
       "line": 107,
       "roll": "3-6-5",
       "lot": "You miserable foreigner, you have no sense at all.",
       "reference": "Od. 21.288",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἆ δειλὲ ξείνων, ἔνι τοι φρένες οὐδ' ἠβαιαί",
+      "lexicon": [
+        {
+          "term": "ξεῖνος (xeinos)",
+          "meaning": "stranger, outsider in an unfamiliar hall"
+        },
+        {
+          "term": "ἠβαιός (ēbaios)",
+          "meaning": "even a little, a single grain of sense"
+        }
+      ],
+      "fragment": null
     },
     "3-6-6": {
       "line": 108,
       "roll": "3-6-6",
       "lot": "And the father granted him one thing, but denied him the other.",
       "reference": "Il. 16.250",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "τῷ δ' ἕτερον μὲν ἔδωκε πατήρ, ἕτερον δ' ἀνένευσεν",
+      "lexicon": [
+        {
+          "term": "δίδωμι (didōmi)",
+          "meaning": "to grant, bestow one half of a prayer"
+        },
+        {
+          "term": "ἀνανεύω (ananeuō)",
+          "meaning": "to nod upward in refusal, deny the rest"
+        }
+      ],
+      "fragment": null
     },
     "4-1-1": {
       "line": 109,
       "roll": "4-1-1",
       "lot": "Nay, go to your chambers and tend to your own work,",
       "reference": "Od. 1.356",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἀλλ' εἰς οἶκον ἰοῦσα τὰ σ' αὐτῆς ἔργα κόμιζε",
+      "lexicon": [
+        {
+          "term": "οἶκος (oikos)",
+          "meaning": "one's own chamber, proper sphere"
+        },
+        {
+          "term": "κομίζω (komizō)",
+          "meaning": "to tend carefully, mind one's own craft"
+        }
+      ],
+      "fragment": null
     },
     "4-1-2": {
       "line": 110,
       "roll": "4-1-2",
       "lot": "Now then, do not even tell this to your wife.",
       "reference": "Od. 11.224 (alternate version)",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "νῦν τοι μηδ' ἀλόχῳ μυθήσεαι ὅττι ἴδηαι",
+      "lexicon": [
+        {
+          "term": "μυθέομαι (mytheomai)",
+          "meaning": "to recount, disclose in speech"
+        },
+        {
+          "term": "ἄλοχος (alochos)",
+          "meaning": "closest confidant, partner of the bed"
+        }
+      ],
+      "fragment": null
     },
     "4-1-3": {
       "line": 111,
       "roll": "4-1-3",
       "lot": "would you have been stoned to death for all the wrongs you've done.",
       "reference": "Il. 3.57",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "λάϊνον ἕσσο χιτῶνα κακῶν ἕνεκ' ὅσσα ἔοργας",
+      "lexicon": [
+        {
+          "term": "λάϊνος (laïnos)",
+          "meaning": "of stone, a coat of cast stones"
+        },
+        {
+          "term": "ἔργω (ergō)",
+          "meaning": "to perpetrate, work deeds that demand reckoning"
+        }
+      ],
+      "fragment": null
     },
     "4-1-4": {
       "line": 112,
       "roll": "4-1-4",
       "lot": "you prayed to the immortals to see with a beard grown.",
       "reference": "Od. 18.176",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἠρῶ ἀθανάτοισι γενειήσαντα ἰδέσθαι",
+      "lexicon": [
+        {
+          "term": "ἀθάνατος (athanatos)",
+          "meaning": "deathless gods who hear long-awaited prayers"
+        },
+        {
+          "term": "γενειάω (geneiaō)",
+          "meaning": "to come of age, reach full maturity"
+        }
+      ],
+      "fragment": null
     },
     "4-1-5": {
       "line": 113,
       "roll": "4-1-5",
       "lot": "and vow to Lycian-born Apollo the famous archer",
       "reference": "Il. 4.101",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "εὔχεο δ' Ἀπόλλωνι Λυκηγενέϊ κλυτοτόξῳ",
+      "lexicon": [
+        {
+          "term": "Λυκηγενής (Lykēgenēs)",
+          "meaning": "light-born or Lycian-born Apollo"
+        },
+        {
+          "term": "κλυτότοξος (klytotoxos)",
+          "meaning": "renowned of the bow, far-shooting"
+        }
+      ],
+      "fragment": null
     },
     "4-1-6": {
       "line": 114,
       "roll": "4-1-6",
       "lot": "and no spirit of harmony unites wolves and sheep,",
       "reference": "Il. 22.263",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "οὐδὲ λύκοι τε καὶ ἄρνες ὁμόφρονα θυμὸν ἔχουσιν",
+      "lexicon": [
+        {
+          "term": "λύκος (lykos)",
+          "meaning": "wolf, predator that cannot be tamed by pacts"
+        },
+        {
+          "term": "ὁμόφρων (homophrōn)",
+          "meaning": "of one mind, harmonious in spirit"
+        }
+      ],
+      "fragment": null
     },
     "4-2-1": {
       "line": 115,
       "roll": "4-2-1",
       "lot": "Come now, let us make these concessions to one another,",
       "reference": "Il. 4.62",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἀλλ' ἄγε θᾶσσον ταῦταθ' ὑπείξομεν ἀλλήλοισι",
+      "lexicon": [
+        {
+          "term": "ὑπείκω (hypeikō)",
+          "meaning": "to yield mutually, make concessions"
+        },
+        {
+          "term": "ἀλλήλων (allēlōn)",
+          "meaning": "to one another, in reciprocal accord"
+        }
+      ],
+      "fragment": null
     },
     "4-2-2": {
       "line": 116,
       "roll": "4-2-2",
       "lot": "And in the throng were Strife and Uproar, and Fate-of-Death,",
       "reference": "Il. 18.535",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἐν δ' Ἔρις, ἐν δὲ Κυδοιμὸς ὁμίλεον, ἐν δ' ὀλοὴ Κήρ",
+      "lexicon": [
+        {
+          "term": "Ἔρις (Eris)",
+          "meaning": "Strife, discord that feeds on contention"
+        },
+        {
+          "term": "Κυδοιμός (Kydoimos)",
+          "meaning": "Uproar, din and confusion of the fray"
+        }
+      ],
+      "fragment": null
     },
     "4-2-3": {
       "line": 117,
       "roll": "4-2-3",
       "lot": null,
       "reference": null,
-      "is_lacuna": true
+      "is_lacuna": true,
+      "greek": null,
+      "lexicon": [],
+      "fragment": {
+        "greek_fragment": "[δ β γ · · · ]εμω[ · · · π]ότμος",
+        "whisper": "...'...destiny / lot (potmos)...' — a fragment partially bridged by Maltomini's placement of Fr. XVIII...",
+        "apparatus": "P. Lond. 121 line 117; Preisendanz Fr. XVIII aligned by Maltomini (ZPE 106, 1995, p. 109)."
+      }
     },
     "4-2-4": {
       "line": 118,
       "roll": "4-2-4",
       "lot": "Up, rush into battle, the man you have always claimed to be.",
       "reference": "Il. 4.264",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἀλλ' ὄρσευ πόλεμόνδε, οἷος πάρος εὔχεαι εἶναι",
+      "lexicon": [
+        {
+          "term": "ὄρνυμι (ornymi)",
+          "meaning": "to rouse oneself, spring into action"
+        },
+        {
+          "term": "εὔχομαι (euchomai)",
+          "meaning": "to profess, avow one's true stature"
+        }
+      ],
+      "fragment": null
     },
     "4-2-5": {
       "line": 119,
       "roll": "4-2-5",
       "lot": null,
       "reference": null,
-      "is_lacuna": true
+      "is_lacuna": true,
+      "greek": null,
+      "lexicon": [],
+      "fragment": {
+        "greek_fragment": "[δ β ε · · · ]ναι[ · · · θ]υμῷ",
+        "whisper": "...'...within the spirit (thymōi)...' — a partial scrap from the margin of line 119...",
+        "apparatus": "P. Lond. 121 line 119; fragmentary letters between Il. 4.264 and Il. 21.474 (cf. Maltomini 1995)."
+      }
     },
     "4-2-6": {
       "line": 120,
       "roll": "4-2-6",
       "lot": "You baby, what use now to keep your bow idle?",
       "reference": "Il. 21.474",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "νηπύτιε, τί νυ τόξον ἀνεμώλιον αὔτως ἔχεις;",
+      "lexicon": [
+        {
+          "term": "νηπύτιος (nēpytios)",
+          "meaning": "foolish child, one slow to use their strength"
+        },
+        {
+          "term": "αὔτως (autōs)",
+          "meaning": "idly, in vain, without effect"
+        }
+      ],
+      "fragment": null
     },
     "4-3-1": {
       "line": 121,
       "roll": "4-3-1",
       "lot": "For even fair-tressed Niobe turned her mind to food,",
       "reference": "Il. 24.602",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "καὶ γάρ τ' ἠΰκομος Νιόβη ἐμνήσατο σίτου",
+      "lexicon": [
+        {
+          "term": "σῖτος (sitos)",
+          "meaning": "bread, nourishment that sustains the living"
+        },
+        {
+          "term": "μιμνήσκω (mimnēskō)",
+          "meaning": "to remember life after exhausting grief"
+        }
+      ],
+      "fragment": null
     },
     "4-3-2": {
       "line": 122,
       "roll": "4-3-2",
       "lot": "after giving a mass of bronze and gold and raiment",
       "reference": "Od. 5.38",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "χαλκόν τε χρυσόν τε ἅλις ἐσθῆτά τε δόντες",
+      "lexicon": [
+        {
+          "term": "ἅλις (halis)",
+          "meaning": "in abundance, heaped measure"
+        },
+        {
+          "term": "ἐσθής (esthēs)",
+          "meaning": "raiment, woven garments of honor"
+        }
+      ],
+      "fragment": null
     },
     "4-3-3": {
       "line": 123,
       "roll": "4-3-3",
       "lot": "Surely then the journey will not be useless or fail to occur.",
       "reference": "Od. 2.273",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "οὔ τοι ἔπειθ' ἁλίη ὁδὸς ἔσσεται οὐδ' ἀτέλεστος",
+      "lexicon": [
+        {
+          "term": "ὁδός (hodos)",
+          "meaning": "journey, venture, chosen course"
+        },
+        {
+          "term": "ἀτέλεστος (atelestos)",
+          "meaning": "unfulfilled, failing of its aim"
+        }
+      ],
+      "fragment": null
     },
     "4-3-4": {
       "line": 124,
       "roll": "4-3-4",
       "lot": "One omen is best, to defend your country.",
       "reference": "Il. 12.243",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "εἷς οἰωνὸς ἄριστος, ἀμύνεσθαι περὶ πάτρης",
+      "lexicon": [
+        {
+          "term": "οἰωνός (oiōnos)",
+          "meaning": "bird-omen, sovereign sign of destiny"
+        },
+        {
+          "term": "πάτρη (patrē)",
+          "meaning": "homeland, that which is yours to defend"
+        }
+      ],
+      "fragment": null
     },
     "4-3-5": {
       "line": 125,
       "roll": "4-3-5",
       "lot": "I will gild her horns all round and sacrifice her to you.",
       "reference": "Il. 10.294",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "σοὶ δ' αὖ ἐγὼ ῥέξω βοῦν ἦνιν εὐρυμέτωπον, χρυσὸν κέρασιν περιχεύας",
+      "lexicon": [
+        {
+          "term": "ῥέζω (rezō)",
+          "meaning": "to perform sacred rites, fulfill a vow"
+        },
+        {
+          "term": "χρυσός (chrysos)",
+          "meaning": "gold poured round in dedication"
+        }
+      ],
+      "fragment": null
     },
     "4-3-6": {
       "line": 126,
       "roll": "4-3-6",
       "lot": "and you would gain every Trojan's thanks and praise,",
       "reference": "Il. 4.95",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "πᾶσι δέ κε Τρώεσσι χάριν καὶ κῦδος ἄροιο",
+      "lexicon": [
+        {
+          "term": "χάρις (charis)",
+          "meaning": "gratitude, favor, goodwill won from others"
+        },
+        {
+          "term": "κῦδος (kydos)",
+          "meaning": "high renown, distinction"
+        }
+      ],
+      "fragment": null
     },
     "4-4-1": {
       "line": 127,
       "roll": "4-4-1",
       "lot": "put in with your ship, since women are no longer trustworthy.",
       "reference": "Od. 11.456",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "νῆα κατισχέμεναι· ἐπεὶ οὐκέτι πιστὰ γυναιξίν",
+      "lexicon": [
+        {
+          "term": "κατίσχω (katischō)",
+          "meaning": "to put in to shore, steer cautiously"
+        },
+        {
+          "term": "πιστός (pistos)",
+          "meaning": "trustworthy, deserving of blind faith"
+        }
+      ],
+      "fragment": null
     },
     "4-4-2": {
       "line": 128,
       "roll": "4-4-2",
       "lot": "It is not possible or proper to deny your request.",
       "reference": "Il. 14.212",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "οὐκ ἔστ' οὐδὲ ἔοικε τεὸν ἔπος ἀρνήσασθαι",
+      "lexicon": [
+        {
+          "term": "ἔοικε (eoike)",
+          "meaning": "it is fitting, proper, aligned with custom"
+        },
+        {
+          "term": "ἀρνέομαι (arneomai)",
+          "meaning": "to refuse, deny a request"
+        }
+      ],
+      "fragment": null
     },
     "4-4-3": {
       "line": 129,
       "roll": "4-4-3",
       "lot": "would straightway fit his will to your desire and mine.",
       "reference": "Il. 15.52",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "αἶψά κε Ποσειδάων γε μεταστρέψειε νόημα",
+      "lexicon": [
+        {
+          "term": "αἶψα (aipsa)",
+          "meaning": "straightway, swiftly, without delay"
+        },
+        {
+          "term": "μεταστρέφω (metastrephō)",
+          "meaning": "to align one's will, turn toward agreement"
+        }
+      ],
+      "fragment": null
     },
     "4-4-4": {
       "line": 130,
       "roll": "4-4-4",
       "lot": "and give him instruction. And it will be beneficial for him to obey.",
       "reference": "Il. 11.789",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "καί οἱ σημαίνειν· ὁ δὲ πείσεται εἰς ἀγαθόν περ",
+      "lexicon": [
+        {
+          "term": "σημαίνω (sēmainō)",
+          "meaning": "to give clear instruction, point the way"
+        },
+        {
+          "term": "πείθομαι (peithomai)",
+          "meaning": "to heed counsel for one's own good"
+        }
+      ],
+      "fragment": null
     },
     "4-4-5": {
       "line": 131,
       "roll": "4-4-5",
       "lot": "will give glory to me, and your soul to horse-famed Hades.",
       "reference": "Il. 5.654",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "εὖχος ἐμοὶ δώσειν, ψυχὴν δ' Ἄϊδι κλυτοπώλῳ",
+      "lexicon": [
+        {
+          "term": "εὖχος (euchos)",
+          "meaning": "boast of victory, triumph"
+        },
+        {
+          "term": "ψυχή (psychē)",
+          "meaning": "breath of life, departing spirit"
+        }
+      ],
+      "fragment": null
     },
     "4-4-6": {
       "line": 132,
       "roll": "4-4-6",
       "lot": "fill up his ship with gold and bronze aplenty,",
       "reference": "Il. 9.137",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "νῆα ἅλις χρυσοῦ καὶ χαλκοῦ νηησάσθω",
+      "lexicon": [
+        {
+          "term": "νηέω (nēeō)",
+          "meaning": "to heap up, load a vessel to the brim"
+        },
+        {
+          "term": "ἅλις (halis)",
+          "meaning": "aplenty, in full abundance"
+        }
+      ],
+      "fragment": null
     },
     "4-5-1": {
       "line": 133,
       "roll": "4-5-1",
       "lot": "but tell one part, and let the other be concealed.",
       "reference": "Od. 11.443",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἀλλὰ τὸ μὲν φάσθαι, τὸ δὲ καὶ κεκρυμμένον εἶναι",
+      "lexicon": [
+        {
+          "term": "φημί (phēmi)",
+          "meaning": "to declare, speak only a measured portion"
+        },
+        {
+          "term": "κρύπτω (kryptō)",
+          "meaning": "to keep veiled, guard in reserve"
+        }
+      ],
+      "fragment": null
     },
     "4-5-2": {
       "line": 134,
       "roll": "4-5-2",
       "lot": "and at birth Zeus sends a weight of misery.",
       "reference": "Il. 10.71",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "γιγνομένοισι δ' ἐπ' ὤμοισιν κακότητα βαρεῖαν",
+      "lexicon": [
+        {
+          "term": "γιγνόμενος (gignomenos)",
+          "meaning": "at birth, from the very beginning"
+        },
+        {
+          "term": "κακότης (kakotēs)",
+          "meaning": "heavy burden of mortal trial"
+        }
+      ],
+      "fragment": null
     },
     "4-5-3": {
       "line": 135,
       "roll": "4-5-3",
       "lot": "alone to have intelligence, but they are flitting shades.",
       "reference": "Od. 10.495",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "οἴῳ πεπνῦσθαι, τοὶ δὲ σκιαὶ ἀΐσσουσιν",
+      "lexicon": [
+        {
+          "term": "πέπνυμαι (pepnymai)",
+          "meaning": "to possess living breath and lucid wisdom"
+        },
+        {
+          "term": "σκιά (skia)",
+          "meaning": "flitting shadow, ungrounded phantom"
+        }
+      ],
+      "fragment": null
     },
     "4-5-4": {
       "line": 136,
       "roll": "4-5-4",
       "lot": "yielding to his indignation. But they now withheld from him the gifts",
       "reference": "Il. 9.598",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "εἴξας ᾧ θυμῷ· τῷ δ' οὐκέτι δῶρ' ἐτέλεσσαν",
+      "lexicon": [
+        {
+          "term": "εἴκω (eikō)",
+          "meaning": "to give way to one's own pride or indignation"
+        },
+        {
+          "term": "δῶρον (dōron)",
+          "meaning": "promised reward lost through stubbornness"
+        }
+      ],
+      "fragment": null
     },
     "4-5-5": {
       "line": 137,
       "roll": "4-5-5",
       "lot": "I rejoice at hearing what you say, son of Laertes.",
       "reference": "Il. 19.185",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "χαίρω σεῦ, Λαερτιάδη, τὸν μῦθον ἀκούσας",
+      "lexicon": [
+        {
+          "term": "χαίρω (chairō)",
+          "meaning": "to rejoice, welcome wise speech"
+        },
+        {
+          "term": "μῦθος (mythos)",
+          "meaning": "well-ordered counsel, timely word"
+        }
+      ],
+      "fragment": null
     },
     "4-5-6": {
       "line": 138,
       "roll": "4-5-6",
       "lot": "But Zeus causes men's prowess to wax or to wane,",
       "reference": "Il. 20.242",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "Ζεὺς δ' ἀρετὴν ἄνδρεσσιν ὀφέλλει τε μινύθει τε",
+      "lexicon": [
+        {
+          "term": "ὀφέλλω (ophellō)",
+          "meaning": "to cause to wax, increase strength"
+        },
+        {
+          "term": "μινύθω (minythō)",
+          "meaning": "to cause to wane, diminish prowess"
+        }
+      ],
+      "fragment": null
     },
     "4-6-1": {
       "line": 139,
       "roll": "4-6-1",
       "lot": "a terrible man. He would be quick to blame even the blameless.",
       "reference": "Il. 11.654",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "δεινὸς ἀνήρ· τάχα κεν καὶ ἀναίτιον αἰτιόῳτο",
+      "lexicon": [
+        {
+          "term": "δεινός (deinos)",
+          "meaning": "terrible, harsh, quick-tempered"
+        },
+        {
+          "term": "ἀναίτιος (anaitios)",
+          "meaning": "blameless, innocent of fault"
+        }
+      ],
+      "fragment": null
     },
     "4-6-2": {
       "line": 140,
       "roll": "4-6-2",
       "lot": "with all haste. For now would you capture the broad-wayed city",
       "reference": "Il. 2.66",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "πανσυδίῃ· νῦν γάρ κεν ἕλοις πόλιν εὐρυάγυιαν",
+      "lexicon": [
+        {
+          "term": "πανσυδίῃ (pansydiēi)",
+          "meaning": "with all speed and full force"
+        },
+        {
+          "term": "αἱρέω (haireō)",
+          "meaning": "to capture, seize the prize now"
+        }
+      ],
+      "fragment": null
     },
     "4-6-3": {
       "line": 141,
       "roll": "4-6-3",
       "lot": "Endure now, my heart. An even greater outrage did you once endure,",
       "reference": "Od. 20.18",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "τέτλαθι δή, κραδίη· καὶ κύντερον ἄλλο ποτ' ἔτλης",
+      "lexicon": [
+        {
+          "term": "τλῆναι (tlēnai)",
+          "meaning": "to endure, bear up with patient fortitude"
+        },
+        {
+          "term": "κραδίη (kradiē)",
+          "meaning": "the steadfast heart within the chest"
+        }
+      ],
+      "fragment": null
     },
     "4-6-4": {
       "line": 142,
       "roll": "4-6-4",
       "lot": "You lunatic, sit still and listen to the word of others,",
       "reference": "Il. 2.200",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "δαιμόνι', ἀτρέμας ἧσο καὶ ἄλλων μῦθον ἄκουε",
+      "lexicon": [
+        {
+          "term": "ἀτρέμας (atremas)",
+          "meaning": "still, without trembling or rash motion"
+        },
+        {
+          "term": "ἀκούω (akouō)",
+          "meaning": "to listen to those of greater experience"
+        }
+      ],
+      "fragment": null
     },
     "4-6-5": {
       "line": 143,
       "roll": "4-6-5",
       "lot": "had cast aside wrath and chosen friendship.",
       "reference": "Il. 16.282",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "μηνιθμὸν μὲν ἀπορρίψαι, φιλότητα δ' ἑλέσθαι",
+      "lexicon": [
+        {
+          "term": "μηνιθμός (mēnithmos)",
+          "meaning": "prolonged grudge, smoldering anger"
+        },
+        {
+          "term": "φιλότης (philotēs)",
+          "meaning": "friendship, bond of amity and peace"
+        }
+      ],
+      "fragment": null
     },
     "4-6-6": {
       "line": 144,
       "roll": "4-6-6",
       "lot": "so good it is for a son to be left by a dead",
       "reference": "Od. 3.196",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ὡς ἀγαθὸν καὶ παῖδα καταφθιμένοιο λιπέσθαι",
+      "lexicon": [
+        {
+          "term": "καταφθίμενος (kataphthimenos)",
+          "meaning": "departed, perished"
+        },
+        {
+          "term": "λείπω (leipō)",
+          "meaning": "to leave behind a living legacy"
+        }
+      ],
+      "fragment": null
     },
     "5-1-1": {
       "line": 145,
       "roll": "5-1-1",
       "lot": "Here then, spread under your chest a veil,",
       "reference": "Od. 5.346",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "τῆ, τόδε κρήδεμνον ὑπὸ στέρνοιο τάνυσσαι",
+      "lexicon": [
+        {
+          "term": "κρήδεμνον (krēdemnon)",
+          "meaning": "sacred veil, talisman of buoyancy and rescue"
+        },
+        {
+          "term": "τανύω (tanyō)",
+          "meaning": "to spread beneath the chest across the waves"
+        }
+      ],
+      "fragment": null
     },
     "5-1-2": {
       "line": 146,
       "roll": "5-1-2",
       "lot": "'Tis impiety to exult over men slain.",
       "reference": "Od. 22.412",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "οὐχ ὁσίη κταμένοισιν ἐπ' ἀνδράσιν εὐχετάασθαι",
+      "lexicon": [
+        {
+          "term": "ὁσίη (hosiē)",
+          "meaning": "divine law, reverence, what is sanctioned"
+        },
+        {
+          "term": "εὐχετάομαι (euchetaomai)",
+          "meaning": "to gloat, boast over the fallen"
+        }
+      ],
+      "fragment": null
     },
     "5-1-3": {
       "line": 147,
       "roll": "5-1-3",
       "lot": "through immortal night, when other mortals sleep?",
       "reference": "Il. 24.363",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "νύκτα δι' ἀμβροσίην, ὅτε θ' εὕδουσι βροτοὶ ἄλλοι;",
+      "lexicon": [
+        {
+          "term": "ἀμβρόσιος (ambrosios)",
+          "meaning": "immortal, sacred stillness of night"
+        },
+        {
+          "term": "εὕδω (heudō)",
+          "meaning": "to sleep while the seeker moves unseen"
+        }
+      ],
+      "fragment": null
     },
     "5-1-4": {
       "line": 148,
       "roll": "5-1-4",
       "lot": "How then could I forget divine Odysseus?",
       "reference": "Od. 1.65",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "πῶς ἂν ἔπειτ' Ὀδυσῆος ἐγὼ θείοιο λαθοίμην;",
+      "lexicon": [
+        {
+          "term": "λανθάνομαι (lanthanomai)",
+          "meaning": "to forget, let slip from remembrance"
+        },
+        {
+          "term": "θεῖος (theios)",
+          "meaning": "godlike, cherished by the immortals"
+        }
+      ],
+      "fragment": null
     },
     "5-1-5": {
       "line": 149,
       "roll": "5-1-5",
       "lot": "lurid death and o'erpowering doom laid hold of",
       "reference": "Il. 5.83",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἔλλαβε πορφύρεος θάνατος καὶ μοῖρα κραταιή",
+      "lexicon": [
+        {
+          "term": "πορφύρεος (porphyreos)",
+          "meaning": "dark-gleaming, surging like deep water"
+        },
+        {
+          "term": "μοῖρα (moira)",
+          "meaning": "overpowering fate, inescapable portion"
+        }
+      ],
+      "fragment": null
     },
     "5-1-6": {
       "line": 150,
       "roll": "5-1-6",
       "lot": "So there's nothing else as horrible and vile as a woman",
       "reference": "Od. 11.427",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ὡς οὐκ αἰνότερον καὶ κύντερον ἄλλο γυναικός",
+      "lexicon": [
+        {
+          "term": "αἰνός (ainos)",
+          "meaning": "dreadful, grim, unforgiving"
+        },
+        {
+          "term": "κύντερος (kynteros)",
+          "meaning": "more shameless, bolder in betrayal"
+        }
+      ],
+      "fragment": null
     },
     "5-2-1": {
       "line": 151,
       "roll": "5-2-1",
       "lot": "Let us not advance to fight the Danaans around the ships.",
       "reference": "Il. 12.216",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "μὴ ἴομεν Δαναοῖσι μαχησόμενοι περὶ νηῶν",
+      "lexicon": [
+        {
+          "term": "εἶμι (eimi)",
+          "meaning": "to advance, march into a perilous fray"
+        },
+        {
+          "term": "μάχομαι (machomai)",
+          "meaning": "to contend where the omens oppose"
+        }
+      ],
+      "fragment": null
     },
     "5-2-2": {
       "line": 152,
       "roll": "5-2-2",
       "lot": "to put up a defense, when some fellow provokes a fight.",
       "reference": "Il. 24.369; Od. 16.72; 21.133",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἄνδρ' ἀπαμύνασθαι, ὅτε τις πρότερος χαλεπήνῃ",
+      "lexicon": [
+        {
+          "term": "ἀπαμύνω (apamynō)",
+          "meaning": "to defend oneself, repel an aggressor"
+        },
+        {
+          "term": "χαλεπαίνω (chalepainō)",
+          "meaning": "to deal harshly, provoke unprovoked"
+        }
+      ],
+      "fragment": null
     },
     "5-2-3": {
       "line": 153,
       "roll": "5-2-3",
       "lot": "nor do children at his knees call him \"papa\"",
       "reference": "Il. 5.408",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "οὐδέ τί μιν παῖδες ποτὶ γούνασι παππάζουσιν",
+      "lexicon": [
+        {
+          "term": "γόνυ (gony)",
+          "meaning": "the knee of the homecoming father"
+        },
+        {
+          "term": "παππάζω (pappazō)",
+          "meaning": "to call 'papa', greet with domestic warmth"
+        }
+      ],
+      "fragment": null
     },
     "5-2-4": {
       "line": 154,
       "roll": "5-2-4",
       "lot": "I am this very man, back home now. And after many toils",
       "reference": "Od. 21.207",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἔνδον μὲν δὴ ὅδ' αὐτὸς ἐγώ, κακὰ πολλὰ μογήσας",
+      "lexicon": [
+        {
+          "term": "ἔνδον (endon)",
+          "meaning": "within the threshold, arrived at last"
+        },
+        {
+          "term": "μογέω (mogeō)",
+          "meaning": "to toil through many hardships"
+        }
+      ],
+      "fragment": null
     },
     "5-2-5": {
       "line": 155,
       "roll": "5-2-5",
       "lot": "Talk not like this. There'll be no change before",
       "reference": "Il. 5.218",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "μὴ δὴ οὕτως ἀγόρευε· πάρος δ' οὐκ ἔσσεται ἄλλως",
+      "lexicon": [
+        {
+          "term": "ἀγορεύω (agoreuō)",
+          "meaning": "to speak idly against what must be done"
+        },
+        {
+          "term": "πάρος (paros)",
+          "meaning": "before the necessary trial is met"
+        }
+      ],
+      "fragment": null
     },
     "5-2-6": {
       "line": 156,
       "roll": "5-2-6",
       "lot": "let him stay here the while, even though he's eager for Ares.",
       "reference": "Il. 19.189",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "μιμνέτω αὖθι τέως περ, ἐπειγόμενός περ Ἄρηος",
+      "lexicon": [
+        {
+          "term": "μίμνω (mimnō)",
+          "meaning": "to wait in place, restrain impatience"
+        },
+        {
+          "term": "ἐπείγω (epeigō)",
+          "meaning": "to strain forward, be eager for action"
+        }
+      ],
+      "fragment": null
     },
     "5-3-1": {
       "line": 157,
       "roll": "5-3-1",
       "lot": "And do not, exulting in war and battle,",
       "reference": "Il. 16.91",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "μηδ' ἐπαγαλλόμενος πολέμῳ καὶ δηϊοτῆτι",
+      "lexicon": [
+        {
+          "term": "ἐπαγάλλομαι (epagallomai)",
+          "meaning": "to exult overly, be intoxicated by success"
+        },
+        {
+          "term": "δηϊοτής (dēïotēs)",
+          "meaning": "fierce conflict, destructive strife"
+        }
+      ],
+      "fragment": null
     },
     "5-3-2": {
       "line": 158,
       "roll": "5-3-2",
       "lot": "never to have gone to bed with her and had intercourse,",
       "reference": "Il. 9.133; 19.176",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "μή ποτε τῆς εὐνῆς ἐπιβήμεναι ἠδὲ μιγῆναι",
+      "lexicon": [
+        {
+          "term": "εὐνή (eunē)",
+          "meaning": "bed, intimate entanglement"
+        },
+        {
+          "term": "μίγνυμι (mignymi)",
+          "meaning": "to mingle, cross a forbidden boundary"
+        }
+      ],
+      "fragment": null
     },
     "5-3-3": {
       "line": 159,
       "roll": "5-3-3",
       "lot": "and moistens the lips, but fails to moisten the palate.",
       "reference": "Il. 22.495",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "χείλεα μέν τ' ἐδίην', ὑπερῴην δ' οὐκ ἐδίηνε",
+      "lexicon": [
+        {
+          "term": "χεῖλος (cheilos)",
+          "meaning": "the outer lip, teased by a scant taste"
+        },
+        {
+          "term": "ὑπερῴη (hyperōiē)",
+          "meaning": "the palate, left parched and unsatisfied"
+        }
+      ],
+      "fragment": null
     },
     "5-3-4": {
       "line": 160,
       "roll": "5-3-4",
       "lot": "Take heart! Let these matters not trouble your thoughts.",
       "reference": "Il. 18.463",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "θάρσει· μή τοι ταῦτα μετὰ φρεσὶ σῇσι μελόντων",
+      "lexicon": [
+        {
+          "term": "θαρσέω (tharseō)",
+          "meaning": "to take heart, be of stout courage"
+        },
+        {
+          "term": "φρήν (phrēn)",
+          "meaning": "the anxious mind freed from worry"
+        }
+      ],
+      "fragment": null
     },
     "5-3-5": {
       "line": 161,
       "roll": "5-3-5",
       "lot": "But this mad dog I'm unable to hit.",
       "reference": "Il. 8.299",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "τοῦτον δ' οὐ δύναμαι βαλέειν κύνα λυσσητῆρα",
+      "lexicon": [
+        {
+          "term": "λυσσητήρ (lyssētēr)",
+          "meaning": "raging, seized by blind fury"
+        },
+        {
+          "term": "βάλλω (ballō)",
+          "meaning": "to hit the mark, bring down a target"
+        }
+      ],
+      "fragment": null
     },
     "5-3-6": {
       "line": 162,
       "roll": "5-3-6",
       "lot": "Keep quiet, friend, and do as I say.",
       "reference": "Il. 4.412",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "τέττα, σιωπῇ ἧσο, ἐμῷ δ' ἐπιπείθεο μύθῳ",
+      "lexicon": [
+        {
+          "term": "σιωπή (siōpē)",
+          "meaning": "quietness, disciplined silence"
+        },
+        {
+          "term": "ἐπιπείθομαι (epipeithomai)",
+          "meaning": "to trust and follow measured guidance"
+        }
+      ],
+      "fragment": null
     },
     "5-4-1": {
       "line": 163,
       "roll": "5-4-1",
       "lot": "Bad deeds don't prosper. The slow man for sure overtakes the swift,",
       "reference": "Od. 8.329",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "οὐκ ἀρετᾷ κακὰ ἔργα· κιχάνει τοι βραδὺς ὠκύν",
+      "lexicon": [
+        {
+          "term": "ἀρετάω (aretaō)",
+          "meaning": "to prosper, bear good fruit"
+        },
+        {
+          "term": "κιχάνω (kichanō)",
+          "meaning": "to overtake, patient craft catching haste"
+        }
+      ],
+      "fragment": null
     },
     "5-4-2": {
       "line": 164,
       "roll": "5-4-2",
       "lot": "They shut fast and locked the doors of the hall.",
       "reference": "Od. 21.236",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "κλήϊσεν δὲ θύρας μεγάρων εὖ ναιεταόντων",
+      "lexicon": [
+        {
+          "term": "κληΐω (klēïō)",
+          "meaning": "to bar fast, lock the gates"
+        },
+        {
+          "term": "θύρα (thyra)",
+          "meaning": "doorway, sealed threshold"
+        }
+      ],
+      "fragment": null
     },
     "5-4-3": {
       "line": 165,
       "roll": "5-4-3",
       "lot": "Ah, poor man! Death's not at all on your mind,",
       "reference": "Il. 17.201",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἆ δείλ', οὐδέ τί τοι θάνατος καταθύμιός ἐστιν",
+      "lexicon": [
+        {
+          "term": "δειλός (deilos)",
+          "meaning": "wretched, blind to approaching consequence"
+        },
+        {
+          "term": "καταθύμιος (katathymios)",
+          "meaning": "present to the mind, reckoned with"
+        }
+      ],
+      "fragment": null
     },
     "5-4-4": {
       "line": 166,
       "roll": "5-4-4",
       "lot": "Odysseus has come and reached home, though he was long in coming.",
       "reference": "Od. 23.7",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἦλθ' Ὀδυσεὺς καὶ οἶκον ἱκάνεται, ὀψέ περ ἐλθών",
+      "lexicon": [
+        {
+          "term": "ἱκάνω (hikanō)",
+          "meaning": "to reach home, arrive at the goal"
+        },
+        {
+          "term": "ὀψέ (opse)",
+          "meaning": "at long last, after protracted delay"
+        }
+      ],
+      "fragment": null
     },
     "5-4-5": {
       "line": 167,
       "roll": "5-4-5",
       "lot": "in full he will accomplish it at last, and the penalty they pay is great,",
       "reference": "Il. 4.161",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἔκ τε καὶ ὀψὲ τελεῖ, σύν τε μεγάλῳ ἀπέτισαν",
+      "lexicon": [
+        {
+          "term": "τελέω (teleō)",
+          "meaning": "to bring to full reckoning in time"
+        },
+        {
+          "term": "ἀποτίνω (apotinō)",
+          "meaning": "to pay a heavy price with interest"
+        }
+      ],
+      "fragment": null
     },
     "5-4-6": {
       "line": 168,
       "roll": "5-4-6",
       "lot": "and therein was Strife, and therein Valor, and therein chilling Attack,",
       "reference": "Il. 5.740",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἐν δ' Ἔρις, ἐν δ' Ἀλκή, ἐν δὲ κρυόεσσα Ἰωκή",
+      "lexicon": [
+        {
+          "term": "Ἀλκή (Alkē)",
+          "meaning": "defensive prowess, resolute strength"
+        },
+        {
+          "term": "Ἰωκή (Iōkē)",
+          "meaning": "chilling pursuit, the rush of the charge"
+        }
+      ],
+      "fragment": null
     },
     "5-5-1": {
       "line": 169,
       "roll": "5-5-1",
       "lot": "but 'tis most wretched to die and meet one's doom by starvation.",
       "reference": "Od. 12.342",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἀλλ' οἴκτιστον θανέειν καὶ πότμον ἐπισπεῖν λιμῷ",
+      "lexicon": [
+        {
+          "term": "οἴκτιστος (oiktistos)",
+          "meaning": "most pitiable, hardest to endure"
+        },
+        {
+          "term": "λιμός (limos)",
+          "meaning": "famine, slow depletion of resources"
+        }
+      ],
+      "fragment": null
     },
     "5-5-2": {
       "line": 170,
       "roll": "5-5-2",
       "lot": "shall I be laid low when I die. But good repute is now my goal,",
       "reference": "Il. 18.121",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "κείσομ' ἐπεί κε θάνω· νῦν δὲ κλέος ἐσθλὸν ἀροίμην",
+      "lexicon": [
+        {
+          "term": "κλέος (kleos)",
+          "meaning": "noble repute, worthy name"
+        },
+        {
+          "term": "ἄρνυμαι (arnymai)",
+          "meaning": "to win, strive after in the present hour"
+        }
+      ],
+      "fragment": null
     },
     "5-5-3": {
       "line": 171,
       "roll": "5-5-3",
       "lot": "Up, rush into battle, the man you have always claimed to be.",
       "reference": "Il. 4.264",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἀλλ' ὄρσευ πόλεμόνδε, οἷος πάρος εὔχεαι εἶναι",
+      "lexicon": [
+        {
+          "term": "ὄρνυμι (ornymi)",
+          "meaning": "to rouse oneself, spring into action"
+        },
+        {
+          "term": "εὔχομαι (euchomai)",
+          "meaning": "to profess, avow one's true stature"
+        }
+      ],
+      "fragment": null
     },
     "5-5-4": {
       "line": 172,
       "roll": "5-5-4",
       "lot": "In no way do I mock you, dear child, nor am I playing tricks.",
       "reference": "Od. 23.26",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "οὔ τί σε λωβεύω, τέκνον φίλον, οὐδ' ἀπαφίσκω",
+      "lexicon": [
+        {
+          "term": "λωβεύω (lōbeuō)",
+          "meaning": "to mock, make sport of"
+        },
+        {
+          "term": "ἀπαφίσκω (apaphiskō)",
+          "meaning": "to beguile, deceive with tricks"
+        }
+      ],
+      "fragment": null
     },
     "5-5-5": {
       "line": 173,
       "roll": "5-5-5",
       "lot": "but she stayed Alkmene's labor and stopped her from giving birth.",
       "reference": "Il. 19.119",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "σχέθε δ' Ἀλκμήνης τόκον ἠδ' Εἰλειθυίας",
+      "lexicon": [
+        {
+          "term": "ἔχω / σχέθω (schethō)",
+          "meaning": "to hold back, stay, delay delivery"
+        },
+        {
+          "term": "τόκος (tokos)",
+          "meaning": "birth, emergence of what is gestating"
+        }
+      ],
+      "fragment": null
     },
     "5-5-6": {
       "line": 174,
       "roll": "5-5-6",
       "lot": "But come, and hereafter I shall make amends for this, if now anything wrong",
       "reference": "Il. 4.362",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἀλλ' ἴομεν· τὰ δ' ὄπισθεν ἀρεσσόμεθ', αἴ κέ τι νῦν",
+      "lexicon": [
+        {
+          "term": "ὄπισθεν (opisthen)",
+          "meaning": "hereafter, once the immediate task is done"
+        },
+        {
+          "term": "ἀρέσκω (areskō)",
+          "meaning": "to make amends, smooth over rough words"
+        }
+      ],
+      "fragment": null
     },
     "5-6-1": {
       "line": 175,
       "roll": "5-6-1",
       "lot": "Where are you two rushing? What causes the heart within your breast to rage?",
       "reference": "Il. 8.413",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "πῇ μέματον; τί σφῶϊν ἐνὶ φρεσὶ μαίνεται ἦτορ;",
+      "lexicon": [
+        {
+          "term": "μαίνομαι (mainomai)",
+          "meaning": "to rage, rush headlong in passion"
+        },
+        {
+          "term": "ἦτορ (ētor)",
+          "meaning": "the beating heart within the breast"
+        }
+      ],
+      "fragment": null
     },
     "5-6-2": {
       "line": 176,
       "roll": "5-6-2",
       "lot": "Pray now, let him not be too much on your mind.",
       "reference": "Od. 13.421",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἀλλὰ σύ γ' Εὔμαιε, μηδέ τί τοι λίην μελέτω",
+      "lexicon": [
+        {
+          "term": "λίην (liēn)",
+          "meaning": "overmuch, to excess"
+        },
+        {
+          "term": "μέλει (melei)",
+          "meaning": "to weigh upon the mind with anxious care"
+        }
+      ],
+      "fragment": null
     },
     "5-6-3": {
       "line": 177,
       "roll": "5-6-3",
       "lot": "But the gods do not, I ween, give men all things at the same time.",
       "reference": "Il. 4.320",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἀλλ' οὔ πως ἅμα πάντα θεοὶ δόσαν ἀνθρώποισιν",
+      "lexicon": [
+        {
+          "term": "ἅμα (hama)",
+          "meaning": "all at once, in a single season"
+        },
+        {
+          "term": "δίδωμι (didōmi)",
+          "meaning": "to apportion gifts across time"
+        }
+      ],
+      "fragment": null
     },
     "5-6-4": {
       "line": 178,
       "roll": "5-6-4",
       "lot": "Talk not like this. There'll be no change before",
       "reference": "Il. 5.218",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "μὴ δὴ οὕτως ἀγόρευε· πάρος δ' οὐκ ἔσσεται ἄλλως",
+      "lexicon": [
+        {
+          "term": "ἀγορεύω (agoreuō)",
+          "meaning": "to speak idly against what must be done"
+        },
+        {
+          "term": "πάρος (paros)",
+          "meaning": "before the necessary trial is met"
+        }
+      ],
+      "fragment": null
     },
     "5-6-5": {
       "line": 179,
       "roll": "5-6-5",
       "lot": "So he spake, but did not move the mind of Zeus by saying this.",
       "reference": "Il. 12.173",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ὣς ἔφατ', οὐδὲ Διὸς πεῖθεν φρένα ταῦτ' ἀγορεύων",
+      "lexicon": [
+        {
+          "term": "πείθω (peithō)",
+          "meaning": "to persuade, bend a higher will"
+        },
+        {
+          "term": "φρήν (phrēn)",
+          "meaning": "the unmoved counsel of Zeus"
+        }
+      ],
+      "fragment": null
     },
     "5-6-6": {
       "line": 180,
       "roll": "5-6-6",
       "lot": "but Odysseus nodded no and checked him in his eagerness.",
       "reference": "Od. 21.129",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἀλλ' Ὀδυσεὺς ἀνένευε καὶ ἔσχεθεν ἱέμενόν περ",
+      "lexicon": [
+        {
+          "term": "ἀνανεύω (ananeuō)",
+          "meaning": "to give a silent signal to hold back"
+        },
+        {
+          "term": "ἵεμαι (hiemai)",
+          "meaning": "to strain eagerly toward premature triumph"
+        }
+      ],
+      "fragment": null
     },
     "6-1-1": {
       "line": 181,
       "roll": "6-1-1",
       "lot": "How can you want to go alone to the ships of the Achaians?",
       "reference": "Il. 24.203",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "πῶς ἐθέλεις ἐπὶ νῆας Ἀχαιῶν ἐλθέμεν οἶος;",
+      "lexicon": [
+        {
+          "term": "οἶος (oios)",
+          "meaning": "alone, unescorted into hostile territory"
+        },
+        {
+          "term": "ἐθέλω (ethelō)",
+          "meaning": "to dare a perilous venture"
+        }
+      ],
+      "fragment": null
     },
     "6-1-2": {
       "line": 182,
       "roll": "6-1-2",
       "lot": "him a bridegroom in his house, who left as only child a daughter",
       "reference": "Od. 7.65",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "γαμβρὸν ἐνὶσσ' οἴκῳ, μίαν οἴην παῖδα λιπόντα",
+      "lexicon": [
+        {
+          "term": "γαμβρός (gambros)",
+          "meaning": "son-in-law, alliance through marriage"
+        },
+        {
+          "term": "οἶος (oios)",
+          "meaning": "single, sole heir of a lineage"
+        }
+      ],
+      "fragment": null
     },
     "6-1-3": {
       "line": 183,
       "roll": "6-1-3",
       "lot": "And too, I've taken the mist from your eyes, which before was there,",
       "reference": "Il. 5.127",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἀχλὺν δ' αὖ τοι ἀπ' ὀφθαλμῶν ἕλον, ἣ πρὶν ἐπῆεν",
+      "lexicon": [
+        {
+          "term": "ἀχλύς (achlys)",
+          "meaning": "mist, dimness that clouds mortal sight"
+        },
+        {
+          "term": "ὀφθαλμός (ophthalmos)",
+          "meaning": "the awakened eye that sees clearly"
+        }
+      ],
+      "fragment": null
     },
     "6-1-4": {
       "line": 184,
       "roll": "6-1-4",
       "lot": "we may try the bow and complete the contest.",
       "reference": "Od. 21.180",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "πειρώμεσθα βιοῖο, ἐκτελέωμεν ἄεθλον",
+      "lexicon": [
+        {
+          "term": "βιός (bios)",
+          "meaning": "bow, instrument of tension and aim"
+        },
+        {
+          "term": "ἄεθλος (aethlos)",
+          "meaning": "trial of strength, decisive contest"
+        }
+      ],
+      "fragment": null
     },
     "6-1-5": {
       "line": 185,
       "roll": "6-1-5",
       "lot": "And I know that my arrival was longed for by you two",
       "reference": "Od. 21.209",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "γιγνώσκω δ' ὡς σφῶϊν ἐελδομένοισιν ἱκάνω",
+      "lexicon": [
+        {
+          "term": "γιγνώσκω (gignōskō)",
+          "meaning": "to know by sure tokens, recognize"
+        },
+        {
+          "term": "ἐέλδομαι (eeldomai)",
+          "meaning": "to long for, await with faithful desire"
+        }
+      ],
+      "fragment": null
     },
     "6-1-6": {
       "line": 186,
       "roll": "6-1-6",
       "lot": "I shall dress him in a mantle and a tunic, fine garments.",
       "reference": "Od. 16.79; 17.550; 21.339",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἕσσω μιν χλαῖνάν τε χιτῶνά τε, εἵματα καλά",
+      "lexicon": [
+        {
+          "term": "χλαῖνα (chlaina)",
+          "meaning": "warm mantle of hospitality and honor"
+        },
+        {
+          "term": "εἷμα (heima)",
+          "meaning": "fine vesture, restoration of dignity"
+        }
+      ],
+      "fragment": null
     },
     "6-2-1": {
       "line": 187,
       "roll": "6-2-1",
       "lot": "by fastening a noose sheer from a high rafter,",
       "reference": "Od. 11.278",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἁψαμένη βρόχον αἰπὺν ἀφ' ὑψηλοῖο μελάθρου",
+      "lexicon": [
+        {
+          "term": "βρόχος (brochos)",
+          "meaning": "snare, tightening knot of despair"
+        },
+        {
+          "term": "μέλαθρον (melathron)",
+          "meaning": "high roof-beam of the hall"
+        }
+      ],
+      "fragment": null
     },
     "6-2-2": {
       "line": 188,
       "roll": "6-2-2",
       "lot": "remembering our excellence, of the sort that even we",
       "reference": "Od. 8.244",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἡμετέρης ἀρετῆς μεμνημένος, οἷα καὶ ἡμῖν",
+      "lexicon": [
+        {
+          "term": "ἀρετή (aretē)",
+          "meaning": "distinctive excellence, gift of grace"
+        },
+        {
+          "term": "μιμνήσκω (mimnēskō)",
+          "meaning": "to bear in lasting memory"
+        }
+      ],
+      "fragment": null
     },
     "6-2-3": {
       "line": 189,
       "roll": "6-2-3",
       "lot": "the sea's great expanse they cross, since this is the Earthshaker's gift to them.",
       "reference": "Od. 7.35",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "λαῖτμα μέγ' ἐκπερόωσιν, ἐπεί σφισι δῶκ' Ἐνοσίχθων",
+      "lexicon": [
+        {
+          "term": "λαῖτμα (laitma)",
+          "meaning": "great gulf of the sea, deep crossing"
+        },
+        {
+          "term": "ἐκπεράω (ekperaō)",
+          "meaning": "to traverse safely from shore to shore"
+        }
+      ],
+      "fragment": null
     },
     "6-2-4": {
       "line": 190,
       "roll": "6-2-4",
       "lot": "Nay, come on with the bow. You'll soon be sorry for obeying everybody.",
       "reference": "Od. 21.369",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἀλλ' ἄγε δὴ φέρε τόξον· τάχ' οὐκ εὖ πᾶσι πιθήσεις",
+      "lexicon": [
+        {
+          "term": "φέρω (pherō)",
+          "meaning": "to bring forward without hesitation"
+        },
+        {
+          "term": "πείθομαι (peithomai)",
+          "meaning": "to try to please every voice in the crowd"
+        }
+      ],
+      "fragment": null
     },
     "6-2-5": {
       "line": 191,
       "roll": "6-2-5",
       "lot": "But hurry into battle, and rouse the other soldiers.",
       "reference": "Il. 19.139",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἀλλ' ὄρσευ πόλεμόνδε, καὶ ἄλλους ὄρνυθι λαούς",
+      "lexicon": [
+        {
+          "term": "ὄρνυμι (ornymi)",
+          "meaning": "to rouse into motion, lead from the front"
+        },
+        {
+          "term": "λαός (laos)",
+          "meaning": "the company of allies awaiting a signal"
+        }
+      ],
+      "fragment": null
     },
     "6-2-6": {
       "line": 192,
       "roll": "6-2-6",
       "lot": "For mighty Herakles, not even he escaped his doom,",
       "reference": "Il. 18.117",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "οὐδὲ γὰρ οὐδὲ βίη Ἡρακλῆος φύγε κῆρα",
+      "lexicon": [
+        {
+          "term": "βίη (biē)",
+          "meaning": "mighty strength, heroic force"
+        },
+        {
+          "term": "κήρ (kēr)",
+          "meaning": "appointed limit of mortal destiny"
+        }
+      ],
+      "fragment": null
     },
     "6-3-1": {
       "line": 193,
       "roll": "6-3-1",
       "lot": "amends I wish to make and to give a boundless ransom.",
       "reference": "Il. 9.120; 19.138",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἂψ ἐθέλω ἀρέσαι δόμεναί τ' ἀπερείσι' ἄποινα",
+      "lexicon": [
+        {
+          "term": "ἀρέσκω (areskō)",
+          "meaning": "to make amends, appease, heal a breach"
+        },
+        {
+          "term": "ἄποινα (apoina)",
+          "meaning": "ransom, recompense, price of reconciliation"
+        }
+      ],
+      "fragment": null
     },
     "6-3-2": {
       "line": 194,
       "roll": "6-3-2",
       "lot": "And let him stand up among the Argives and swear an oath to you",
       "reference": "Il. 19.175",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἐν δὲ μέσοισ' Ἀργείοισιν ἀναστὰς ὅρκον ὀμόσσαι",
+      "lexicon": [
+        {
+          "term": "ἀνίστημι (anistēmi)",
+          "meaning": "to stand up publicly in witness"
+        },
+        {
+          "term": "ὅρκος (horkos)",
+          "meaning": "solemn oath, binding covenant"
+        }
+      ],
+      "fragment": null
     },
     "6-3-3": {
       "line": 195,
       "roll": "6-3-3",
       "lot": "The man is nearby. Our search will not be long, if you are willing",
       "reference": "Il. 14.110",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἐγγὺς ἀνήρ, οὐ δηθὰ ματεύσομεν, αἴ κ' ἐθέλῃτε",
+      "lexicon": [
+        {
+          "term": "ἐγγύς (engys)",
+          "meaning": "near at hand, already present"
+        },
+        {
+          "term": "ματεύω (mateuō)",
+          "meaning": "to seek after, search for counsel"
+        }
+      ],
+      "fragment": null
     },
     "6-3-4": {
       "line": 196,
       "roll": "6-3-4",
       "lot": "and not quite suddenly, and a very god should be the cause?",
       "reference": "Od. 21.196",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἐξαπίνης προφανέντ', αὐτὸς δὲ θεὸς προτιάγοι;",
+      "lexicon": [
+        {
+          "term": "ἐξαπίνης (exapinēs)",
+          "meaning": "suddenly, in an unlooked-for instant"
+        },
+        {
+          "term": "προφαίνω (prophainō)",
+          "meaning": "to come to light, appear before all"
+        }
+      ],
+      "fragment": null
     },
     "6-3-5": {
       "line": 197,
       "roll": "6-3-5",
       "lot": "Verily, these things have already happened, and not otherwise could",
       "reference": "Il. 14.53",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἦ δὴ ταῦτά γε, ἑτοῖμα τετεύχαται, οὐδέ κεν ἄλλως",
+      "lexicon": [
+        {
+          "term": "ἑτοῖμος (hetoimos)",
+          "meaning": "already accomplished, manifest fact"
+        },
+        {
+          "term": "τεύχω (teuchō)",
+          "meaning": "to fashion irreversibly"
+        }
+      ],
+      "fragment": null
     },
     "6-3-6": {
       "line": 198,
       "roll": "6-3-6",
       "lot": "On now, follow close! In action numbers make a difference.",
       "reference": "Il. 12.412",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἀλλ' ἐφομαρτεῖτον καὶ σπεύδετον· δέ τε πλεόνων ἔργον ἄμεινον",
+      "lexicon": [
+        {
+          "term": "ἐφομαρτέω (ephomarteō)",
+          "meaning": "to follow close together, act in concert"
+        },
+        {
+          "term": "πλείων (pleiōn)",
+          "meaning": "combined numbers, shared effort"
+        }
+      ],
+      "fragment": null
     },
     "6-4-1": {
       "line": 199,
       "roll": "6-4-1",
       "lot": "surely then the gods themselves have ruined your mind.",
       "reference": "Il. 7.360; 12.234",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἦ τ' ἄρα δή τοι ἔπειτα θεοὶ φρένας ὤλεσαν αὐτοί",
+      "lexicon": [
+        {
+          "term": "φρήν (phrēn)",
+          "meaning": "mind, wits, seat of judgment"
+        },
+        {
+          "term": "ὄλλυμι (ollymi)",
+          "meaning": "to ruin, undo, bring to naught"
+        }
+      ],
+      "fragment": null
     },
     "6-4-2": {
       "line": 200,
       "roll": "6-4-2",
       "lot": "Take heart, and let your thoughts not be of death.",
       "reference": "Il. 10.383",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "θάρσει, μηδέ τί τοι θάνατος καταθύμιος ἔστω",
+      "lexicon": [
+        {
+          "term": "θαρσέω (tharseō)",
+          "meaning": "to take courage, cast off dread"
+        },
+        {
+          "term": "καταθύμιος (katathymios)",
+          "meaning": "weighing on the spirit"
+        }
+      ],
+      "fragment": null
     },
     "6-4-3": {
       "line": 201,
       "roll": "6-4-3",
       "lot": "by her wailing she rouse from sleep her household servants,",
       "reference": "Il. 5.413",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "κωκύσασα γοήσεται οἰκῆας κατὰ δῶμα",
+      "lexicon": [
+        {
+          "term": "κωκύω (kōkyō)",
+          "meaning": "to cry aloud, wake the household with lament"
+        },
+        {
+          "term": "οἰκεύς (oikeus)",
+          "meaning": "member of the house, domestic circle"
+        }
+      ],
+      "fragment": null
     },
     "6-4-4": {
       "line": 202,
       "roll": "6-4-4",
       "lot": "Come now in strict silence, and I shall lead the way,",
       "reference": "Od. 7.30",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἀλλ' ἴθι σιγῇ τοῖον, ἐγὼ δ' ὁδὸν ἡγεμονεύσω",
+      "lexicon": [
+        {
+          "term": "σιγή (sigē)",
+          "meaning": "strict silence, unhurried discretion"
+        },
+        {
+          "term": "ἡγεμονεύω (hēgemoneuō)",
+          "meaning": "to lead the way safely through the mist"
+        }
+      ],
+      "fragment": null
     },
     "6-4-5": {
       "line": 203,
       "roll": "6-4-5",
       "lot": "are there ears for hearing, and sense and respect are dead.",
       "reference": "Il. 15.129",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "οὔατ' ἀκουέμεν ἐστίν, ἀπώλετο δὲ νόος αἰδώς",
+      "lexicon": [
+        {
+          "term": "νόος (noos)",
+          "meaning": "sober judgment, discernment"
+        },
+        {
+          "term": "αἰδώς (aidōs)",
+          "meaning": "reverence, restraint, moral proportion"
+        }
+      ],
+      "fragment": null
     },
     "6-4-6": {
       "line": 204,
       "roll": "6-4-6",
       "lot": "as he was growing old. But the son did not grow old in his father's armor.",
       "reference": "Il. 17.197",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "γηράσκοντ'· ἀλλ' οὐχ υἱὸς ἐν ἔντεσι πατρὸς ἐγήρα",
+      "lexicon": [
+        {
+          "term": "γηράσκω (gēraskō)",
+          "meaning": "to grow old in peace"
+        },
+        {
+          "term": "ἔντεα (entea)",
+          "meaning": "borrowed armor that exceeds one's measure"
+        }
+      ],
+      "fragment": null
     },
     "6-5-1": {
       "line": 205,
       "roll": "6-5-1",
       "lot": "to return home and behold the day of homecoming.",
       "reference": "Od. 5.220; 8.466",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "οἴκαδέ τ' ἐλθέμεναι καὶ νόστιμον ἦμαρ ἰδέσθαι",
+      "lexicon": [
+        {
+          "term": "οἴκαδε (oikade)",
+          "meaning": "homeward, back to one's true center"
+        },
+        {
+          "term": "νόστιμος (nostimos)",
+          "meaning": "of homecoming, the day of safe return"
+        }
+      ],
+      "fragment": null
     },
     "6-5-2": {
       "line": 206,
       "roll": "6-5-2",
       "lot": "Apollo of the silver bow did strike the one, still sonless,",
       "reference": "Od. 7.64",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "τὸν μὲν ἄκουρον ἐόντα βάλ' ἀργυρότοξος Ἀπόλλων",
+      "lexicon": [
+        {
+          "term": "ἄκουρος (akouros)",
+          "meaning": "without a son, leaving a solitary line"
+        },
+        {
+          "term": "ἀργυρότοξος (argyrotoxos)",
+          "meaning": "of the silver bow, sudden stroke of Apollo"
+        }
+      ],
+      "fragment": null
     },
     "6-5-3": {
       "line": 207,
       "roll": "6-5-3",
       "lot": "then you may hope to see your loved ones and reach",
       "reference": "Od. 7.76",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἐλπωρή τοι ἔπειτα φίλους τ' ἰδέειν καὶ ἱκέσθαι",
+      "lexicon": [
+        {
+          "term": "ἐλπωρή (elpōrē)",
+          "meaning": "bright hope, grounded expectation"
+        },
+        {
+          "term": "φίλος (philos)",
+          "meaning": "beloved kin, welcoming circle"
+        }
+      ],
+      "fragment": null
     },
     "6-5-4": {
       "line": 208,
       "roll": "6-5-4",
       "lot": "As for you two, I will tell you exactly how it will be.",
       "reference": "Od. 21.212",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "σφῶϊν δ', ὡς ἔσεταί περ, ἀληθείην καταλέξω",
+      "lexicon": [
+        {
+          "term": "ἀληθείη (alētheiē)",
+          "meaning": "unconcealed truth, plain reality"
+        },
+        {
+          "term": "καταλέγω (katalegō)",
+          "meaning": "to recount in exact order"
+        }
+      ],
+      "fragment": null
     },
     "6-5-5": {
       "line": 209,
       "roll": "6-5-5",
       "lot": "For so shall I proclaim, and it will be accomplished too.",
       "reference": "Il. 1.212",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ὧδε γὰρ ἐξερέω, τὸ δὲ καὶ τετελεσμένον ἔσται",
+      "lexicon": [
+        {
+          "term": "ἐξερέω (exereō)",
+          "meaning": "to proclaim solemnly, declare without wavering"
+        },
+        {
+          "term": "τετελεσμένος (tetelesmenos)",
+          "meaning": "brought to pass, unalterably fulfilled"
+        }
+      ],
+      "fragment": null
     },
     "6-5-6": {
       "line": 210,
       "roll": "6-5-6",
       "lot": "and I shall send him wherever his heart and spirit urge him.",
       "reference": "Od. 16.81; 21.342",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "πέμψω δ' ὅππῃ μιν κραδίη θυμός τε κελεύει",
+      "lexicon": [
+        {
+          "term": "πέμπω (pempō)",
+          "meaning": "to send forth with safe-conduct"
+        },
+        {
+          "term": "κραδίη (kradiē)",
+          "meaning": "the heart's own compass and desire"
+        }
+      ],
+      "fragment": null
     },
     "6-6-1": {
       "line": 211,
       "roll": "6-6-1",
       "lot": "idiot? You'll soon pay when the swift hounds devour you",
       "reference": "Od. 21.363",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "δαιμόνι', αἶψά τοι αὖθι κύνες ταχέες κατέδονται",
+      "lexicon": [
+        {
+          "term": "ταχύς (tachys)",
+          "meaning": "swift, sudden reckoning"
+        },
+        {
+          "term": "κατέδω (katedō)",
+          "meaning": "to devour, consume the reckless"
+        }
+      ],
+      "fragment": null
     },
     "6-6-2": {
       "line": 212,
       "roll": "6-6-2",
       "lot": "You would learn what mighty hands I have to back me up.",
       "reference": "Od. 20.237; 21.202",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "γνοίης χ' οἵη ἐμὴ δύναμις καὶ χεῖρες ἄαπτοι",
+      "lexicon": [
+        {
+          "term": "δύναμις (dynamis)",
+          "meaning": "active power, backed capability"
+        },
+        {
+          "term": "ἄαπτος (aaptos)",
+          "meaning": "invincible, untouchable hands"
+        }
+      ],
+      "fragment": null
     },
     "6-6-3": {
       "line": 213,
       "roll": "6-6-3",
       "lot": "In no wise do I think he will in that event take you for himself, nor is it proper.",
       "reference": "Od. 21.322",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "οὔ τί σε ἔλπομαι αὐτὸν ἄξεσθαι, οὐδὲ ἔοικεν",
+      "lexicon": [
+        {
+          "term": "ἔλπομαι (elpomai)",
+          "meaning": "to suppose, harbor an unrealistic expectation"
+        },
+        {
+          "term": "ἔοικε (eoike)",
+          "meaning": "it is fitting, proper to the order of things"
+        }
+      ],
+      "fragment": null
     },
     "6-6-4": {
       "line": 214,
       "roll": "6-6-4",
       "lot": "here we gather, waiting day after day.",
       "reference": "Od. 21.156",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "ἐνθάδε πωλεύμεσθα, ποτιδέγμενοι ἤματα πάντα",
+      "lexicon": [
+        {
+          "term": "πωλέομαι (pōleomai)",
+          "meaning": "to haunt the same place, pace in circles"
+        },
+        {
+          "term": "ποτιδέγμενος (potidegmenos)",
+          "meaning": "waiting day after day in suspense"
+        }
+      ],
+      "fragment": null
     },
     "6-6-5": {
       "line": 215,
       "roll": "6-6-5",
       "lot": "to reach decision making secret plans. Nor yet now to me",
       "reference": "Il. 1.542",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "κρυπτάδια φρονέοντα δικαζέμεν· οὐδέ τί πώ μοι",
+      "lexicon": [
+        {
+          "term": "κρυπτάδιος (kryptadios)",
+          "meaning": "clandestine, kept in secret counsel"
+        },
+        {
+          "term": "δικάζω (dikazō)",
+          "meaning": "to reach a judgment, decide behind closed doors"
+        }
+      ],
+      "fragment": null
     },
     "6-6-6": {
       "line": 216,
       "roll": "6-6-6",
       "lot": "Don't dare get it into your mind to escape from me, Dolon.",
       "reference": "Il. 10.447",
-      "is_lacuna": false
+      "is_lacuna": false,
+      "greek": "μὴ δή μοι φύξιν γε, Δόλων, ἐμβάλλεο θυμῷ",
+      "lexicon": [
+        {
+          "term": "φύξις (phyxis)",
+          "meaning": "flight, evasive escape"
+        },
+        {
+          "term": "ἐμβάλλω (emballō)",
+          "meaning": "to harbor in the mind, entertain a vain hope"
+        }
+      ],
+      "fragment": null
+    }
+  },
+  "hemeralogia": {
+    "source": "PGM VII. 155-167 (Hemeromanteiai kai horai / Days and Hours for Divination)",
+    "description": "Ancient Greco-Egyptian lunar-month schedule preserved immediately after the Homeromanteion in P. Lond. 121 (PGM VII), prescribing propitious windows and forbidden days for casting lots.",
+    "windows": {
+      "dawn": {
+        "greek": "ἕωθεν (heōthen)",
+        "label": "At Dawn",
+        "hours_range": [
+          5,
+          10
+        ],
+        "counsel": "The rising light of Apollo clears the mist; cast in the early morning hours."
+      },
+      "noon": {
+        "greek": "μεσημβρίας (mesēmbrias)",
+        "label": "At Midday",
+        "hours_range": [
+          11,
+          13
+        ],
+        "counsel": "When Helios stands at the zenith and shadows are shortest, the oracle speaks clearly."
+      },
+      "afternoon": {
+        "greek": "δείλης (deilēs)",
+        "label": "In the Afternoon",
+        "hours_range": [
+          14,
+          18
+        ],
+        "counsel": "The slanting afternoon sun favors the casting of the lots."
+      },
+      "whole_day": {
+        "greek": "δι' ὅλης ἡμέρας (di' holēs hēmeras)",
+        "label": "Throughout the Whole Day",
+        "hours_range": [
+          5,
+          20
+        ],
+        "counsel": "An open and propitious day; the shrine welcomes inquiry at any waking hour."
+      },
+      "dawn_and_afternoon": {
+        "greek": "ἕωθεν καὶ δείλης (heōthen kai deilēs)",
+        "label": "At Dawn and in the Afternoon",
+        "hours_range": [
+          [
+            5,
+            10
+          ],
+          [
+            14,
+            18
+          ]
+        ],
+        "counsel": "Propitious at the two thresholds of light—dawn and afternoon—avoiding the glare of noon."
+      },
+      "do_not_use": {
+        "greek": "μὴ χρῶ (mē chrō)",
+        "label": "Do Not Use (Apophras / Forbidden Day)",
+        "hours_range": [],
+        "counsel": "The papyrus warns 'μὴ χρῶ' (do not consult) on this day; omens drawn now are veiled or turbulent."
+      }
+    },
+    "days": {
+      "1": "dawn",
+      "2": "noon",
+      "3": "do_not_use",
+      "4": "dawn",
+      "5": "dawn",
+      "6": "do_not_use",
+      "7": "noon",
+      "8": "whole_day",
+      "9": "do_not_use",
+      "10": "whole_day",
+      "11": "afternoon",
+      "12": "whole_day",
+      "13": "whole_day",
+      "14": "dawn",
+      "15": "whole_day",
+      "16": "do_not_use",
+      "17": "do_not_use",
+      "18": "dawn_and_afternoon",
+      "19": "dawn",
+      "20": "dawn",
+      "21": "afternoon",
+      "22": "afternoon",
+      "23": "dawn",
+      "24": "dawn",
+      "25": "do_not_use",
+      "26": "afternoon",
+      "27": "whole_day",
+      "28": "whole_day",
+      "29": "whole_day",
+      "30": "afternoon"
     }
   }
 }

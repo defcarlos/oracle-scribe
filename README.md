@@ -25,17 +25,17 @@ oracle-scribe/
 ## Key Features & Recent Updates
 
 1. **Offline *Sortes Homericae* Dataset (`resources/sortes_homericae.json`)**
-   - Contains all **216** three-dice combinations (`1-1-1` through `6-6-6`) from the Oxford Classical Text translation of *PGM* VII. 1–148.
-   - **Data Integrity Fixes:** Corrects three transcription errors present in the Wikipedia source table's `Roll` column so that every 3d6 combination maps to its canonical line:
-     - Line 67: Fixed `1-6-1` → `2-6-1`
-     - Line 85: Fixed `3-1-1` → `3-3-1`
-     - Line 88: Fixed `3-4-4` → `3-3-4`
-   - **Lacuna Tracking:** Explicitly marks the **25 damaged papyrus lines** (`"is_lacuna": true`) where the ancient text was lost (`...`).
+   - Contains all **216** three-dice combinations (`1-1-1` through `6-6-6`) from the *PGM* VII. 1–148 *Homeromanteion*.
+   - **Original Homeric Greek & Root-Word Lexicon:** Every surviving entry includes the original Ancient Greek hexameter (`"greek"`) and 2 core symbolic root words with their literal etymological meanings (`"lexicon"`).
+   - **Whispered Fragments for the 25 Papyrus Lacunae:** All 25 damaged papyrus lines (`"is_lacuna": true`) include surviving Greek traces, papyrological apparatus notes (referencing *P. Lond.* 121, *P. Bon.* 3, *P. Oxy.* 3831, and Maltomini 1995), and an atmospheric "whispered fragment" (`"fragment"`).
+   - **Ancient "Days & Hours" Timing (*Hemeralogia*, *PGM* VII. 155–167):** Embeds the complete 30-day Greco-Egyptian consultation calendar (`"hemeralogia"`) preserved immediately after the *Homeromanteion* in *PGM* VII.
+   - **Data Integrity Fixes:** Corrects three transcription errors present in the Wikipedia source table's `Roll` column (`2-6-1`, `3-3-1`, `3-3-4`) as well as 25 OCR typos across the English translations and citations.
 
 2. **True Random 3d6 Casting (`scripts/cast_lot.py`)**
    - Uses Python's cryptographic `secrets.randbelow(6) + 1` to generate unbiased 3d6 rolls instead of relying on LLM pseudo-random number selection.
-   - **Automatic Lacuna Re-rolling:** When a roll lands on one of the 25 missing papyrus fragments, the script automatically re-casts the dice until a legible verse is drawn and logs the eroded roll(s) so the Scribe can weave the silent fragment into the narrative.
-   - **Trivia Prevention:** Omits the *Iliad*/*Odyssey* book-and-line citation by default so the agent focuses purely on the imagery of the words.
+   - **Shadow Omens on Lacuna Re-rolls:** When a roll lands on one of the 25 missing papyrus fragments, the script automatically re-casts the dice until a legible verse is drawn and surfaces the eroded line's surviving Greek trace as a `Shadow Omen`.
+   - **Hemeralogia Consultation Check (`--check-hour`):** Evaluates the day of the month and hour of day against *PGM* VII. 155–167 (`ἕωθεν` [at dawn], `μεσημβρίας` [at noon], `δείλης` [in the afternoon], `δι' ὅλης ἡμέρας` [throughout the whole day], or `μὴ χρῶ` [do not use]).
+   - **Trivia Prevention:** Omits the *Iliad*/*Odyssey* book-and-line citation by default so the agent focuses purely on the imagery and Greek root words.
 
 ---
 
@@ -64,7 +64,16 @@ python3 scripts/cast_lot.py
 Example output:
 ```text
 Roll: 6-2-5 (Line 191)
+Greek: ἀλλ' ὄρσευ πόλεμόνδε, καὶ ἄλλους ὄρνυθι λαούς
 Utterance: "But hurry into battle, and rouse the other soldiers."
+Lexicon: ὄρνυμι (ornymi) = to rouse into motion, lead from the front; λαός (laos) = the company of allies awaiting a signal
+```
+
+### Check the Propitiousness of the Hour (*Hemeralogia*, *PGM* VII. 155–167)
+```bash
+python3 scripts/cast_lot.py --check-hour
+# Optional overrides for specific day (1-30) and hour (0-23):
+python3 scripts/cast_lot.py --check-hour --day 14 --hour 7
 ```
 
 ### Look Up a Specific 3d6 Roll
@@ -73,16 +82,20 @@ Accepts hyphenated (`4-2-6`), comma-separated (`4,2,6`), or compact (`426`) form
 python3 scripts/cast_lot.py --roll 4-2-6
 ```
 
-### Handling Damaged Papyrus (Lacunae)
-By default, landing on a missing verse triggers an automatic re-roll:
+### Handling Damaged Papyrus (Lacunae & Shadow Omens)
+By default, landing on a missing verse triggers an automatic re-roll and surfaces the damaged line's surviving fragment as a `Shadow Omen`:
 ```bash
 python3 scripts/cast_lot.py --roll 1-1-4
 ```
 Example output:
 ```text
 Note: Initial roll(s) [1-1-4] fell upon damaged papyrus (lacuna) and were re-cast.
+Shadow Omen (1-1-4, Line 4): [α α δ · · · ]ν[ · · · ] — ...a trace of an ending in -n upon torn papyrus; the voice falls silent before the fourth throw...
+
 Roll: 2-3-1 (Line 49)
+Greek: ἄλκιμος ἔσσ', ἵνα τίς σε καὶ ὀψιγόνων εὖ εἴπῃ
 Utterance: "be valiant, that later generations may also speak well of you."
+Lexicon: ἄλκιμος (alkimos) = valiant, stout-hearted, courageous in defense; ὀψίγονος (opsigonos) = born hereafter, future generations
 ```
 To disable automatic re-rolling on damaged lines, pass `--no-reroll`:
 ```bash
